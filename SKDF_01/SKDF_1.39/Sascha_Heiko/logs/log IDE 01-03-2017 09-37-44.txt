@@ -1,0 +1,2276 @@
+(09:37:44.534) - Info: UIMap file C:/Selenium/SKDF_1.39/Sascha_Heiko/UIMap.xls loaded with 1 sheets in 0 mSec
+(09:37:44.565) - Info: Testscript (#Test) loaded with 1 step
+(09:37:44.565) - Info: Testscript file (C:/Selenium/SKDF_1.39/Sascha_Heiko/0224_1.xls) loaded with 1 script in 0 mSec
+(09:42:50.526) - Info: Project C:/Selenium/SKDF_1.39/Sascha_Heiko/Sascha_Heiko.prj updated.
+(09:42:50.542) - Info: Testscript (TC001) loaded with 7 step
+(09:42:50.542) - Info: Testscript (Start001) loaded with 1 step
+(09:42:50.542) - Info: Testscript file (C:/Selenium/SKDF_1.39/Sascha_Heiko/Scripts/Script1.xls) loaded with 2 script in 16 mSec
+(09:44:01.445) - Info: IE config loaded.
+IE
+Cabability: silent=false
+Cabability: elementScrollBehavior=1
+Cabability: javascriptEnabled=true
+Cabability: acceptSslCerts=true
+Cabability: enablePersistentHover=false
+Cabability: ignoreZoomSetting=false
+Cabability: ie.ensureCleanSession=false
+Cabability: browserName=internet explorer
+Cabability: version=
+Cabability: ie.usePerProcessProxy=false
+Cabability: ignoreProtectedModeSettings=true
+Cabability: requireWindowFocus=false
+Cabability: initialBrowserUrl=about:blank
+Cabability: logLevel=WARN
+Cabability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+Cabability: nativeEvents=false
+Cabability: webdriver.remote.quietExceptions=false
+Cabability: applicationCacheEnabled=true
+Cabability: platform=WINDOWS
+Cabability: ie.setProxyByServer=false
+Cabability: ensureCleanSession=true
+Cabability: enableElementCacheCleanup=true
+Cabability: unexpectedAlertBehaviour=ignore
+Cabability: rotatable=false
+Cabability: logFile=ielog.log
+Cabability: locationContextEnabled=true
+Cabability: databaseEnabled=true
+Cabability: ie.forceCreateProcessApi=false
+Cabability: browserConnectionEnabled=true
+Cabability: webStorageEnabled=true
+Config: auto_select_window=false
+Config: auto_maxmize=false
+Config: timeout_page=120000
+Config: timeout_find=2000
+Config: timeout_jscript=500
+Config: timeout_ajax=20000
+Started InternetExplorerDriver server (32-bit)
+2.50.0.0
+Listening on port 41590
+Log level is set to WARN
+Log file is set to C:\Selenium\SKDF_1.39\ielog.log
+Only local connections are allowed
+(09:44:05.190) - Info: Browser opened
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 1
+(09:44:12.116) - Info: Browser is open
+1) ,  , () , Open , {#Data.URL}() , true , false
+(09:44:14.097) - Error: Modal dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 023a3f3a-e164-4865-9ecf-77c36ae8c367
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+org.openqa.selenium.UnhandledAlertException: Modal dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 023a3f3a-e164-4865-9ecf-77c36ae8c367
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:539)
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at core.selenium.targets.WebTarget.checkWindow(Unknown Source)
+	at core.selenium.targets.WebTarget.WaitForPage(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.open(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+(09:44:15.707) - Warning: Unexpected Dialog present: 
+(09:44:15.707) - Error: Failed to load page (https://www.vodafone.de/playground/mnp-10/mnp-main.html#/)
+core.selenium.Exceptions.WebdriverWarningException: Unexpected Dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at core.selenium.targets.WebTarget.checkWindow(Unknown Source)
+	at core.selenium.targets.WebTarget.WaitForPage(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.open(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+Status: Warning - Execution time: 3669
+Result: Failed to load page (https://www.vodafone.de/playground/mnp-10/mnp-main.html#/)
+Unexpected Dialog present: 
+
+<a href="#" onclick="printStacktrace1() ">Stack Trace</a><script> function printStacktrace1() { var myWindow = window.open("", "_blank"); myWindow.document.write("core.selenium.Exceptions.WebdriverWarningException: Unexpected Dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at core.selenium.targets.WebTarget.checkWindow(Unknown Source)
+	at core.selenium.targets.WebTarget.WaitForPage(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.open(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+");}</script>
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/">Page url</a>
+Time: 01/03/2017 09:44:15.816 AM GMT+0100
+
+
+Status: Warning
+Coverage: 100.0 %
+Execution Time: 3887 mSec
+
+******************** Test script execution end ********************
+(09:44:15.941) - Info: <a href="file:/C:/Selenium/SKDF_1.39/Sascha_Heiko/Results/TC001/TC001_01032017_094415.html" target="_blank">Link</a>
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 1
+(09:44:18.328) - Info: Browser is open
+1) ,  , () , Open , {#Data.URL}(https://www.vodafone.de/playground/mnp-10/mnp-main.html#/) , true , false
+Status: Passed - Execution time: 1045
+Result: Page (401 Unauthorized) loaded.
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/">Page url</a>
+Time: 01/03/2017 09:44:19.373 AM GMT+0100
+
+
+Status: Passed
+Coverage: 100.0 %
+Execution Time: 1108 mSec
+
+******************** Test script execution end ********************
+(09:44:19.388) - Info: <a href="file:/C:/Selenium/SKDF_1.39/Sascha_Heiko/Results/TC001/TC001_01032017_094419.html" target="_blank">Link</a>
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 1
+(09:44:28.156) - Info: IE config loaded.
+IE
+Cabability: silent=false
+Cabability: elementScrollBehavior=1
+Cabability: javascriptEnabled=true
+Cabability: acceptSslCerts=true
+Cabability: enablePersistentHover=false
+Cabability: ignoreZoomSetting=false
+Cabability: ie.ensureCleanSession=false
+Cabability: browserName=internet explorer
+Cabability: version=
+Cabability: ie.usePerProcessProxy=false
+Cabability: ignoreProtectedModeSettings=true
+Cabability: requireWindowFocus=false
+Cabability: initialBrowserUrl=about:blank
+Cabability: logLevel=WARN
+Cabability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+Cabability: nativeEvents=false
+Cabability: webdriver.remote.quietExceptions=false
+Cabability: applicationCacheEnabled=true
+Cabability: platform=WINDOWS
+Cabability: ie.setProxyByServer=false
+Cabability: ensureCleanSession=true
+Cabability: enableElementCacheCleanup=true
+Cabability: unexpectedAlertBehaviour=ignore
+Cabability: rotatable=false
+Cabability: logFile=ielog.log
+Cabability: locationContextEnabled=true
+Cabability: databaseEnabled=true
+Cabability: ie.forceCreateProcessApi=false
+Cabability: browserConnectionEnabled=true
+Cabability: webStorageEnabled=true
+Config: auto_select_window=false
+Config: auto_maxmize=false
+Config: timeout_page=120000
+Config: timeout_find=2000
+Config: timeout_jscript=500
+Config: timeout_ajax=20000
+Started InternetExplorerDriver server (32-bit)
+2.50.0.0
+Listening on port 15458
+Log level is set to WARN
+Log file is set to C:\Selenium\SKDF_1.39\ielog.log
+Only local connections are allowed
+(09:44:29.996) - Info: Browser opened
+1) ,  , () , Open , {#Data.URL}(https://www.vodafone.de/playground/mnp-10/mnp-main.html#/) , true , false
+(09:44:32.009) - Error: Modal dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: fbc2ff6c-60a7-44ba-abae-d694fc99afbd
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+org.openqa.selenium.UnhandledAlertException: Modal dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: fbc2ff6c-60a7-44ba-abae-d694fc99afbd
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:539)
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at core.selenium.targets.WebTarget.checkWindow(Unknown Source)
+	at core.selenium.targets.WebTarget.WaitForPage(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.open(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+(09:44:33.397) - Warning: Unexpected Dialog present: 
+(09:44:33.397) - Error: Failed to load page (https://www.vodafone.de/playground/mnp-10/mnp-main.html#/)
+core.selenium.Exceptions.WebdriverWarningException: Unexpected Dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at core.selenium.targets.WebTarget.checkWindow(Unknown Source)
+	at core.selenium.targets.WebTarget.WaitForPage(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.open(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+Status: Warning - Execution time: 3479
+Result: Failed to load page (https://www.vodafone.de/playground/mnp-10/mnp-main.html#/)
+Unexpected Dialog present: 
+
+<a href="#" onclick="printStacktrace1() ">Stack Trace</a><script> function printStacktrace1() { var myWindow = window.open("", "_blank"); myWindow.document.write("core.selenium.Exceptions.WebdriverWarningException: Unexpected Dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at core.selenium.targets.WebTarget.checkWindow(Unknown Source)
+	at core.selenium.targets.WebTarget.WaitForPage(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.open(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+");}</script>
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/">Page url</a>
+Time: 01/03/2017 09:44:33.475 AM GMT+0100
+
+
+Status: Warning
+Coverage: 100.0 %
+Execution Time: 6318 mSec
+
+******************** Test script execution end ********************
+(09:44:33.600) - Info: <a href="file:/C:/Selenium/SKDF_1.39/Sascha_Heiko/Results/TC001/TC001_01032017_094433.html" target="_blank">Link</a>
+(09:49:52.488) - Warning: Browser is closed
+(09:50:54.240) - Warning: Browser is closed
+(09:51:01.741) - Warning: Browser is closed
+(09:51:18.441) - Warning: Browser is closed
+(09:51:24.900) - Warning: Browser is closed
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 1
+(09:52:18.907) - Info: IE config loaded.
+IE
+Cabability: silent=false
+Cabability: elementScrollBehavior=1
+Cabability: javascriptEnabled=true
+Cabability: acceptSslCerts=true
+Cabability: enablePersistentHover=false
+Cabability: ignoreZoomSetting=false
+Cabability: ie.ensureCleanSession=false
+Cabability: browserName=internet explorer
+Cabability: version=
+Cabability: ie.usePerProcessProxy=false
+Cabability: ignoreProtectedModeSettings=true
+Cabability: requireWindowFocus=false
+Cabability: initialBrowserUrl=about:blank
+Cabability: logLevel=WARN
+Cabability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+Cabability: nativeEvents=false
+Cabability: webdriver.remote.quietExceptions=false
+Cabability: applicationCacheEnabled=true
+Cabability: platform=WINDOWS
+Cabability: ie.setProxyByServer=false
+Cabability: ensureCleanSession=true
+Cabability: enableElementCacheCleanup=true
+Cabability: unexpectedAlertBehaviour=ignore
+Cabability: rotatable=false
+Cabability: logFile=ielog.log
+Cabability: locationContextEnabled=true
+Cabability: databaseEnabled=true
+Cabability: ie.forceCreateProcessApi=false
+Cabability: browserConnectionEnabled=true
+Cabability: webStorageEnabled=true
+Config: auto_select_window=false
+Config: auto_maxmize=false
+Config: timeout_page=120000
+Config: timeout_find=2000
+Config: timeout_jscript=500
+Config: timeout_ajax=20000
+Started InternetExplorerDriver server (32-bit)
+2.50.0.0
+Listening on port 30898
+Log level is set to WARN
+Log file is set to C:\Selenium\SKDF_1.39\ielog.log
+Only local connections are allowed
+(09:52:20.561) - Info: Browser opened
+2) Page1, Link_VodafoneRufnummer_Und_Kundenkennwort , () , Click , () , true , false
+(09:52:22.683) - Error: Failed to click on object.
+org.openqa.selenium.NoSuchElementException: Unable to find element with link text == Vodafone-Rufnummer und Kundenkennwort (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=link text, value=Vodafone-Rufnummer und Kundenkennwort}
+Session ID: 4b2b50e0-b943-40b8-9b90-6eb518f8b396
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at core.selenium.targetElement.TargetElement.Find_WebElement(Unknown Source)
+	at core.selenium.targetElement.TargetElement.<init>(Unknown Source)
+	at core.selenium.targetElement.WebTargetElement.<init>(Unknown Source)
+	at core.selenium.targets.WebTarget.getTargetElement(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.click(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+Status: Failed - Execution time: 2231
+Result: Failed to click on object.
+Unable to find element with link text == Vodafone-Rufnummer und Kundenkennwort (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+
+<a href="#" onclick="printStacktrace2() ">Stack Trace</a><script> function printStacktrace2() { var myWindow = window.open("", "_blank"); myWindow.document.write("org.openqa.selenium.NoSuchElementException: Unable to find element with link text == Vodafone-Rufnummer und Kundenkennwort (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=link text, value=Vodafone-Rufnummer und Kundenkennwort}
+Session ID: 4b2b50e0-b943-40b8-9b90-6eb518f8b396
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at core.selenium.targetElement.TargetElement.Find_WebElement(Unknown Source)
+	at core.selenium.targetElement.TargetElement.<init>(Unknown Source)
+	at core.selenium.targetElement.WebTargetElement.<init>(Unknown Source)
+	at core.selenium.targets.WebTarget.getTargetElement(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.click(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+");}</script>
+<a href="about:blank">Page url</a>
+Time: 01/03/2017 09:52:22.792 AM GMT+0100
+(09:52:30.826) - Info: Execution Stopped
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 1
+
+
+Status: Failed
+(09:52:43.712) - Warning: Fail to get window state.
+(09:52:43.727) - Info: IE config loaded.
+IE
+Cabability: silent=false
+Cabability: elementScrollBehavior=1
+Cabability: javascriptEnabled=true
+Cabability: acceptSslCerts=true
+Cabability: enablePersistentHover=false
+Cabability: ignoreZoomSetting=false
+Cabability: ie.ensureCleanSession=false
+Cabability: browserName=internet explorer
+Cabability: version=
+Cabability: ie.usePerProcessProxy=false
+Cabability: ignoreProtectedModeSettings=true
+Cabability: requireWindowFocus=false
+Cabability: initialBrowserUrl=about:blank
+Cabability: logLevel=WARN
+Cabability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+Cabability: nativeEvents=false
+Cabability: webdriver.remote.quietExceptions=false
+Cabability: applicationCacheEnabled=true
+Cabability: platform=WINDOWS
+Cabability: ie.setProxyByServer=false
+Cabability: ensureCleanSession=true
+Cabability: enableElementCacheCleanup=true
+Cabability: unexpectedAlertBehaviour=ignore
+Cabability: rotatable=false
+Cabability: logFile=ielog.log
+Cabability: locationContextEnabled=true
+Cabability: databaseEnabled=true
+Cabability: ie.forceCreateProcessApi=false
+Cabability: browserConnectionEnabled=true
+Cabability: webStorageEnabled=true
+Config: auto_select_window=false
+Config: auto_maxmize=false
+Config: timeout_page=120000
+Config: timeout_find=2000
+Config: timeout_jscript=500
+Config: timeout_ajax=20000
+Started InternetExplorerDriver server (32-bit)
+2.50.0.0
+Listening on port 9455
+Log level is set to WARN
+Log file is set to C:\Selenium\SKDF_1.39\ielog.log
+Only local connections are allowed
+(09:52:45.350) - Info: Browser opened
+1) ,  , () , Open , {#Data.URL}(https://www.vodafone.de/playground/mnp-10/mnp-main.html#/) , true , false
+(09:52:48.173) - Error: Modal dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: eabf6897-030b-42d4-af46-141c36f6f8d0
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+org.openqa.selenium.UnhandledAlertException: Modal dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: eabf6897-030b-42d4-af46-141c36f6f8d0
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:539)
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at core.selenium.targets.WebTarget.checkWindow(Unknown Source)
+	at core.selenium.targets.WebTarget.WaitForPage(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.open(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+(09:52:49.388) - Warning: Unexpected Dialog present: 
+(09:52:49.398) - Error: Failed to load page (https://www.vodafone.de/playground/mnp-10/mnp-main.html#/)
+core.selenium.Exceptions.WebdriverWarningException: Unexpected Dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at core.selenium.targets.WebTarget.checkWindow(Unknown Source)
+	at core.selenium.targets.WebTarget.WaitForPage(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.open(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+Status: Warning - Execution time: 4108
+Result: Failed to load page (https://www.vodafone.de/playground/mnp-10/mnp-main.html#/)
+Unexpected Dialog present: 
+
+<a href="#" onclick="printStacktrace1() ">Stack Trace</a><script> function printStacktrace1() { var myWindow = window.open("", "_blank"); myWindow.document.write("core.selenium.Exceptions.WebdriverWarningException: Unexpected Dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at core.selenium.targets.WebTarget.checkWindow(Unknown Source)
+	at core.selenium.targets.WebTarget.WaitForPage(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.open(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+");}</script>
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/">Page url</a>
+Time: 01/03/2017 09:52:49.458 AM GMT+0100
+
+
+Status: Warning
+Coverage: 100.0 %
+Execution Time: 16096 mSec
+
+******************** Test script execution end ********************
+(09:52:49.668) - Info: <a href="file:/C:/Selenium/SKDF_1.39/Sascha_Heiko/Results/TC001/TC001_01032017_095243.html" target="_blank">Link</a>
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 1
+(09:53:27.295) - Info: IE config loaded.
+IE
+Cabability: silent=false
+Cabability: elementScrollBehavior=1
+Cabability: javascriptEnabled=true
+Cabability: acceptSslCerts=true
+Cabability: enablePersistentHover=false
+Cabability: ignoreZoomSetting=false
+Cabability: ie.ensureCleanSession=false
+Cabability: browserName=internet explorer
+Cabability: version=
+Cabability: ie.usePerProcessProxy=false
+Cabability: ignoreProtectedModeSettings=true
+Cabability: requireWindowFocus=false
+Cabability: initialBrowserUrl=about:blank
+Cabability: logLevel=WARN
+Cabability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+Cabability: nativeEvents=false
+Cabability: webdriver.remote.quietExceptions=false
+Cabability: applicationCacheEnabled=true
+Cabability: platform=WINDOWS
+Cabability: ie.setProxyByServer=false
+Cabability: ensureCleanSession=true
+Cabability: enableElementCacheCleanup=true
+Cabability: unexpectedAlertBehaviour=ignore
+Cabability: rotatable=false
+Cabability: logFile=ielog.log
+Cabability: locationContextEnabled=true
+Cabability: databaseEnabled=true
+Cabability: ie.forceCreateProcessApi=false
+Cabability: browserConnectionEnabled=true
+Cabability: webStorageEnabled=true
+Config: auto_select_window=false
+Config: auto_maxmize=false
+Config: timeout_page=120000
+Config: timeout_find=2000
+Config: timeout_jscript=500
+Config: timeout_ajax=20000
+Started InternetExplorerDriver server (32-bit)
+2.50.0.0
+Listening on port 48271
+Log level is set to WARN
+Log file is set to C:\Selenium\SKDF_1.39\ielog.log
+Only local connections are allowed
+(09:53:28.933) - Info: Browser opened
+2) Page1, Link_VodafoneRufnummer_Und_Kundenkennwort , () , Click , () , true , false
+(09:53:31.102) - Error: Failed to click on object.
+org.openqa.selenium.NoSuchElementException: Unable to find element with link text == Vodafone-Rufnummer und Kundenkennwort (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=link text, value=Vodafone-Rufnummer und Kundenkennwort}
+Session ID: a20e4762-5ae7-4dc5-8288-cac1aa86eead
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at core.selenium.targetElement.TargetElement.Find_WebElement(Unknown Source)
+	at core.selenium.targetElement.TargetElement.<init>(Unknown Source)
+	at core.selenium.targetElement.WebTargetElement.<init>(Unknown Source)
+	at core.selenium.targets.WebTarget.getTargetElement(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.click(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+Status: Failed - Execution time: 2262
+Result: Failed to click on object.
+Unable to find element with link text == Vodafone-Rufnummer und Kundenkennwort (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+
+<a href="#" onclick="printStacktrace2() ">Stack Trace</a><script> function printStacktrace2() { var myWindow = window.open("", "_blank"); myWindow.document.write("org.openqa.selenium.NoSuchElementException: Unable to find element with link text == Vodafone-Rufnummer und Kundenkennwort (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=link text, value=Vodafone-Rufnummer und Kundenkennwort}
+Session ID: a20e4762-5ae7-4dc5-8288-cac1aa86eead
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at core.selenium.targetElement.TargetElement.Find_WebElement(Unknown Source)
+	at core.selenium.targetElement.TargetElement.<init>(Unknown Source)
+	at core.selenium.targetElement.WebTargetElement.<init>(Unknown Source)
+	at core.selenium.targets.WebTarget.getTargetElement(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.click(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+");}</script>
+<a href="about:blank">Page url</a>
+Time: 01/03/2017 09:53:31.195 AM GMT+0100
+
+
+Status: Failed
+Coverage: 100.0 %
+Execution Time: 15335 mSec
+
+******************** Test script execution end ********************
+(09:53:41.834) - Info: <a href="file:/C:/Selenium/SKDF_1.39/Sascha_Heiko/Results/TC001/TC001_01032017_095341.html" target="_blank">Link</a>
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 1
+(09:54:03.066) - Info: IE config loaded.
+IE
+Cabability: silent=false
+Cabability: elementScrollBehavior=1
+Cabability: javascriptEnabled=true
+Cabability: acceptSslCerts=true
+Cabability: enablePersistentHover=false
+Cabability: ignoreZoomSetting=false
+Cabability: ie.ensureCleanSession=false
+Cabability: browserName=internet explorer
+Cabability: version=
+Cabability: ie.usePerProcessProxy=false
+Cabability: ignoreProtectedModeSettings=true
+Cabability: requireWindowFocus=false
+Cabability: initialBrowserUrl=about:blank
+Cabability: logLevel=WARN
+Cabability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+Cabability: nativeEvents=false
+Cabability: webdriver.remote.quietExceptions=false
+Cabability: applicationCacheEnabled=true
+Cabability: platform=WINDOWS
+Cabability: ie.setProxyByServer=false
+Cabability: ensureCleanSession=true
+Cabability: enableElementCacheCleanup=true
+Cabability: unexpectedAlertBehaviour=ignore
+Cabability: rotatable=false
+Cabability: logFile=ielog.log
+Cabability: locationContextEnabled=true
+Cabability: databaseEnabled=true
+Cabability: ie.forceCreateProcessApi=false
+Cabability: browserConnectionEnabled=true
+Cabability: webStorageEnabled=true
+Config: auto_select_window=false
+Config: auto_maxmize=false
+Config: timeout_page=120000
+Config: timeout_find=2000
+Config: timeout_jscript=500
+Config: timeout_ajax=20000
+Started InternetExplorerDriver server (32-bit)
+2.50.0.0
+Listening on port 38060
+Log level is set to WARN
+Log file is set to C:\Selenium\SKDF_1.39\ielog.log
+Only local connections are allowed
+(09:54:04.813) - Info: Browser opened
+3) Page1, MSISDN , () , Type , 015200488839() , true , false
+(09:54:06.982) - Error: Failed to write (015200488839) in Object.
+org.openqa.selenium.NoSuchElementException: Unable to find element with id == number (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=id, value=number}
+Session ID: 5e2fde93-8f5c-48e7-8a1e-5c34bddac3b7
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at core.selenium.targetElement.TargetElement.Find_WebElement(Unknown Source)
+	at core.selenium.targetElement.TargetElement.<init>(Unknown Source)
+	at core.selenium.targetElement.WebTargetElement.<init>(Unknown Source)
+	at core.selenium.targets.WebTarget.getTargetElement(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.type(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+Status: Failed - Execution time: 2278
+Result: Failed to write (015200488839) in Object.
+Unable to find element with id == number (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+
+<a href="#" onclick="printStacktrace3() ">Stack Trace</a><script> function printStacktrace3() { var myWindow = window.open("", "_blank"); myWindow.document.write("org.openqa.selenium.NoSuchElementException: Unable to find element with id == number (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=id, value=number}
+Session ID: 5e2fde93-8f5c-48e7-8a1e-5c34bddac3b7
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at core.selenium.targetElement.TargetElement.Find_WebElement(Unknown Source)
+	at core.selenium.targetElement.TargetElement.<init>(Unknown Source)
+	at core.selenium.targetElement.WebTargetElement.<init>(Unknown Source)
+	at core.selenium.targets.WebTarget.getTargetElement(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.type(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+");}</script>
+<a href="about:blank">Page url</a>
+Time: 01/03/2017 09:54:07.091 AM GMT+0100
+
+
+Status: Failed
+Coverage: 100.0 %
+Execution Time: 10218 mSec
+
+******************** Test script execution end ********************
+(09:54:12.504) - Info: <a href="file:/C:/Selenium/SKDF_1.39/Sascha_Heiko/Results/TC001/TC001_01032017_095412.html" target="_blank">Link</a>
+(10:03:00.089) - Warning: Browser is closed
+(10:03:08.030) - Warning: Browser is closed
+(10:03:23.317) - Warning: Browser is closed
+(10:03:24.831) - Warning: Browser is closed
+(10:03:26.281) - Warning: Browser is closed
+(10:05:01.065) - Info: IE config loaded.
+IE
+Cabability: silent=false
+Cabability: elementScrollBehavior=1
+Cabability: javascriptEnabled=true
+Cabability: acceptSslCerts=true
+Cabability: enablePersistentHover=false
+Cabability: ignoreZoomSetting=false
+Cabability: ie.ensureCleanSession=false
+Cabability: browserName=internet explorer
+Cabability: version=
+Cabability: ie.usePerProcessProxy=false
+Cabability: ignoreProtectedModeSettings=true
+Cabability: requireWindowFocus=false
+Cabability: initialBrowserUrl=about:blank
+Cabability: logLevel=WARN
+Cabability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+Cabability: nativeEvents=false
+Cabability: webdriver.remote.quietExceptions=false
+Cabability: applicationCacheEnabled=true
+Cabability: platform=WINDOWS
+Cabability: ie.setProxyByServer=false
+Cabability: ensureCleanSession=true
+Cabability: enableElementCacheCleanup=true
+Cabability: unexpectedAlertBehaviour=ignore
+Cabability: rotatable=false
+Cabability: logFile=ielog.log
+Cabability: locationContextEnabled=true
+Cabability: databaseEnabled=true
+Cabability: ie.forceCreateProcessApi=false
+Cabability: browserConnectionEnabled=true
+Cabability: webStorageEnabled=true
+Config: auto_select_window=false
+Config: auto_maxmize=false
+Config: timeout_page=120000
+Config: timeout_find=2000
+Config: timeout_jscript=500
+Config: timeout_ajax=20000
+Started InternetExplorerDriver server (32-bit)
+2.50.0.0
+Listening on port 20846
+Log level is set to WARN
+Log file is set to C:\Selenium\SKDF_1.39\ielog.log
+Only local connections are allowed
+(10:05:02.953) - Info: Browser opened
+(10:06:34.539) - Info: Capture
+(10:06:35.241) - Info: 0 object found
+(10:06:35.256) - Info: 0 objects loaded.
+(10:09:05.359) - Info: Object (MSISDN) updated (MSISDN,Id,number,Textbox) in (Page1)
+(10:09:05.967) - Info: Edit row [MSISDN, Id, number, Textbox, 01/03/17 10:09:05:343 - Updated (MSISDN)] in sheet (Page1)
+(10:11:02.810) - Info: Capture
+(10:11:03.107) - Info: 1 object found
+(10:11:04.121) - Info: 1 objects loaded.
+(10:11:11.312) - Info: Map file C:/Selenium/SKDF_1.39/Sascha_Heiko/UIMap.xls saved
+(10:11:11.328) - Info: UIMap file C:/Selenium/SKDF_1.39/Sascha_Heiko/UIMap.xls loaded with 1 sheets in 0 mSec
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 1
+(10:11:22.450) - Info: Browser is open
+3) Page1, MSISDN , () , Type , 015200488839(015200488839) , true , false
+Status: Passed - Execution time: 1779
+Result: Write (015200488839) in Textbox (MSISDN).
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin">Page url</a>
+Time: 01/03/2017 10:11:24.229 AM GMT+0100
+
+
+Status: Passed
+Coverage: 100.0 %
+Execution Time: 1872 mSec
+
+******************** Test script execution end ********************
+(10:11:24.260) - Info: <a href="file:/C:/Selenium/SKDF_1.39/Sascha_Heiko/Results/TC001/TC001_01032017_101124.html" target="_blank">Link</a>
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 1
+(10:11:30.952) - Info: Browser is open
+2) Page1, Link_VodafoneRufnummer_Und_Kundenkennwort , () , Click , () , true , false
+(10:11:33.402) - Error: Failed to click on object.
+org.openqa.selenium.NoSuchElementException: Unable to find element with link text == Vodafone-Rufnummer und Kundenkennwort (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.42 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=link text, value=Vodafone-Rufnummer und Kundenkennwort}
+Session ID: 67b44156-13c4-4da9-aa65-359dd925d16a
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at core.selenium.targetElement.TargetElement.Find_WebElement(Unknown Source)
+	at core.selenium.targetElement.TargetElement.<init>(Unknown Source)
+	at core.selenium.targetElement.WebTargetElement.<init>(Unknown Source)
+	at core.selenium.targets.WebTarget.getTargetElement(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.click(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+Status: Failed - Execution time: 2543
+Result: Failed to click on object.
+Unable to find element with link text == Vodafone-Rufnummer und Kundenkennwort (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.42 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+
+<a href="#" onclick="printStacktrace2() ">Stack Trace</a><script> function printStacktrace2() { var myWindow = window.open("", "_blank"); myWindow.document.write("org.openqa.selenium.NoSuchElementException: Unable to find element with link text == Vodafone-Rufnummer und Kundenkennwort (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.42 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=link text, value=Vodafone-Rufnummer und Kundenkennwort}
+Session ID: 67b44156-13c4-4da9-aa65-359dd925d16a
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at core.selenium.targetElement.TargetElement.Find_WebElement(Unknown Source)
+	at core.selenium.targetElement.TargetElement.<init>(Unknown Source)
+	at core.selenium.targetElement.WebTargetElement.<init>(Unknown Source)
+	at core.selenium.targets.WebTarget.getTargetElement(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.click(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+");}</script>
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin">Page url</a>
+Time: 01/03/2017 10:11:33.495 AM GMT+0100
+
+
+Status: Failed
+Coverage: 100.0 %
+Execution Time: 3151 mSec
+
+******************** Test script execution end ********************
+(10:11:34.026) - Info: <a href="file:/C:/Selenium/SKDF_1.39/Sascha_Heiko/Results/TC001/TC001_01032017_101134.html" target="_blank">Link</a>
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 1
+(10:11:48.128) - Info: IE config loaded.
+IE
+Cabability: silent=false
+Cabability: elementScrollBehavior=1
+Cabability: javascriptEnabled=true
+Cabability: acceptSslCerts=true
+Cabability: enablePersistentHover=false
+Cabability: ignoreZoomSetting=false
+Cabability: ie.ensureCleanSession=false
+Cabability: browserName=internet explorer
+Cabability: version=
+Cabability: ie.usePerProcessProxy=false
+Cabability: ignoreProtectedModeSettings=true
+Cabability: requireWindowFocus=false
+Cabability: initialBrowserUrl=about:blank
+Cabability: logLevel=WARN
+Cabability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+Cabability: nativeEvents=false
+Cabability: webdriver.remote.quietExceptions=false
+Cabability: applicationCacheEnabled=true
+Cabability: platform=WINDOWS
+Cabability: ie.setProxyByServer=false
+Cabability: ensureCleanSession=true
+Cabability: enableElementCacheCleanup=true
+Cabability: unexpectedAlertBehaviour=ignore
+Cabability: rotatable=false
+Cabability: logFile=ielog.log
+Cabability: locationContextEnabled=true
+Cabability: databaseEnabled=true
+Cabability: ie.forceCreateProcessApi=false
+Cabability: browserConnectionEnabled=true
+Cabability: webStorageEnabled=true
+Config: auto_select_window=false
+Config: auto_maxmize=false
+Config: timeout_page=120000
+Config: timeout_find=2000
+Config: timeout_jscript=500
+Config: timeout_ajax=20000
+Started InternetExplorerDriver server (32-bit)
+2.50.0.0
+Listening on port 39374
+Log level is set to WARN
+Log file is set to C:\Selenium\SKDF_1.39\ielog.log
+Only local connections are allowed
+(10:11:49.875) - Info: Browser opened
+1) ,  , () , Open , {#Data.URL}(https://www.vodafone.de/playground/mnp-10/mnp-main.html#/) , true , false
+(10:11:51.186) - Error: Modal dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 3848b295-cbea-4a84-8123-f4a8956d22cc
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+org.openqa.selenium.UnhandledAlertException: Modal dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 3848b295-cbea-4a84-8123-f4a8956d22cc
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:539)
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at core.selenium.targets.WebTarget.checkWindow(Unknown Source)
+	at core.selenium.targets.WebTarget.WaitForPage(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.open(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+(10:11:52.730) - Warning: Unexpected Dialog present: 
+(10:11:52.730) - Error: Failed to load page (https://www.vodafone.de/playground/mnp-10/mnp-main.html#/)
+core.selenium.Exceptions.WebdriverWarningException: Unexpected Dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at core.selenium.targets.WebTarget.checkWindow(Unknown Source)
+	at core.selenium.targets.WebTarget.WaitForPage(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.open(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+Status: Warning - Execution time: 2917
+Result: Failed to load page (https://www.vodafone.de/playground/mnp-10/mnp-main.html#/)
+Unexpected Dialog present: 
+
+<a href="#" onclick="printStacktrace1() ">Stack Trace</a><script> function printStacktrace1() { var myWindow = window.open("", "_blank"); myWindow.document.write("core.selenium.Exceptions.WebdriverWarningException: Unexpected Dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at core.selenium.targets.WebTarget.checkWindow(Unknown Source)
+	at core.selenium.targets.WebTarget.WaitForPage(Unknown Source)
+	at core.selenium.targetActions.WebTargetActions.open(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at core.selenium.targetActions.TargetActions.run(Unknown Source)
+	at core.selenium.targets.WebTarget.PreformAction(Unknown Source)
+	at core.com.execution.TargetManager.preformAction(Unknown Source)
+	at Scripts.Pac_Script_.Script_Test_Name.executeTest(Script_Test_Name.java:87)
+	at Scripts.Pac_Script_.Script_Test_Name.test(Script_Test_Name.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+");}</script>
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/">Page url</a>
+Time: 01/03/2017 10:11:52.792 AM GMT+0100
+
+
+Status: Warning
+Coverage: 100.0 %
+Execution Time: 5648 mSec
+
+******************** Test script execution end ********************
+(10:11:52.917) - Info: <a href="file:/C:/Selenium/SKDF_1.39/Sascha_Heiko/Results/TC001/TC001_01032017_101152.html" target="_blank">Link</a>
+(10:12:27.814) - Error: Modal dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 3848b295-cbea-4a84-8123-f4a8956d22cc
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+org.openqa.selenium.UnhandledAlertException: Modal dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 3848b295-cbea-4a84-8123-f4a8956d22cc
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:539)
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at ide.Actions$FindObject.capture(Unknown Source)
+	at ide.UI$1.actionPerformed(Unknown Source)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:308)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+(10:12:28.844) - Warning: Unexpected Dialog present: 
+Exception in thread "AWT-EventQueue-0" core.selenium.Exceptions.WebdriverWarningException: Unexpected Dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at ide.Actions$FindObject.capture(Unknown Source)
+	at ide.UI$1.actionPerformed(Unknown Source)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:308)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+(10:12:53.398) - Error: Modal dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 3848b295-cbea-4a84-8123-f4a8956d22cc
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+org.openqa.selenium.UnhandledAlertException: Modal dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 3848b295-cbea-4a84-8123-f4a8956d22cc
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:539)
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at ide.Actions$FindObject.capture(Unknown Source)
+	at ide.UI$1.actionPerformed(Unknown Source)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:308)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+(10:12:54.475) - Warning: Unexpected Dialog present: 
+Exception in thread "AWT-EventQueue-0" core.selenium.Exceptions.WebdriverWarningException: Unexpected Dialog present: 
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.132.166.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+	at core.selenium.targets.WebTarget.isOpen(Unknown Source)
+	at ide.Actions$FindObject.capture(Unknown Source)
+	at ide.UI$1.actionPerformed(Unknown Source)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:308)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+(10:13:28.062) - Info: Quit webdriver
+(10:13:28.155) - Info: Application Closed

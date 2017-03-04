@@ -1,0 +1,53 @@
+{
+  "config" : {
+    "timeout_find" : 0,
+    "timeout_jscript" : 0,
+    "timeout_page" : 0,
+    "auto_select_window" : false,
+    "auto_maxmize" : false,
+    "timeout_ajax" : 0
+  },
+  "desiredCapabilities" : {
+    "silent" : false,
+    "acceptSslCerts" : true,
+    "javascriptEnabled" : true,
+    "elementScrollBehavior" : 1,
+    "ignoreZoomSetting" : false,
+    "enablePersistentHover" : false,
+    "ie.ensureCleanSession" : false,
+    "browserName" : "internet explorer",
+    "version" : "",
+    "ie.usePerProcessProxy" : false,
+    "ignoreProtectedModeSettings" : true,
+    "requireWindowFocus" : false,
+    "logLevel" : "WARN",
+    "initialBrowserUrl" : "about:blank",
+    "nativeEvents" : false,
+    "proxy" : {
+      "proxyType" : "SYSTEM",
+      "autodetect" : false,
+      "ftpProxy" : null,
+      "httpProxy" : null,
+      "noProxy" : null,
+      "sslProxy" : null,
+      "socksProxy" : null,
+      "socksUsername" : null,
+      "socksPassword" : null,
+      "proxyAutoconfigUrl" : null
+    },
+    "webdriver.remote.quietExceptions" : false,
+    "applicationCacheEnabled" : true,
+    "platform" : "WINDOWS",
+    "ensureCleanSession" : true,
+    "ie.setProxyByServer" : false,
+    "enableElementCacheCleanup" : true,
+    "logFile" : "ielog.log",
+    "rotatable" : false,
+    "unexpectedAlertBehaviour" : "ignore",
+    "locationContextEnabled" : true,
+    "databaseEnabled" : true,
+    "browserConnectionEnabled" : true,
+    "ie.forceCreateProcessApi" : false,
+    "webStorageEnabled" : true
+  }
+}

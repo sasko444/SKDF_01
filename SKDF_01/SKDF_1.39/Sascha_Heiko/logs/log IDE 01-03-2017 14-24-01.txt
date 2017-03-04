@@ -1,0 +1,289 @@
+(02:24:01.549) - Info: UIMap file C:/Selenium/SKDF_1.39/Sascha_Heiko/UIMap.xls loaded with 1 sheets in 0 mSec
+(02:24:01.549) - Info: Testscript (TC001) loaded with 7 step
+(02:24:01.564) - Info: Testscript (Start001) loaded with 1 step
+(02:24:01.564) - Info: Testscript file (C:/Selenium/SKDF_1.39/Sascha_Heiko/Scripts/Script1.xls) loaded with 2 script in 15 mSec
+(02:24:16.306) - Info: IE config loaded.
+IE
+Cabability: silent=false
+Cabability: elementScrollBehavior=1
+Cabability: javascriptEnabled=true
+Cabability: acceptSslCerts=true
+Cabability: enablePersistentHover=false
+Cabability: ignoreZoomSetting=false
+Cabability: ie.ensureCleanSession=false
+Cabability: browserName=internet explorer
+Cabability: version=
+Cabability: ie.usePerProcessProxy=false
+Cabability: ignoreProtectedModeSettings=true
+Cabability: requireWindowFocus=false
+Cabability: initialBrowserUrl=about:blank
+Cabability: logLevel=WARN
+Cabability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+Cabability: nativeEvents=false
+Cabability: webdriver.remote.quietExceptions=false
+Cabability: applicationCacheEnabled=true
+Cabability: platform=WINDOWS
+Cabability: ie.setProxyByServer=false
+Cabability: ensureCleanSession=true
+Cabability: enableElementCacheCleanup=true
+Cabability: unexpectedAlertBehaviour=ignore
+Cabability: rotatable=false
+Cabability: logFile=ielog.log
+Cabability: locationContextEnabled=true
+Cabability: databaseEnabled=true
+Cabability: ie.forceCreateProcessApi=false
+Cabability: browserConnectionEnabled=true
+Cabability: webStorageEnabled=true
+Config: auto_select_window=false
+Config: auto_maxmize=false
+Config: timeout_page=120000
+Config: timeout_find=2000
+Config: timeout_jscript=500
+Config: timeout_ajax=20000
+Started InternetExplorerDriver server (32-bit)
+2.50.0.0
+Listening on port 13419
+Log level is set to WARN
+Log file is set to C:\Selenium\SKDF_1.39\ielog.log
+Only local connections are allowed
+(02:24:19.645) - Info: Browser opened
+(02:29:26.772) - Error: Object not found org.openqa.selenium.NoSuchElementException: Unable to find element with link text == Anmelden (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 435 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.190.185.76', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=link text, value=Anmelden}
+Session ID: 28dea987-067e-456e-94de-fdf182737d99
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+(02:29:44.111) - Error: Object not found org.openqa.selenium.NoSuchElementException: Unable to find element with id == number (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 285 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.190.185.76', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=id, value=number}
+Session ID: 28dea987-067e-456e-94de-fdf182737d99
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+(02:30:02.106) - Info: Capture
+(02:30:02.324) - Info: 2 object found
+(02:30:03.541) - Info: 2 objects loaded.
+(02:31:32.587) - Info: Object (Button_Vodafone-Rufnummer und ...) added to page (Page1)
+(02:31:32.931) - Info: Add row ([Button_Vodafone-Rufnummer und ..., Id, , Button, 01/03/17 02:31:32:587 - Added (Button_Vodafone-Rufnummer und ...)]) to sheet (Page1)
+(02:31:33.071) - Warning: Missing object identification for object Button_Vodafone-Rufnummer und ...
+(02:31:37.689) - Error: Object not found org.openqa.selenium.NoSuchElementException: Unable to find element with link text == Anmelden (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 390 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.190.185.76', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=link text, value=Anmelden}
+Session ID: 28dea987-067e-456e-94de-fdf182737d99
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+(02:31:40.341) - Error: Object not found org.openqa.selenium.NoSuchElementException: Unable to find element with link text == Jetzt Rufnummern- Mitnahme starten (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 406 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.190.185.76', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=link text, value=Jetzt Rufnummern- Mitnahme starten}
+Session ID: 28dea987-067e-456e-94de-fdf182737d99
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+(02:32:02.649) - Warning: Missing object identification for object Button_Vodafone-Rufnummer und ...
+(02:32:06.830) - Info: Object (Button_Vodafone-Rufnummer und ...) updated (Button_Vodafone-Rufnummer und ...,Id,Vodafone-Rufnummer und Kundenkennwort,Button) in (Page1)
+(02:32:06.861) - Info: Edit row [Button_Vodafone-Rufnummer und ..., Id, Vodafone-Rufnummer und Kundenkennwort, Button, 01/03/17 02:32:06:814 - Updated (Button_Vodafone-Rufnummer und ...)] in sheet (Page1)
+(02:32:07.314) - Error: Object not found org.openqa.selenium.NoSuchElementException: Unable to find element with id == Vodafone-Rufnummer und Kundenkennwort (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 297 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.190.185.76', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=id, value=Vodafone-Rufnummer und Kundenkennwort}
+Session ID: 28dea987-067e-456e-94de-fdf182737d99
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+(02:32:09.810) - Error: Object not found org.openqa.selenium.NoSuchElementException: Unable to find element with link text == Anmelden (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 406 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.190.185.76', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=link text, value=Anmelden}
+Session ID: 28dea987-067e-456e-94de-fdf182737d99
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+(02:32:14.147) - Error: Object not found org.openqa.selenium.NoSuchElementException: Unable to find element with id == Vodafone-Rufnummer und Kundenkennwort (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 281 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.190.185.76', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=id, value=Vodafone-Rufnummer und Kundenkennwort}
+Session ID: 28dea987-067e-456e-94de-fdf182737d99
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+(02:32:36.798) - Info: Object (Link_VodafoneRufnummer_Und_Kundenkennwort) updated (Link_VodafoneRufnummer_Und_Kundenkennwort,Link Text,Vodafone-Rufnummer und Kundenkennwort,Link) in (Page1)
+(02:32:36.829) - Info: Edit row [Link_VodafoneRufnummer_Und_Kundenkennwort, Link Text, Vodafone-Rufnummer und Kundenkennwort, Link, 01/03/17 02:32:36:798 - Updated (Link_VodafoneRufnummer_Und_Kundenkennwort)] in sheet (Page1)
+(02:32:40.729) - Error: Object not found org.openqa.selenium.NoSuchElementException: Unable to find element with id == Vodafone-Rufnummer und Kundenkennwort (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 296 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.190.185.76', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=id, value=Vodafone-Rufnummer und Kundenkennwort}
+Session ID: 28dea987-067e-456e-94de-fdf182737d99
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+(02:32:49.715) - Info: Object (Link_Vodafone-Rufnummer und ...) updated (Link_Vodafone-Rufnummer und ...,Link Text,Vodafone-Rufnummer und Kundenkennwort,Link) in (Page1)
+(02:32:49.746) - Info: Edit row [Link_Vodafone-Rufnummer und ..., Link Text, Vodafone-Rufnummer und Kundenkennwort, Link, 01/03/17 02:32:49:715 - Updated (Button_Vodafone-Rufnummer und ...)] in sheet (Page1)
+(02:32:57.250) - Error: Object not found org.openqa.selenium.NoSuchElementException: Unable to find element with link text == Anmelden (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 390 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.190.185.76', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=link text, value=Anmelden}
+Session ID: 28dea987-067e-456e-94de-fdf182737d99
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+(02:32:59.668) - Error: Object not found org.openqa.selenium.NoSuchElementException: Unable to find element with id == password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 296 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.190.185.76', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=id, value=password}
+Session ID: 28dea987-067e-456e-94de-fdf182737d99
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+(02:33:00.682) - Error: Object not found org.openqa.selenium.NoSuchElementException: Unable to find element with id == number (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 312 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.190.185.76', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=id, value=number}
+Session ID: 28dea987-067e-456e-94de-fdf182737d99
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 1
+(02:33:14.036) - Info: Browser is open
+2) Page1, Link_VodafoneRufnummer_Und_Kundenkennwort , () , Click , () , true , false
+(02:33:17.905) - Info: Click fired:true
+Status: Passed - Execution time: 4446
+Result: Click on Link (Link_VodafoneRufnummer_Und_Kundenkennwort).
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin">Page url</a>
+Time: 01/03/2017 02:33:18.482 PM GMT+0100
+
+
+Status: Passed
+Coverage: 100.0 %
+Execution Time: 4493 mSec
+
+******************** Test script execution end ********************
+(02:33:18.498) - Info: <a href="file:/C:/Selenium/SKDF_1.39/Sascha_Heiko/Results/TC001/TC001_01032017_023318.html" target="_blank">Link</a>
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 4
+(02:33:27.530) - Info: Browser is open
+1) ,  , () , Open , {#Data.URL}() , true , false
+Status: Passed - Execution time: 914
+Result: Page (Hilfe | Rufnummer online mitnehmen - Rufnummern-Mitnahme) loaded.
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/">Page url</a>
+Time: 01/03/2017 02:33:28.444 PM GMT+0100
+(02:33:28.507) - Info: Browser is open
+2) Page1, Link_VodafoneRufnummer_Und_Kundenkennwort , () , Click , () , true , false
+(02:33:32.353) - Info: Click fired:true
+Status: Passed - Execution time: 4407
+Result: Click on Link (Link_VodafoneRufnummer_Und_Kundenkennwort).
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin">Page url</a>
+Time: 01/03/2017 02:33:32.914 PM GMT+0100
+(02:33:32.961) - Info: Browser is open
+3) Page1, MSISDN , () , Type , 015200488839() , true , false
+Status: Passed - Execution time: 1433
+Result: Write (015200488839) in Textbox (MSISDN).
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin">Page url</a>
+Time: 01/03/2017 02:33:34.394 PM GMT+0100
+(02:33:34.472) - Info: Browser is open
+4) Page1, Password , () , Type , digital() , true , false
+Status: Passed - Execution time: 1375
+Result: Write (digital) in Textbox (Password).
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin">Page url</a>
+Time: 01/03/2017 02:33:35.847 PM GMT+0100
+
+
+Status: Passed
+Coverage: 100.0 %
+Execution Time: 8348 mSec
+
+******************** Test script execution end ********************
+(02:33:35.847) - Info: <a href="file:/C:/Selenium/SKDF_1.39/Sascha_Heiko/Results/TC001/TC001_01032017_023335.html" target="_blank">Link</a>
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 5
+(02:33:44.599) - Info: Browser is open
+1) ,  , () , Open , {#Data.URL}(https://www.vodafone.de/playground/mnp-10/mnp-main.html#/) , true , false
+Status: Passed - Execution time: 857
+Result: Page (Hilfe | Rufnummer online mitnehmen - Rufnummern-Mitnahme) loaded.
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/">Page url</a>
+Time: 01/03/2017 02:33:45.456 PM GMT+0100
+(02:33:45.534) - Info: Browser is open
+2) Page1, Link_VodafoneRufnummer_Und_Kundenkennwort , () , Click , () , true , false
+(02:33:49.443) - Info: Click fired:true
+Status: Passed - Execution time: 4470
+Result: Click on Link (Link_VodafoneRufnummer_Und_Kundenkennwort).
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin">Page url</a>
+Time: 01/03/2017 02:33:50.004 PM GMT+0100
+(02:33:50.067) - Info: Browser is open
+3) Page1, MSISDN , () , Type , 015200488839(015200488839) , true , false
+Status: Passed - Execution time: 1405
+Result: Write (015200488839) in Textbox (MSISDN).
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin">Page url</a>
+Time: 01/03/2017 02:33:51.472 PM GMT+0100
+(02:33:51.503) - Info: Browser is open
+4) Page1, Password , () , Type , digital(digital) , true , false
+Status: Passed - Execution time: 1396
+Result: Write (digital) in Textbox (Password).
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin">Page url</a>
+Time: 01/03/2017 02:33:52.899 PM GMT+0100
+(02:33:52.977) - Info: Browser is open
+5) Page1, Link_Anmelden , () , Click , () , true , false
+(02:33:56.550) - Info: Click fired:true
+Status: Passed - Execution time: 4150
+Result: Click on Link (Link_Anmelden).
+<a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin">Page url</a>
+Time: 01/03/2017 02:33:57.127 PM GMT+0100
+
+
+Status: Passed
+Coverage: 100.0 %
+Execution Time: 12559 mSec
+
+******************** Test script execution end ********************
+(02:33:57.142) - Info: <a href="file:/C:/Selenium/SKDF_1.39/Sascha_Heiko/Results/TC001/TC001_01032017_023357.html" target="_blank">Link</a>
+(02:34:08.437) - Info: Map file C:/Selenium/SKDF_1.39/Sascha_Heiko/UIMap.xls saved
+(02:34:08.437) - Info: UIMap file C:/Selenium/SKDF_1.39/Sascha_Heiko/UIMap.xls loaded with 1 sheets in 0 mSec
+(02:34:09.030) - Error: Object not found org.openqa.selenium.NoSuchElementException: Unable to find element with link text == Vodafone-Rufnummer und Kundenkennwort (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 406 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'E0336237', ip: '10.190.185.76', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=link text, value=Vodafone-Rufnummer und Kundenkennwort}
+Session ID: 28dea987-067e-456e-94de-fdf182737d99
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=1, ignoreZoomSetting=false, enablePersistentHover=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=about:blank, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyType=system}, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+(02:34:19.544) - Info: Quit webdriver
+(02:34:19.591) - Info: Application Closed

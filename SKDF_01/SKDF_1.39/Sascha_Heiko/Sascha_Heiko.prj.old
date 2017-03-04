@@ -1,0 +1,22 @@
+#Tue Feb 28 11:24:34 CET 2017
+timeout_ajax=20000
+timeout_find=2000
+autoSelectBrWindow=false
+Testdata=Testdata.xls
+web=false
+Results=Results
+Testscript=C\:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/0224_1.xls
+timeout_script=500
+Testsuite=Testsuite.xls
+Targets=Targets
+UIMap=0224_1.xls
+executionDelay=0
+Testscripts=Scripts
+Test_Tag=AutoTest01
+Testdata_Id=TD001
+imageCompare=false
+timeout_page=120000
+NodeIP=Local
+desktop=false
+browser=false
+Testsuite_Id=TS001

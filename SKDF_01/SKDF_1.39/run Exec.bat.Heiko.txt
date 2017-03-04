@@ -1,0 +1,6 @@
+@echo off
+set JAVA_HOME=C:\jdk-7u67
+set PATH=C:\jdk-7u67/bin;%PATH%
+java -version
+cd %~dp0
+Java -DPRJ= -DTS=TS001 -DTD=TD001 -DTAG=AutoTest001 -DTR=FF -DIP=local -jar "SKDF IDE.jar" run

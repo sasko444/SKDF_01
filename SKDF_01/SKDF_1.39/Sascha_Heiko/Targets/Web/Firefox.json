@@ -1,0 +1,45 @@
+{
+  "profilePreferences" : {
+    "webdriver_assume_untrusted_issuer" : true,
+    "webdriver_accept_untrusted_certs" : true,
+    "webdriver_enable_native_events" : true
+  },
+  "config" : {
+    "target_path" : "",
+    "timeout_find" : 0,
+    "timeout_jscript" : 0,
+    "timeout_page" : 0,
+    "auto_select_window" : false,
+    "auto_maxmize" : false,
+    "timeout_ajax" : 0
+  },
+  "desiredCapabilities" : {
+    "platform" : "ANY",
+    "elementScrollBehavior" : 1,
+    "javascriptEnabled" : true,
+    "acceptSslCerts" : true,
+    "browserName" : "firefox",
+    "unexpectedAlertBehaviour" : "ignore",
+    "rotatable" : false,
+    "locationContextEnabled" : true,
+    "version" : "",
+    "databaseEnabled" : true,
+    "browserConnectionEnabled" : true,
+    "proxy" : {
+      "proxyType" : "SYSTEM",
+      "autodetect" : false,
+      "ftpProxy" : null,
+      "httpProxy" : null,
+      "noProxy" : null,
+      "sslProxy" : null,
+      "socksProxy" : null,
+      "socksUsername" : null,
+      "socksPassword" : null,
+      "proxyAutoconfigUrl" : null
+    },
+    "webStorageEnabled" : true,
+    "nativeEvents" : false,
+    "webdriver.remote.quietExceptions" : false,
+    "applicationCacheEnabled" : true
+  }
+}

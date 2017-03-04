@@ -1,0 +1,14 @@
+(11:21:35.092) - Info: UIMap file C:/Selenium/SKDF_1.39/Sascha_Heiko/0224_1.xls loaded with 1 sheets in 0 mSec
+(11:21:35.108) - Info: Testscript (TC001) loaded with 7 step
+(11:21:35.108) - Info: Testscript (Start001) loaded with 1 step
+(11:21:35.108) - Info: Testscript file (C:/Selenium/SKDF_1.39/Sascha_Heiko/Scripts/Script1.xls) loaded with 2 script in 0 mSec
+ - Script1 , TC001 , Test Name , true , 1 , []
+(11:21:47.073) - Error: Testcase conversion failed, Failed to find the system Java compiler. Check that your class path includes tools.jar
+java.lang.IllegalStateException: Failed to find the system Java compiler. Check that your class path includes tools.jar
+	at org.abstractmeta.toolbox.compilation.compiler.impl.JavaSourceCompilerImpl.compile(JavaSourceCompilerImpl.java:84)
+	at org.abstractmeta.toolbox.compilation.compiler.impl.JavaSourceCompilerImpl.compile(JavaSourceCompilerImpl.java:78)
+	at org.abstractmeta.toolbox.compilation.compiler.impl.JavaSourceCompilerImpl.compile(JavaSourceCompilerImpl.java:72)
+	at core.com.Converter.generateTestScript(Unknown Source)
+	at core.Main.runTest(Unknown Source)
+	at ide.Actions$ScriptManager$3.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

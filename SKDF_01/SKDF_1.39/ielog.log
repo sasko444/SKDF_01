@@ -1,0 +1,9 @@
+W 2017-03-01 15:57:26:941 Alert.cpp(237) Failed to get Active Accessibility text child object from pane
+W 2017-03-01 15:57:27:159 Alert.cpp(237) Failed to get Active Accessibility text child object from pane
+W 2017-03-01 15:57:27:284 Alert.cpp(237) Failed to get Active Accessibility text child object from pane
+W 2017-03-01 15:59:37:757 IECommandExecutor.cpp(615) Browser ID requested was an empty string
+W 2017-03-01 15:59:37:757 IECommandExecutor.cpp(531) Unable to find current browser
+W 2017-03-01 15:59:37:757 IECommandExecutor.cpp(615) Browser ID requested was an empty string
+W 2017-03-01 15:59:37:757 IECommandExecutor.cpp(548) Unable to get current browser
+W 2017-03-01 15:59:37:757 IECommandExecutor.cpp(615) Browser ID requested was an empty string
+W 2017-03-01 15:59:37:757 IECommandExecutor.cpp(531) Unable to find current browser

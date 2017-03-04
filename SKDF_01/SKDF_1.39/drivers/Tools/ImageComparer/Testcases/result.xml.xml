@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Testcase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>TC001</Id>
+  <PathCurrentRun>M:\workspace\SKDF\Data Files\eCare\Results\TC001\TC001_Test Name_17092015_051800</PathCurrentRun>
+  <Name>Test Name</Name>
+  <Target>Chrome</Target>
+  <Date>0001-01-01T00:00:00</Date>
+  <Steps>
+    <TestStep>
+      <Number>1</Number>
+      <Description />
+      <CurrentScreenshotPath>Step_1_Passed.png</CurrentScreenshotPath>
+      <DiffAmount>0</DiffAmount>
+    </TestStep>
+  </Steps>
+</Testcase>

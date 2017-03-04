@@ -1,0 +1,65 @@
+(11:18:11.404) - Info: UIMap file C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/0224_1.xls loaded with 1 sheets in 221 mSec
+(11:18:11.413) - Info: Testdata file C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/Testdata.xls loaded with 1 in 7 mSec
+(11:18:11.422) - Info: Testscript (TC001) loaded with 7 step
+(11:18:11.423) - Info: Testscript (Start001) loaded with 1 step
+(11:18:11.423) - Info: Testscript file (C:\Projekte\Testautomation\temp\vvl_consumer_ols\Sascha_Heiko\Scripts\Script1.xls) loaded with 2 script in 8 mSec
+(11:18:11.424) - Info: (C:\Projekte\Testautomation\temp\vvl_consumer_ols\Sascha_Heiko\Scripts\Script1) Loaded
+(11:18:11.440) - Info: Testscript (C:\Projekte\Testautomation\temp\vvl_consumer_ols\Sascha_Heiko\Scripts\Script1.xls) sheet (TC001) loaded with 7 step in 4 mSec
+(11:18:11.441) - Info: Testsuite C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/Testsuite.xls sheet TS001 loaded with 1 scripts in 15 mSec
+
+******************** Test Suite Execution Started ********************
+Testsuite Id: TS001
+Test Data Id: TD001
+Testsuite Name: Suite Name
+Testsuite Description: Suite Description
+ - IP/Port : local
+Data Tag: AutoTest001
+Number of Testscripts: 1
+Operating System: Desktop() Web() 
+target: Desktop() Web() 
+
+     Activity, Testscript Id, Testscript Name, Run, Iterations, Dependencies
+(11:18:11.734) - Error: Testcase conversion failed, Failed to find the system Java compiler. Check that your class path includes tools.jar
+java.lang.IllegalStateException: Failed to find the system Java compiler. Check that your class path includes tools.jar
+	at org.abstractmeta.toolbox.compilation.compiler.impl.JavaSourceCompilerImpl.compile(JavaSourceCompilerImpl.java:84)
+	at org.abstractmeta.toolbox.compilation.compiler.impl.JavaSourceCompilerImpl.compile(JavaSourceCompilerImpl.java:78)
+	at org.abstractmeta.toolbox.compilation.compiler.impl.JavaSourceCompilerImpl.compile(JavaSourceCompilerImpl.java:72)
+	at core.com.Converter.generateTestScript(Unknown Source)
+	at core.Main.suite(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:272)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1072)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:682)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1434)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:632)
+	at core.Main.main(Unknown Source)
+ - Script1 , TC001 , Test Name , true , 1 , []
+(11:18:11.758) - Error: Test class cannot be null
+java.lang.NullPointerException: Test class cannot be null
+	at org.junit.internal.runners.ErrorReportingRunner.<init>(ErrorReportingRunner.java:20)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:61)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at junit.framework.JUnit4TestAdapter.<init>(JUnit4TestAdapter.java:30)
+	at junit.framework.JUnit4TestAdapter.<init>(JUnit4TestAdapter.java:24)
+	at core.Main.suite(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:272)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1072)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:682)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1434)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:632)
+	at core.Main.main(Unknown Source)
+Exception in thread "main" java.lang.NullPointerException
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1072)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:682)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1434)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:632)
+	at core.Main.main(Unknown Source)
+(11:18:11.922) - Info: 0 saved in pass list: []

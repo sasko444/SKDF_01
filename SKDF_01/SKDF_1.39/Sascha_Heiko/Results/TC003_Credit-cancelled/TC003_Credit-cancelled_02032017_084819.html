@@ -1,0 +1,79 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Test script results</title>
+  <script type="text/javascript" src="jquery-1.js"></script>
+  <style type="text/css">
+  
+p1    {color:blue}
+p2    {color:red}
+table.table1{ border-collapse: collapse;
+width: 100%; border: 1px solid black; word-wrap:break-word;
+margin-bottom: 2px;
+} 
+
+table.table1 td,tr{
+border: 1px solid black; word-wrap:break-word;
+}
+
+table.table2 {
+table-layout:fixed; width: 100%; border: 1px solid black; word-wrap:break-word;
+} 
+
+td,tr,th{
+border: 1px solid black; word-wrap:break-word;
+}
+
+td{
+padding: 2px;
+}
+
+table.table2 tr:hover{
+background-color: #F8F8F8 
+}
+  
+div.scrol{
+max-height: 10em; overflow: auto;  font-family: "Arial"; font-size: 14px;
+}
+
+div{
+font-family: "Times New Roman"; font-size: 14px;
+}
+
+tr.header{
+cursor:pointer;
+}
+
+.header .sign:after{
+content:"+";
+display:inline-block;      
+}
+
+.header.expand .sign:after{
+content:"-";
+}
+  </style>
+<script type="text/javascript">//<![CDATA[ 
+$(function(){
+$('.header').click(function(){
+     $(this).toggleClass('expand').nextUntil('tr.header').slideToggle(100);
+});
+$('.header').toggleClass('expand').nextUntil('tr.header').slideToggle(0);
+
+$("#toggleButtonId").click( function(){
+if(this.textContent == "+")
+{
+this.textContent = "-"
+$('.header').addClass('expand').nextUntil('tr.header').slideToggle(0);
+}
+else
+{
+this.textContent = "+"
+$('.header').removeClass('expand').nextUntil('tr.header').slideToggle(0);
+}
+});
+});//]]>  
+</script>
+</head>
+<body><TABLE class='table1'><TR><th align=left WIDTH=20%><div>Test Suite Id: Script TC003_Credit-cancelled</div></th><th align=left WIDTH=20%><div>Test Data Id: TD001</div></th><th align=left WIDTH=60%><div>Test Suite Name: Script Laufzeit-Vertrag</div></th></TR></TABLE'><TABLE class='table1'><TR><th align=left WIDTH=20%><div>Test Script Id: TC003_Credit-cancelled</div></th><th align=left WIDTH=20%><div>Activity: Script1</div></th><th align=left WIDTH=60%><div>Test Script Name: Laufzeit-Vertrag</div></th></TR></TABLE'><TABLE class='table1'><TR><th align=left WIDTH=100%><div>Test Script Description: </div></th></TR></TABLE'><TABLE class='table1'><TR><th align=left WIDTH=40%><div>Platform: Desktop() Web(XP) </div></th><th align=left WIDTH=40%><div>Target: Desktop() Web(chrome 56.0.2924.87) </div></th><th align=left WIDTH=20%><div>Run On: Local</div></th></TR></TABLE'><TABLE class='table1'><TR><th align=left WIDTH=13%><div>Number of Steps: 1</div></th><th align=left WIDTH=13%><div>Number of Failed Steps: 0</div></th><th align=left WIDTH=14%><div>Covarage: 100.0 %</div></th><th align=left WIDTH=20%><div>Execution Date: 02/03/17 08:48:19</div></th><th align=left WIDTH=20%><div>Execution Time: 0,68 sec</div></th><th align=left BGCOLOR=#00FF00 WIDTH=20%><div>Status: Passed</div></th></TR></TABLE'><TABLE class='table1'><p> </p><TR><th align=center WIDTH=100%><div>Test Script Results</div></th></TR></TABLE><TABLE class='table2'><TR><th align=center BGCOLOR=LIGHTGRAY WIDTH=2%><div><button id="toggleButtonId">+</button></div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=5%><div>Target</div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=10%><div>Page</div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=15%><div>Object</div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=8%><div>Action</div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=20%><div>Data</div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=5%><div>Ex. Time</div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=5%><div>Status</div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=30%><div>Result</div></th></TR><TR class="header expand" ><TD align=center><div>=ROW()-5</div></TD><TD align=left><div>Web</div></TD><TD align=left><div>Page2</div></TD><TD align=left><div>Button_Cancelled </div></TD><TD align=center><div>Click</div></TD><TD align=left><div></div></TD><TD align=center><div>0,64 sec</div></TD><TD align=center BGCOLOR=#00FF00><div>Passed</div></TD><TD align=left><div>Click on Button (Button_Cancelled).<br /><a href="https://www.vodafone.de/playground/mnp-10/mnp-main.html#/auswahl/vertragbeendet/kuendigungsdatum">Page url</a><br />Time: 02/03/2017 08:48:19.990 AM GMT+0100</div></TD></TR></TABLE></body></html>

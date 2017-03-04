@@ -1,0 +1,56 @@
+(11:15:13.423) - Info: UIMap file C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/0224_1.xls loaded with 1 sheets in 0 mSec
+(11:15:13.439) - Info: Testscript (TC001) loaded with 7 step
+(11:15:13.455) - Info: Testscript (Start001) loaded with 1 step
+(11:15:13.455) - Info: Testscript file (C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/Scripts/Script1.xls) loaded with 2 script in 16 mSec
+(11:15:22.440) - Info: Chrome config loaded.
+Chrome
+Cabability: platform=ANY
+Cabability: acceptSslCerts=true
+Cabability: javascriptEnabled=true
+Cabability: elementScrollBehavior=1
+Cabability: browserName=chrome
+Cabability: rotatable=false
+Cabability: unexpectedAlertBehaviour=ignore
+Cabability: locationContextEnabled=true
+Cabability: chromeOptions=org.openqa.selenium.chrome.ChromeOptions@54a78c0d
+Cabability: version=
+Cabability: databaseEnabled=true
+Cabability: browserConnectionEnabled=true
+Cabability: nativeEvents=false
+Cabability: webStorageEnabled=true
+Cabability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+Cabability: webdriver.remote.quietExceptions=false
+Cabability: applicationCacheEnabled=true
+Config: auto_select_window=false
+Config: auto_maxmize=false
+Config: timeout_page=120000
+Config: timeout_find=2000
+Config: timeout_jscript=500
+Config: timeout_ajax=20000
+Config: mobileEmulation=false
+Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 45871
+Only local connections are allowed.
+(11:15:24.915) - Info: Browser opened
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 1
+(11:15:49.698) - Info: Browser is open
+1) ,  , () , Open , {#Data.URL}() , true , false
+Status: Passed - Execution time: 906
+Result: Page () loaded.
+<a href="data:,">Page url</a>
+Time: 28/02/2017 11:15:50.609 AM GMT+0100
+
+
+Status: Passed
+Coverage: 100.0 %
+Execution Time: 960 mSec
+
+******************** Test script execution end ********************
+(11:15:50.627) - Info: <a href="file:/C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/Results/TC001/TC001_28022017_111550.html" target="_blank">Link</a>

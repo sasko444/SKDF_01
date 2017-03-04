@@ -1,0 +1,4297 @@
+[0.452][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "acceptSslCerts": true,
+      "applicationCacheEnabled": true,
+      "browserConnectionEnabled": true,
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [ "ignore-certificate-errors", "ignore-autocomplete-off-autofill", "new-window", "test-type", "start-maximized", "fast-start" ],
+         "extensions": [  ],
+         "prefs": {
+            "profile.default_content_settings.popups": 0
+         }
+      },
+      "databaseEnabled": true,
+      "elementScrollBehavior": 1,
+      "javascriptEnabled": true,
+      "locationContextEnabled": true,
+      "nativeEvents": false,
+      "platform": "ANY",
+      "proxy": {
+         "autodetect": false,
+         "ftpProxy": null,
+         "httpProxy": null,
+         "noProxy": null,
+         "proxyAutoconfigUrl": null,
+         "proxyType": "SYSTEM",
+         "socksPassword": null,
+         "socksProxy": null,
+         "socksUsername": null,
+         "sslProxy": null
+      },
+      "rotatable": false,
+      "unexpectedAlertBehaviour": "ignore",
+      "version": "",
+      "webStorageEnabled": true,
+      "webdriver.remote.quietExceptions": false
+   }
+}
+[0.458][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 0,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[0.461][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[0.476][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-infobars --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --fast-start --ignore-autocomplete-off-autofill --ignore-certificate-errors --load-component-extension="C:\Users\SASA~1.KOS\AppData\Local\Temp\scoped_dir7028_21251\internal" --log-level=0 --metrics-recording-only --new-window --no-first-run --password-store=basic --remote-debugging-port=12468 --safebrowsing-disable-auto-update --start-maximized --test-type --use-mock-keychain --user-data-dir="C:\Users\SASA~1.KOS\AppData\Local\Temp\scoped_dir7028_24920" data:,
+[1.129][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1.275][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)",
+      "userDataDir": "C:\\Users\\SASA~1.KOS\\AppData\\Local\\Temp\\scoped_dir7028_24920"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "~~~": "..."
+}
+[1.279][INFO]: COMMAND GetWindows {
+
+}
+[1.280][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[1.283][INFO]: COMMAND GetWindow {
+
+}
+[1.283][INFO]: RESPONSE GetWindow "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522"
+[1.287][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[1.287][INFO]: RESPONSE SetTimeout
+[1.290][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[1.290][INFO]: RESPONSE SetTimeout
+[1.293][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[1.293][INFO]: RESPONSE SetTimeout
+[1.296][INFO]: COMMAND DeleteAllCookies {
+
+}
+[1.296][INFO]: Waiting for pending navigations...
+[1.298][INFO]: Done waiting for pending navigations. Status: ok
+[1.413][INFO]: Waiting for pending navigations...
+[1.415][INFO]: Done waiting for pending navigations. Status: ok
+[1.415][INFO]: RESPONSE DeleteAllCookies
+[1.423][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[1.429][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1.441][INFO]: Waiting for pending navigations...
+[1.466][INFO]: Done waiting for pending navigations. Status: ok
+[1.615][INFO]: RESPONSE MaximizeWindow
+[9.495][INFO]: COMMAND GetWindows {
+
+}
+[9.497][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[9.500][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[9.500][INFO]: RESPONSE SetTimeout
+[9.502][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[9.502][INFO]: RESPONSE SetTimeout
+[9.507][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[9.507][INFO]: RESPONSE SetTimeout
+[9.511][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[9.518][INFO]: RESPONSE MaximizeWindow
+[9.525][INFO]: COMMAND GetWindows {
+
+}
+[9.526][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[9.529][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[9.529][INFO]: Waiting for pending navigations...
+[9.530][INFO]: Done waiting for pending navigations. Status: ok
+[9.530][INFO]: Waiting for pending navigations...
+[9.531][INFO]: Done waiting for pending navigations. Status: ok
+[9.531][INFO]: RESPONSE SwitchToFrame
+[9.534][INFO]: COMMAND Navigate {
+   "url": "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/"
+}
+[9.534][INFO]: Waiting for pending navigations...
+[9.535][INFO]: Done waiting for pending navigations. Status: ok
+[9.924][INFO]: Waiting for pending navigations...
+[9.944][INFO]: Done waiting for pending navigations. Status: ok
+[9.944][INFO]: RESPONSE Navigate
+[9.949][INFO]: COMMAND GetWindows {
+
+}
+[9.950][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[9.953][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[9.953][INFO]: Waiting for pending navigations...
+[9.955][INFO]: Done waiting for pending navigations. Status: ok
+[9.955][INFO]: Waiting for pending navigations...
+[9.961][INFO]: Done waiting for pending navigations. Status: ok
+[9.961][INFO]: RESPONSE SwitchToFrame
+[10.166][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[10.166][INFO]: Waiting for pending navigations...
+[10.168][INFO]: Done waiting for pending navigations. Status: ok
+[10.178][INFO]: Waiting for pending navigations...
+[10.179][INFO]: Done waiting for pending navigations. Status: ok
+[10.179][INFO]: RESPONSE ExecuteScript true
+[10.385][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[10.386][INFO]: Waiting for pending navigations...
+[10.388][INFO]: Done waiting for pending navigations. Status: ok
+[10.396][INFO]: Waiting for pending navigations...
+[10.398][INFO]: Done waiting for pending navigations. Status: ok
+[10.398][INFO]: RESPONSE ExecuteScript true
+[10.405][INFO]: COMMAND GetTitle {
+
+}
+[10.405][INFO]: Waiting for pending navigations...
+[10.407][INFO]: Done waiting for pending navigations. Status: ok
+[10.415][INFO]: Waiting for pending navigations...
+[10.418][INFO]: Done waiting for pending navigations. Status: ok
+[10.418][INFO]: RESPONSE GetTitle ""
+[10.422][INFO]: COMMAND GetTitle {
+
+}
+[10.422][INFO]: Waiting for pending navigations...
+[10.424][INFO]: Done waiting for pending navigations. Status: ok
+[10.429][INFO]: Waiting for pending navigations...
+[10.431][INFO]: Done waiting for pending navigations. Status: ok
+[10.431][INFO]: RESPONSE GetTitle ""
+[10.434][INFO]: COMMAND GetUrl {
+
+}
+[10.434][INFO]: Waiting for pending navigations...
+[10.436][INFO]: Done waiting for pending navigations. Status: ok
+[10.441][INFO]: Waiting for pending navigations...
+[10.442][INFO]: Done waiting for pending navigations. Status: ok
+[10.442][INFO]: RESPONSE GetUrl "data:,"
+[10.447][INFO]: COMMAND GetWindows {
+
+}
+[10.449][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[10.453][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[10.453][INFO]: RESPONSE SetTimeout
+[10.458][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[10.458][INFO]: RESPONSE SetTimeout
+[10.461][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[10.461][INFO]: RESPONSE SetTimeout
+[10.465][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[10.470][INFO]: RESPONSE MaximizeWindow
+[10.477][INFO]: COMMAND GetWindows {
+
+}
+[10.478][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[10.481][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[10.481][INFO]: Waiting for pending navigations...
+[10.483][INFO]: Done waiting for pending navigations. Status: ok
+[10.483][INFO]: Waiting for pending navigations...
+[10.484][INFO]: Done waiting for pending navigations. Status: ok
+[10.484][INFO]: RESPONSE SwitchToFrame
+[10.488][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Vodafone-Rufnummer und Kundenkennwort"
+}
+[10.488][INFO]: Waiting for pending navigations...
+[10.491][INFO]: Done waiting for pending navigations. Status: ok
+[12.557][INFO]: Waiting for pending navigations...
+[12.559][INFO]: Done waiting for pending navigations. Status: ok
+[12.559][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Vodafone-Rufnummer und Kundenkennwort"}
+  (Session info: chrome=56.0.2924.87)
+[12.603][INFO]: COMMAND GetUrl {
+
+}
+[12.603][INFO]: Waiting for pending navigations...
+[12.607][INFO]: Done waiting for pending navigations. Status: ok
+[12.612][INFO]: Waiting for pending navigations...
+[12.613][INFO]: Done waiting for pending navigations. Status: ok
+[12.613][INFO]: RESPONSE GetUrl "data:,"
+[12.716][INFO]: COMMAND GetWindows {
+
+}
+[12.718][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[12.723][INFO]: COMMAND Screenshot {
+
+}
+[12.723][INFO]: Waiting for pending navigations...
+[12.725][INFO]: Done waiting for pending navigations. Status: ok
+[12.930][INFO]: Waiting for pending navigations...
+[12.931][INFO]: Done waiting for pending navigations. Status: ok
+[12.931][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMaCAIAAABRQx3GAAAV00lEQVR4nO3YMQEAIAzAMMC/5+GAlx6Jgt7dM7MAAAAAoOr8DgAAAACAFwMLAAAAgDQDCwAAAIA0AwsAAACANAMLAAAAgDQDCwAAAIA0AwsAAACANAMLAAAAgDQDCwAAAIA0AwsAAACANAMLAAAAg..."
+[34.548][INFO]: COMMAND GetWindows {
+
+}
+[34.551][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[34.555][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[34.555][INFO]: RESPONSE SetTimeout
+[34.557][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[34.558][INFO]: RESPONSE SetTimeout
+[34.560][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[34.560][INFO]: RESPONSE SetTimeout
+[34.564][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[34.571][INFO]: RESPONSE MaximizeWindow
+[34.576][INFO]: COMMAND GetWindows {
+
+}
+[34.578][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[34.583][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[34.587][INFO]: Waiting for pending navigations...
+[34.588][INFO]: Done waiting for pending navigations. Status: ok
+[34.588][INFO]: Waiting for pending navigations...
+[34.589][INFO]: Done waiting for pending navigations. Status: ok
+[34.589][INFO]: RESPONSE SwitchToFrame
+[34.675][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Vodafone-Rufnummer und Kundenkennwort"
+}
+[34.675][INFO]: Waiting for pending navigations...
+[34.676][INFO]: Done waiting for pending navigations. Status: ok
+[34.696][INFO]: Waiting for pending navigations...
+[34.697][INFO]: Done waiting for pending navigations. Status: ok
+[34.697][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-1"
+}
+[34.700][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24758854180665146-1"
+}
+[34.700][INFO]: Waiting for pending navigations...
+[34.701][INFO]: Done waiting for pending navigations. Status: ok
+[34.710][INFO]: Waiting for pending navigations...
+[34.711][INFO]: Done waiting for pending navigations. Status: ok
+[34.711][INFO]: RESPONSE IsElementDisplayed true
+[34.714][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-1",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-1"
+   } ],
+   "script": "window.pageChangedFlag = false; function isclickfired() {window.pageChangedFlag = true;} if (arguments[0].addEventListener) {arguments[0].addEventListener(\"click\", isclickfired, false);}else {argum..."
+}
+[34.714][INFO]: Waiting for pending navigations...
+[34.717][INFO]: Done waiting for pending navigations. Status: ok
+[34.719][INFO]: Waiting for pending navigations...
+[34.720][INFO]: Done waiting for pending navigations. Status: ok
+[34.720][INFO]: RESPONSE ExecuteScript null
+[34.723][INFO]: COMMAND ClickElement {
+   "id": "0.24758854180665146-1"
+}
+[34.723][INFO]: Waiting for pending navigations...
+[34.724][INFO]: Done waiting for pending navigations. Status: ok
+[34.753][INFO]: Waiting for pending navigations...
+[34.777][INFO]: Done waiting for pending navigations. Status: ok
+[34.777][INFO]: RESPONSE ClickElement
+[34.789][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return (window.pageChangedFlag == null || window.pageChangedFlag == true)"
+}
+[34.789][INFO]: Waiting for pending navigations...
+[34.793][INFO]: Done waiting for pending navigations. Status: ok
+[34.796][INFO]: Waiting for pending navigations...
+[34.798][INFO]: Done waiting for pending navigations. Status: ok
+[34.798][INFO]: RESPONSE ExecuteScript true
+[34.804][INFO]: COMMAND GetWindows {
+
+}
+[34.806][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[34.809][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[34.809][INFO]: Waiting for pending navigations...
+[34.810][INFO]: Done waiting for pending navigations. Status: ok
+[34.810][INFO]: Waiting for pending navigations...
+[34.812][INFO]: Done waiting for pending navigations. Status: ok
+[34.812][INFO]: RESPONSE SwitchToFrame
+[35.018][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[35.018][INFO]: Waiting for pending navigations...
+[35.023][INFO]: Done waiting for pending navigations. Status: ok
+[35.026][INFO]: Waiting for pending navigations...
+[35.027][INFO]: Done waiting for pending navigations. Status: ok
+[35.027][INFO]: RESPONSE ExecuteScript true
+[35.244][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[35.244][INFO]: Waiting for pending navigations...
+[35.246][INFO]: Done waiting for pending navigations. Status: ok
+[35.253][INFO]: Waiting for pending navigations...
+[35.255][INFO]: Done waiting for pending navigations. Status: ok
+[35.256][INFO]: RESPONSE ExecuteScript true
+[35.261][INFO]: COMMAND GetUrl {
+
+}
+[35.261][INFO]: Waiting for pending navigations...
+[35.263][INFO]: Done waiting for pending navigations. Status: ok
+[35.265][INFO]: Waiting for pending navigations...
+[35.266][INFO]: Done waiting for pending navigations. Status: ok
+[35.267][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[42.260][INFO]: COMMAND GetWindows {
+
+}
+[42.263][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[42.269][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[42.269][INFO]: RESPONSE SetTimeout
+[42.272][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[42.272][INFO]: RESPONSE SetTimeout
+[42.275][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[42.275][INFO]: RESPONSE SetTimeout
+[42.278][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[42.289][INFO]: RESPONSE MaximizeWindow
+[42.295][INFO]: COMMAND GetWindows {
+
+}
+[42.298][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[42.302][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[42.302][INFO]: Waiting for pending navigations...
+[42.303][INFO]: Done waiting for pending navigations. Status: ok
+[42.303][INFO]: Waiting for pending navigations...
+[42.304][INFO]: Done waiting for pending navigations. Status: ok
+[42.304][INFO]: RESPONSE SwitchToFrame
+[42.307][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "number"
+}
+[42.307][INFO]: Waiting for pending navigations...
+[42.308][INFO]: Done waiting for pending navigations. Status: ok
+[42.320][INFO]: Waiting for pending navigations...
+[42.321][INFO]: Done waiting for pending navigations. Status: ok
+[42.321][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-2"
+}
+[42.324][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-2"
+}
+[42.324][INFO]: Waiting for pending navigations...
+[42.325][INFO]: Done waiting for pending navigations. Status: ok
+[42.328][INFO]: Waiting for pending navigations...
+[42.328][INFO]: Done waiting for pending navigations. Status: ok
+[42.329][INFO]: RESPONSE GetElementTagName "input"
+[42.331][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-2",
+   "value": [ "a" ]
+}
+[42.331][INFO]: Waiting for pending navigations...
+[42.332][INFO]: Done waiting for pending navigations. Status: ok
+[42.368][INFO]: Waiting for pending navigations...
+[42.370][INFO]: Done waiting for pending navigations. Status: ok
+[42.370][INFO]: RESPONSE TypeElement
+[42.374][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-2",
+   "value": [ "" ]
+}
+[42.374][INFO]: Waiting for pending navigations...
+[42.375][INFO]: Done waiting for pending navigations. Status: ok
+[42.392][INFO]: Waiting for pending navigations...
+[42.393][INFO]: Done waiting for pending navigations. Status: ok
+[42.393][INFO]: RESPONSE TypeElement
+[42.396][INFO]: COMMAND ClearElement {
+   "id": "0.24758854180665146-2"
+}
+[42.396][INFO]: Waiting for pending navigations...
+[42.398][INFO]: Done waiting for pending navigations. Status: ok
+[42.413][INFO]: Waiting for pending navigations...
+[42.415][INFO]: Done waiting for pending navigations. Status: ok
+[42.415][INFO]: RESPONSE ClearElement
+[42.417][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-2",
+   "value": [ "015201588346" ]
+}
+[42.418][INFO]: Waiting for pending navigations...
+[42.419][INFO]: Done waiting for pending navigations. Status: ok
+[42.457][INFO]: Waiting for pending navigations...
+[42.493][INFO]: Done waiting for pending navigations. Status: ok
+[42.493][INFO]: RESPONSE TypeElement
+[42.498][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-2"
+}
+[42.498][INFO]: Waiting for pending navigations...
+[42.503][INFO]: Done waiting for pending navigations. Status: ok
+[42.505][INFO]: Waiting for pending navigations...
+[42.506][INFO]: Done waiting for pending navigations. Status: ok
+[42.506][INFO]: RESPONSE GetElementTagName "input"
+[42.508][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-2",
+   "name": "type"
+}
+[42.508][INFO]: Waiting for pending navigations...
+[42.509][INFO]: Done waiting for pending navigations. Status: ok
+[42.513][INFO]: Waiting for pending navigations...
+[42.515][INFO]: Done waiting for pending navigations. Status: ok
+[42.515][INFO]: RESPONSE GetElementAttribute "tel"
+[42.517][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-2",
+   "name": "value"
+}
+[42.517][INFO]: Waiting for pending navigations...
+[42.518][INFO]: Done waiting for pending navigations. Status: ok
+[42.524][INFO]: Waiting for pending navigations...
+[42.525][INFO]: Done waiting for pending navigations. Status: ok
+[42.525][INFO]: RESPONSE GetElementAttribute "015201588346"
+[42.738][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[42.739][INFO]: Waiting for pending navigations...
+[42.741][INFO]: Done waiting for pending navigations. Status: ok
+[42.746][INFO]: Waiting for pending navigations...
+[42.748][INFO]: Done waiting for pending navigations. Status: ok
+[42.748][INFO]: RESPONSE ExecuteScript true
+[42.755][INFO]: COMMAND GetUrl {
+
+}
+[42.755][INFO]: Waiting for pending navigations...
+[42.758][INFO]: Done waiting for pending navigations. Status: ok
+[42.763][INFO]: Waiting for pending navigations...
+[42.766][INFO]: Done waiting for pending navigations. Status: ok
+[42.766][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[42.776][INFO]: COMMAND GetWindows {
+
+}
+[42.780][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[42.789][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[42.789][INFO]: RESPONSE SetTimeout
+[42.797][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[42.797][INFO]: RESPONSE SetTimeout
+[42.801][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[42.802][INFO]: RESPONSE SetTimeout
+[42.806][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[42.813][INFO]: RESPONSE MaximizeWindow
+[42.820][INFO]: COMMAND GetWindows {
+
+}
+[42.823][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[42.828][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[42.828][INFO]: Waiting for pending navigations...
+[42.831][INFO]: Done waiting for pending navigations. Status: ok
+[42.831][INFO]: Waiting for pending navigations...
+[42.832][INFO]: Done waiting for pending navigations. Status: ok
+[42.832][INFO]: RESPONSE SwitchToFrame
+[42.836][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "password"
+}
+[42.836][INFO]: Waiting for pending navigations...
+[42.837][INFO]: Done waiting for pending navigations. Status: ok
+[42.850][INFO]: Waiting for pending navigations...
+[42.851][INFO]: Done waiting for pending navigations. Status: ok
+[42.851][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-3"
+}
+[42.853][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-3"
+}
+[42.853][INFO]: Waiting for pending navigations...
+[42.855][INFO]: Done waiting for pending navigations. Status: ok
+[42.857][INFO]: Waiting for pending navigations...
+[42.859][INFO]: Done waiting for pending navigations. Status: ok
+[42.859][INFO]: RESPONSE GetElementTagName "input"
+[42.862][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-3",
+   "value": [ "a" ]
+}
+[42.862][INFO]: Waiting for pending navigations...
+[42.864][INFO]: Done waiting for pending navigations. Status: ok
+[42.899][INFO]: Waiting for pending navigations...
+[42.901][INFO]: Done waiting for pending navigations. Status: ok
+[42.901][INFO]: RESPONSE TypeElement
+[42.904][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-3",
+   "value": [ "" ]
+}
+[42.904][INFO]: Waiting for pending navigations...
+[42.906][INFO]: Done waiting for pending navigations. Status: ok
+[42.920][INFO]: Waiting for pending navigations...
+[42.922][INFO]: Done waiting for pending navigations. Status: ok
+[42.922][INFO]: RESPONSE TypeElement
+[42.925][INFO]: COMMAND ClearElement {
+   "id": "0.24758854180665146-3"
+}
+[42.925][INFO]: Waiting for pending navigations...
+[42.927][INFO]: Done waiting for pending navigations. Status: ok
+[42.942][INFO]: Waiting for pending navigations...
+[42.943][INFO]: Done waiting for pending navigations. Status: ok
+[42.943][INFO]: RESPONSE ClearElement
+[42.946][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-3",
+   "value": [ "DIGITAL" ]
+}
+[42.946][INFO]: Waiting for pending navigations...
+[42.948][INFO]: Done waiting for pending navigations. Status: ok
+[42.987][INFO]: Waiting for pending navigations...
+[43.001][INFO]: Done waiting for pending navigations. Status: ok
+[43.001][INFO]: RESPONSE TypeElement
+[43.007][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-3"
+}
+[43.007][INFO]: Waiting for pending navigations...
+[43.009][INFO]: Done waiting for pending navigations. Status: ok
+[43.011][INFO]: Waiting for pending navigations...
+[43.014][INFO]: Done waiting for pending navigations. Status: ok
+[43.014][INFO]: RESPONSE GetElementTagName "input"
+[43.017][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-3",
+   "name": "type"
+}
+[43.017][INFO]: Waiting for pending navigations...
+[43.018][INFO]: Done waiting for pending navigations. Status: ok
+[43.021][INFO]: Waiting for pending navigations...
+[43.022][INFO]: Done waiting for pending navigations. Status: ok
+[43.023][INFO]: RESPONSE GetElementAttribute "password"
+[43.025][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-3",
+   "name": "value"
+}
+[43.025][INFO]: Waiting for pending navigations...
+[43.026][INFO]: Done waiting for pending navigations. Status: ok
+[43.033][INFO]: Waiting for pending navigations...
+[43.034][INFO]: Done waiting for pending navigations. Status: ok
+[43.034][INFO]: RESPONSE GetElementAttribute "DIGITAL"
+[43.255][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[43.255][INFO]: Waiting for pending navigations...
+[43.258][INFO]: Done waiting for pending navigations. Status: ok
+[43.262][INFO]: Waiting for pending navigations...
+[43.265][INFO]: Done waiting for pending navigations. Status: ok
+[43.265][INFO]: RESPONSE ExecuteScript true
+[43.273][INFO]: COMMAND GetUrl {
+
+}
+[43.273][INFO]: Waiting for pending navigations...
+[43.276][INFO]: Done waiting for pending navigations. Status: ok
+[43.280][INFO]: Waiting for pending navigations...
+[43.283][INFO]: Done waiting for pending navigations. Status: ok
+[43.283][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[43.293][INFO]: COMMAND GetWindows {
+
+}
+[43.297][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[43.306][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[43.306][INFO]: RESPONSE SetTimeout
+[43.315][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[43.315][INFO]: RESPONSE SetTimeout
+[43.320][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[43.320][INFO]: RESPONSE SetTimeout
+[43.325][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[43.331][INFO]: RESPONSE MaximizeWindow
+[43.336][INFO]: COMMAND GetWindows {
+
+}
+[43.338][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[43.341][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[43.341][INFO]: Waiting for pending navigations...
+[43.343][INFO]: Done waiting for pending navigations. Status: ok
+[43.343][INFO]: Waiting for pending navigations...
+[43.344][INFO]: Done waiting for pending navigations. Status: ok
+[43.344][INFO]: RESPONSE SwitchToFrame
+[43.350][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Anmelden"
+}
+[43.350][INFO]: Waiting for pending navigations...
+[43.351][INFO]: Done waiting for pending navigations. Status: ok
+[43.373][INFO]: Waiting for pending navigations...
+[43.375][INFO]: Done waiting for pending navigations. Status: ok
+[43.375][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-4"
+}
+[43.378][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24758854180665146-4"
+}
+[43.378][INFO]: Waiting for pending navigations...
+[43.380][INFO]: Done waiting for pending navigations. Status: ok
+[43.390][INFO]: Waiting for pending navigations...
+[43.391][INFO]: Done waiting for pending navigations. Status: ok
+[43.391][INFO]: RESPONSE IsElementDisplayed true
+[43.394][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-4",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-4"
+   } ],
+   "script": "window.pageChangedFlag = false; function isclickfired() {window.pageChangedFlag = true;} if (arguments[0].addEventListener) {arguments[0].addEventListener(\"click\", isclickfired, false);}else {argum..."
+}
+[43.395][INFO]: Waiting for pending navigations...
+[43.397][INFO]: Done waiting for pending navigations. Status: ok
+[43.400][INFO]: Waiting for pending navigations...
+[43.401][INFO]: Done waiting for pending navigations. Status: ok
+[43.401][INFO]: RESPONSE ExecuteScript null
+[43.404][INFO]: COMMAND ClickElement {
+   "id": "0.24758854180665146-4"
+}
+[43.404][INFO]: Waiting for pending navigations...
+[43.405][INFO]: Done waiting for pending navigations. Status: ok
+[43.435][INFO]: Waiting for pending navigations...
+[43.460][INFO]: Done waiting for pending navigations. Status: ok
+[43.460][INFO]: RESPONSE ClickElement
+[43.467][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return (window.pageChangedFlag == null || window.pageChangedFlag == true)"
+}
+[43.467][INFO]: Waiting for pending navigations...
+[43.476][INFO]: Done waiting for pending navigations. Status: ok
+[43.479][INFO]: Waiting for pending navigations...
+[43.480][INFO]: Done waiting for pending navigations. Status: ok
+[43.480][INFO]: RESPONSE ExecuteScript true
+[43.484][INFO]: COMMAND GetWindows {
+
+}
+[43.489][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[43.493][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[43.493][INFO]: Waiting for pending navigations...
+[43.495][INFO]: Done waiting for pending navigations. Status: ok
+[43.495][INFO]: Waiting for pending navigations...
+[43.497][INFO]: Done waiting for pending navigations. Status: ok
+[43.497][INFO]: RESPONSE SwitchToFrame
+[43.707][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[43.707][INFO]: Waiting for pending navigations...
+[43.712][INFO]: Done waiting for pending navigations. Status: ok
+[43.717][INFO]: Waiting for pending navigations...
+[43.720][INFO]: Done waiting for pending navigations. Status: ok
+[43.720][INFO]: RESPONSE ExecuteScript true
+[43.931][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[43.931][INFO]: Waiting for pending navigations...
+[43.934][INFO]: Done waiting for pending navigations. Status: ok
+[43.939][INFO]: Waiting for pending navigations...
+[43.941][INFO]: Done waiting for pending navigations. Status: ok
+[43.941][INFO]: RESPONSE ExecuteScript true
+[43.949][INFO]: COMMAND GetUrl {
+
+}
+[43.949][INFO]: Waiting for pending navigations...
+[43.951][INFO]: Done waiting for pending navigations. Status: ok
+[43.956][INFO]: Waiting for pending navigations...
+[43.959][INFO]: Done waiting for pending navigations. Status: ok
+[43.959][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[43.966][INFO]: COMMAND GetWindows {
+
+}
+[43.969][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[43.972][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[43.972][INFO]: RESPONSE SetTimeout
+[43.976][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[43.976][INFO]: RESPONSE SetTimeout
+[43.980][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[43.980][INFO]: RESPONSE SetTimeout
+[43.985][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[43.990][INFO]: RESPONSE MaximizeWindow
+[43.997][INFO]: COMMAND GetWindows {
+
+}
+[44.000][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[44.003][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[44.003][INFO]: Waiting for pending navigations...
+[44.004][INFO]: Done waiting for pending navigations. Status: ok
+[44.004][INFO]: Waiting for pending navigations...
+[44.006][INFO]: Done waiting for pending navigations. Status: ok
+[44.006][INFO]: RESPONSE SwitchToFrame
+[44.009][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Jetzt Rufnummern- Mitnahme starten"
+}
+[44.009][INFO]: Waiting for pending navigations...
+[44.011][INFO]: Done waiting for pending navigations. Status: ok
+[46.095][INFO]: Waiting for pending navigations...
+[46.097][INFO]: Done waiting for pending navigations. Status: ok
+[46.097][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Jetzt Rufnummern- Mitnahme starten"}
+  (Session info: chrome=56.0.2924.87)
+[46.602][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Jetzt Rufnummern- Mitnahme starten"
+}
+[46.602][INFO]: Waiting for pending navigations...
+[46.605][INFO]: Done waiting for pending navigations. Status: ok
+[48.659][INFO]: Waiting for pending navigations...
+[48.661][INFO]: Done waiting for pending navigations. Status: ok
+[48.661][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Jetzt Rufnummern- Mitnahme starten"}
+  (Session info: chrome=56.0.2924.87)
+[49.163][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Jetzt Rufnummern- Mitnahme starten"
+}
+[49.163][INFO]: Waiting for pending navigations...
+[49.165][INFO]: Done waiting for pending navigations. Status: ok
+[51.208][INFO]: Waiting for pending navigations...
+[51.210][INFO]: Done waiting for pending navigations. Status: ok
+[51.210][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Jetzt Rufnummern- Mitnahme starten"}
+  (Session info: chrome=56.0.2924.87)
+[51.717][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Jetzt Rufnummern- Mitnahme starten"
+}
+[51.717][INFO]: Waiting for pending navigations...
+[51.720][INFO]: Done waiting for pending navigations. Status: ok
+[53.763][INFO]: Waiting for pending navigations...
+[53.765][INFO]: Done waiting for pending navigations. Status: ok
+[53.765][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Jetzt Rufnummern- Mitnahme starten"}
+  (Session info: chrome=56.0.2924.87)
+[54.262][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Jetzt Rufnummern- Mitnahme starten"
+}
+[54.262][INFO]: Waiting for pending navigations...
+[54.265][INFO]: Done waiting for pending navigations. Status: ok
+[56.352][INFO]: Waiting for pending navigations...
+[56.353][INFO]: Done waiting for pending navigations. Status: ok
+[56.353][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Jetzt Rufnummern- Mitnahme starten"}
+  (Session info: chrome=56.0.2924.87)
+[56.874][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Jetzt Rufnummern- Mitnahme starten"
+}
+[56.874][INFO]: Waiting for pending navigations...
+[56.875][INFO]: Done waiting for pending navigations. Status: ok
+[58.878][INFO]: Waiting for pending navigations...
+[58.879][INFO]: Done waiting for pending navigations. Status: ok
+[58.880][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Jetzt Rufnummern- Mitnahme starten"}
+  (Session info: chrome=56.0.2924.87)
+[59.377][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Jetzt Rufnummern- Mitnahme starten"
+}
+[59.377][INFO]: Waiting for pending navigations...
+[59.380][INFO]: Done waiting for pending navigations. Status: ok
+[61.407][INFO]: Waiting for pending navigations...
+[61.433][INFO]: Done waiting for pending navigations. Status: ok
+[61.433][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-5"
+}
+[61.438][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24758854180665146-5"
+}
+[61.438][INFO]: Waiting for pending navigations...
+[61.439][INFO]: Done waiting for pending navigations. Status: ok
+[61.453][INFO]: Waiting for pending navigations...
+[61.454][INFO]: Done waiting for pending navigations. Status: ok
+[61.454][INFO]: RESPONSE IsElementDisplayed true
+[61.459][INFO]: COMMAND GetUrl {
+
+}
+[61.459][INFO]: Waiting for pending navigations...
+[61.466][INFO]: Done waiting for pending navigations. Status: ok
+[61.473][INFO]: Waiting for pending navigations...
+[61.474][INFO]: Done waiting for pending navigations. Status: ok
+[61.474][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/rufnummern-mitnahme-eingeloggt"
+[61.478][INFO]: COMMAND GetWindows {
+
+}
+[61.479][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[61.482][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[61.482][INFO]: RESPONSE SetTimeout
+[61.484][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[61.484][INFO]: RESPONSE SetTimeout
+[61.487][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[61.487][INFO]: RESPONSE SetTimeout
+[61.492][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[61.603][INFO]: RESPONSE MaximizeWindow
+[61.617][INFO]: COMMAND GetWindows {
+
+}
+[61.622][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[61.630][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[61.630][INFO]: Waiting for pending navigations...
+[61.633][INFO]: Done waiting for pending navigations. Status: ok
+[61.633][INFO]: Waiting for pending navigations...
+[61.635][INFO]: Done waiting for pending navigations. Status: ok
+[61.635][INFO]: RESPONSE SwitchToFrame
+[61.641][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Jetzt Rufnummern- Mitnahme starten"
+}
+[61.641][INFO]: Waiting for pending navigations...
+[61.643][INFO]: Done waiting for pending navigations. Status: ok
+[61.654][INFO]: Waiting for pending navigations...
+[61.656][INFO]: Done waiting for pending navigations. Status: ok
+[61.656][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-5"
+}
+[61.667][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24758854180665146-5"
+}
+[61.667][INFO]: Waiting for pending navigations...
+[61.669][INFO]: Done waiting for pending navigations. Status: ok
+[61.675][INFO]: Waiting for pending navigations...
+[61.677][INFO]: Done waiting for pending navigations. Status: ok
+[61.677][INFO]: RESPONSE IsElementDisplayed true
+[61.681][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-5",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-5"
+   } ],
+   "script": "window.pageChangedFlag = false; function isclickfired() {window.pageChangedFlag = true;} if (arguments[0].addEventListener) {arguments[0].addEventListener(\"click\", isclickfired, false);}else {argum..."
+}
+[61.681][INFO]: Waiting for pending navigations...
+[61.683][INFO]: Done waiting for pending navigations. Status: ok
+[61.687][INFO]: Waiting for pending navigations...
+[61.688][INFO]: Done waiting for pending navigations. Status: ok
+[61.688][INFO]: RESPONSE ExecuteScript null
+[61.693][INFO]: COMMAND ClickElement {
+   "id": "0.24758854180665146-5"
+}
+[61.693][INFO]: Waiting for pending navigations...
+[61.694][INFO]: Done waiting for pending navigations. Status: ok
+[61.726][INFO]: Waiting for pending navigations...
+[61.748][INFO]: Done waiting for pending navigations. Status: ok
+[61.748][INFO]: RESPONSE ClickElement
+[61.753][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return (window.pageChangedFlag == null || window.pageChangedFlag == true)"
+}
+[61.753][INFO]: Waiting for pending navigations...
+[61.754][INFO]: Done waiting for pending navigations. Status: ok
+[61.757][INFO]: Waiting for pending navigations...
+[61.758][INFO]: Done waiting for pending navigations. Status: ok
+[61.758][INFO]: RESPONSE ExecuteScript true
+[61.762][INFO]: COMMAND GetWindows {
+
+}
+[61.764][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[61.766][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[61.766][INFO]: Waiting for pending navigations...
+[61.768][INFO]: Done waiting for pending navigations. Status: ok
+[61.768][INFO]: Waiting for pending navigations...
+[61.769][INFO]: Done waiting for pending navigations. Status: ok
+[61.769][INFO]: RESPONSE SwitchToFrame
+[61.972][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[61.973][INFO]: Waiting for pending navigations...
+[61.976][INFO]: Done waiting for pending navigations. Status: ok
+[61.979][INFO]: Waiting for pending navigations...
+[61.979][INFO]: Done waiting for pending navigations. Status: ok
+[61.979][INFO]: RESPONSE ExecuteScript true
+[62.191][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[62.191][INFO]: Waiting for pending navigations...
+[62.194][INFO]: Done waiting for pending navigations. Status: ok
+[62.200][INFO]: Waiting for pending navigations...
+[62.203][INFO]: Done waiting for pending navigations. Status: ok
+[62.203][INFO]: RESPONSE ExecuteScript true
+[62.210][INFO]: COMMAND GetUrl {
+
+}
+[62.210][INFO]: Waiting for pending navigations...
+[62.213][INFO]: Done waiting for pending navigations. Status: ok
+[62.217][INFO]: Waiting for pending navigations...
+[62.220][INFO]: Done waiting for pending navigations. Status: ok
+[62.220][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/auswahl"
+[67.902][INFO]: COMMAND GetWindows {
+
+}
+[67.906][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[67.911][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[67.911][INFO]: RESPONSE SetTimeout
+[67.914][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[67.914][INFO]: RESPONSE SetTimeout
+[67.916][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[67.917][INFO]: RESPONSE SetTimeout
+[67.919][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[67.924][INFO]: RESPONSE MaximizeWindow
+[67.928][INFO]: COMMAND GetWindows {
+
+}
+[67.930][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[67.932][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[67.932][INFO]: Waiting for pending navigations...
+[67.933][INFO]: Done waiting for pending navigations. Status: ok
+[67.933][INFO]: Waiting for pending navigations...
+[67.934][INFO]: Done waiting for pending navigations. Status: ok
+[67.934][INFO]: RESPONSE SwitchToFrame
+[67.938][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Laufzeit-Vertrag"
+}
+[67.938][INFO]: Waiting for pending navigations...
+[67.939][INFO]: Done waiting for pending navigations. Status: ok
+[67.962][INFO]: Waiting for pending navigations...
+[67.963][INFO]: Done waiting for pending navigations. Status: ok
+[67.963][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-6"
+}
+[67.966][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24758854180665146-6"
+}
+[67.966][INFO]: Waiting for pending navigations...
+[67.967][INFO]: Done waiting for pending navigations. Status: ok
+[67.976][INFO]: Waiting for pending navigations...
+[67.978][INFO]: Done waiting for pending navigations. Status: ok
+[67.978][INFO]: RESPONSE IsElementDisplayed true
+[67.980][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-6",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-6"
+   } ],
+   "script": "window.pageChangedFlag = false; function isclickfired() {window.pageChangedFlag = true;} if (arguments[0].addEventListener) {arguments[0].addEventListener(\"click\", isclickfired, false);}else {argum..."
+}
+[67.980][INFO]: Waiting for pending navigations...
+[67.981][INFO]: Done waiting for pending navigations. Status: ok
+[67.984][INFO]: Waiting for pending navigations...
+[67.985][INFO]: Done waiting for pending navigations. Status: ok
+[67.985][INFO]: RESPONSE ExecuteScript null
+[67.988][INFO]: COMMAND ClickElement {
+   "id": "0.24758854180665146-6"
+}
+[67.988][INFO]: Waiting for pending navigations...
+[67.989][INFO]: Done waiting for pending navigations. Status: ok
+[68.020][INFO]: Waiting for pending navigations...
+[68.036][INFO]: Done waiting for pending navigations. Status: ok
+[68.036][INFO]: RESPONSE ClickElement
+[68.043][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return (window.pageChangedFlag == null || window.pageChangedFlag == true)"
+}
+[68.043][INFO]: Waiting for pending navigations...
+[68.045][INFO]: Done waiting for pending navigations. Status: ok
+[68.046][INFO]: Waiting for pending navigations...
+[68.049][INFO]: Done waiting for pending navigations. Status: ok
+[68.049][INFO]: RESPONSE ExecuteScript true
+[68.053][INFO]: COMMAND GetWindows {
+
+}
+[68.056][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[68.062][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[68.062][INFO]: Waiting for pending navigations...
+[68.064][INFO]: Done waiting for pending navigations. Status: ok
+[68.064][INFO]: Waiting for pending navigations...
+[68.065][INFO]: Done waiting for pending navigations. Status: ok
+[68.065][INFO]: RESPONSE SwitchToFrame
+[68.287][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[68.287][INFO]: Waiting for pending navigations...
+[68.293][INFO]: Done waiting for pending navigations. Status: ok
+[68.295][INFO]: Waiting for pending navigations...
+[68.297][INFO]: Done waiting for pending navigations. Status: ok
+[68.297][INFO]: RESPONSE ExecuteScript true
+[68.515][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[68.515][INFO]: Waiting for pending navigations...
+[68.518][INFO]: Done waiting for pending navigations. Status: ok
+[68.522][INFO]: Waiting for pending navigations...
+[68.524][INFO]: Done waiting for pending navigations. Status: ok
+[68.524][INFO]: RESPONSE ExecuteScript true
+[68.531][INFO]: COMMAND GetUrl {
+
+}
+[68.531][INFO]: Waiting for pending navigations...
+[68.533][INFO]: Done waiting for pending navigations. Status: ok
+[68.537][INFO]: Waiting for pending navigations...
+[68.540][INFO]: Done waiting for pending navigations. Status: ok
+[68.540][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/auswahl/vertragbeendet"
+[68.547][INFO]: COMMAND GetWindows {
+
+}
+[68.549][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[68.554][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[68.554][INFO]: RESPONSE SetTimeout
+[68.559][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[68.559][INFO]: RESPONSE SetTimeout
+[68.564][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[68.564][INFO]: RESPONSE SetTimeout
+[68.568][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[68.686][INFO]: RESPONSE MaximizeWindow
+[68.699][INFO]: COMMAND GetWindows {
+
+}
+[68.703][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[68.712][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[68.712][INFO]: Waiting for pending navigations...
+[68.714][INFO]: Done waiting for pending navigations. Status: ok
+[68.714][INFO]: Waiting for pending navigations...
+[68.716][INFO]: Done waiting for pending navigations. Status: ok
+[68.716][INFO]: RESPONSE SwitchToFrame
+[68.721][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Ja, ich habe schon gekündigt."
+}
+[68.721][INFO]: Waiting for pending navigations...
+[68.722][INFO]: Done waiting for pending navigations. Status: ok
+[68.748][INFO]: Waiting for pending navigations...
+[68.750][INFO]: Done waiting for pending navigations. Status: ok
+[68.750][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-7"
+}
+[68.753][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24758854180665146-7"
+}
+[68.753][INFO]: Waiting for pending navigations...
+[68.754][INFO]: Done waiting for pending navigations. Status: ok
+[68.763][INFO]: Waiting for pending navigations...
+[68.765][INFO]: Done waiting for pending navigations. Status: ok
+[68.765][INFO]: RESPONSE IsElementDisplayed true
+[68.768][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-7",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-7"
+   } ],
+   "script": "window.pageChangedFlag = false; function isclickfired() {window.pageChangedFlag = true;} if (arguments[0].addEventListener) {arguments[0].addEventListener(\"click\", isclickfired, false);}else {argum..."
+}
+[68.768][INFO]: Waiting for pending navigations...
+[68.769][INFO]: Done waiting for pending navigations. Status: ok
+[68.772][INFO]: Waiting for pending navigations...
+[68.773][INFO]: Done waiting for pending navigations. Status: ok
+[68.773][INFO]: RESPONSE ExecuteScript null
+[68.776][INFO]: COMMAND ClickElement {
+   "id": "0.24758854180665146-7"
+}
+[68.776][INFO]: Waiting for pending navigations...
+[68.777][INFO]: Done waiting for pending navigations. Status: ok
+[68.808][INFO]: Waiting for pending navigations...
+[68.823][INFO]: Done waiting for pending navigations. Status: ok
+[68.823][INFO]: RESPONSE ClickElement
+[68.829][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return (window.pageChangedFlag == null || window.pageChangedFlag == true)"
+}
+[68.829][INFO]: Waiting for pending navigations...
+[68.830][INFO]: Done waiting for pending navigations. Status: ok
+[68.831][INFO]: Waiting for pending navigations...
+[68.832][INFO]: Done waiting for pending navigations. Status: ok
+[68.832][INFO]: RESPONSE ExecuteScript true
+[68.836][INFO]: COMMAND GetWindows {
+
+}
+[68.842][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[68.845][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[68.846][INFO]: Waiting for pending navigations...
+[68.847][INFO]: Done waiting for pending navigations. Status: ok
+[68.847][INFO]: Waiting for pending navigations...
+[68.847][INFO]: Done waiting for pending navigations. Status: ok
+[68.847][INFO]: RESPONSE SwitchToFrame
+[69.050][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[69.050][INFO]: Waiting for pending navigations...
+[69.051][INFO]: Done waiting for pending navigations. Status: ok
+[69.053][INFO]: Waiting for pending navigations...
+[69.053][INFO]: Done waiting for pending navigations. Status: ok
+[69.053][INFO]: RESPONSE ExecuteScript true
+[69.256][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[69.256][INFO]: Waiting for pending navigations...
+[69.257][INFO]: Done waiting for pending navigations. Status: ok
+[69.258][INFO]: Waiting for pending navigations...
+[69.259][INFO]: Done waiting for pending navigations. Status: ok
+[69.259][INFO]: RESPONSE ExecuteScript true
+[69.262][INFO]: COMMAND GetUrl {
+
+}
+[69.262][INFO]: Waiting for pending navigations...
+[69.263][INFO]: Done waiting for pending navigations. Status: ok
+[69.264][INFO]: Waiting for pending navigations...
+[69.265][INFO]: Done waiting for pending navigations. Status: ok
+[69.265][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/auswahl/vertragbeendet/kuendigungsdatum"
+[69.269][INFO]: COMMAND GetWindows {
+
+}
+[69.273][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[69.275][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[69.275][INFO]: RESPONSE SetTimeout
+[69.278][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[69.278][INFO]: RESPONSE SetTimeout
+[69.281][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[69.281][INFO]: RESPONSE SetTimeout
+[69.284][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[69.289][INFO]: RESPONSE MaximizeWindow
+[69.294][INFO]: COMMAND GetWindows {
+
+}
+[69.295][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[69.298][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[69.298][INFO]: Waiting for pending navigations...
+[69.300][INFO]: Done waiting for pending navigations. Status: ok
+[69.300][INFO]: Waiting for pending navigations...
+[69.301][INFO]: Done waiting for pending navigations. Status: ok
+[69.301][INFO]: RESPONSE SwitchToFrame
+[69.304][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "portingCancelationdate"
+}
+[69.304][INFO]: Waiting for pending navigations...
+[69.305][INFO]: Done waiting for pending navigations. Status: ok
+[69.316][INFO]: Waiting for pending navigations...
+[69.318][INFO]: Done waiting for pending navigations. Status: ok
+[69.319][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-8"
+}
+[69.322][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-8"
+}
+[69.322][INFO]: Waiting for pending navigations...
+[69.324][INFO]: Done waiting for pending navigations. Status: ok
+[69.326][INFO]: Waiting for pending navigations...
+[69.327][INFO]: Done waiting for pending navigations. Status: ok
+[69.327][INFO]: RESPONSE GetElementTagName "input"
+[69.330][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-8",
+   "value": [ "a" ]
+}
+[69.331][INFO]: Waiting for pending navigations...
+[69.332][INFO]: Done waiting for pending navigations. Status: ok
+[69.366][INFO]: Waiting for pending navigations...
+[69.368][INFO]: Done waiting for pending navigations. Status: ok
+[69.368][INFO]: RESPONSE TypeElement
+[69.372][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-8",
+   "value": [ "" ]
+}
+[69.372][INFO]: Waiting for pending navigations...
+[69.373][INFO]: Done waiting for pending navigations. Status: ok
+[69.388][INFO]: Waiting for pending navigations...
+[69.390][INFO]: Done waiting for pending navigations. Status: ok
+[69.390][INFO]: RESPONSE TypeElement
+[69.393][INFO]: COMMAND ClearElement {
+   "id": "0.24758854180665146-8"
+}
+[69.393][INFO]: Waiting for pending navigations...
+[69.395][INFO]: Done waiting for pending navigations. Status: ok
+[69.409][INFO]: Waiting for pending navigations...
+[69.410][INFO]: Done waiting for pending navigations. Status: ok
+[69.410][INFO]: RESPONSE ClearElement
+[69.413][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-8",
+   "value": [ "31.12.2016" ]
+}
+[69.413][INFO]: Waiting for pending navigations...
+[69.414][INFO]: Done waiting for pending navigations. Status: ok
+[69.452][INFO]: Waiting for pending navigations...
+[69.457][INFO]: Done waiting for pending navigations. Status: ok
+[69.457][INFO]: RESPONSE TypeElement
+[69.459][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-8"
+}
+[69.459][INFO]: Waiting for pending navigations...
+[69.460][INFO]: Done waiting for pending navigations. Status: ok
+[69.462][INFO]: Waiting for pending navigations...
+[69.463][INFO]: Done waiting for pending navigations. Status: ok
+[69.463][INFO]: RESPONSE GetElementTagName "input"
+[69.465][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-8",
+   "name": "type"
+}
+[69.465][INFO]: Waiting for pending navigations...
+[69.466][INFO]: Done waiting for pending navigations. Status: ok
+[69.469][INFO]: Waiting for pending navigations...
+[69.470][INFO]: Done waiting for pending navigations. Status: ok
+[69.471][INFO]: RESPONSE GetElementAttribute "text"
+[69.473][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-8",
+   "name": "value"
+}
+[69.473][INFO]: Waiting for pending navigations...
+[69.474][INFO]: Done waiting for pending navigations. Status: ok
+[69.480][INFO]: Waiting for pending navigations...
+[69.481][INFO]: Done waiting for pending navigations. Status: ok
+[69.481][INFO]: RESPONSE GetElementAttribute "31.12.2016"
+[69.697][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[69.697][INFO]: Waiting for pending navigations...
+[69.700][INFO]: Done waiting for pending navigations. Status: ok
+[69.705][INFO]: Waiting for pending navigations...
+[69.707][INFO]: Done waiting for pending navigations. Status: ok
+[69.708][INFO]: RESPONSE ExecuteScript true
+[69.714][INFO]: COMMAND GetUrl {
+
+}
+[69.714][INFO]: Waiting for pending navigations...
+[69.717][INFO]: Done waiting for pending navigations. Status: ok
+[69.722][INFO]: Waiting for pending navigations...
+[69.725][INFO]: Done waiting for pending navigations. Status: ok
+[69.725][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/auswahl/vertragbeendet/kuendigungsdatum"
+[69.735][INFO]: COMMAND GetWindows {
+
+}
+[69.740][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[69.744][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[69.744][INFO]: RESPONSE SetTimeout
+[69.749][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[69.749][INFO]: RESPONSE SetTimeout
+[69.754][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[69.754][INFO]: RESPONSE SetTimeout
+[69.759][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[69.765][INFO]: RESPONSE MaximizeWindow
+[69.775][INFO]: COMMAND GetWindows {
+
+}
+[69.778][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[69.782][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[69.782][INFO]: Waiting for pending navigations...
+[69.784][INFO]: Done waiting for pending navigations. Status: ok
+[69.784][INFO]: Waiting for pending navigations...
+[69.786][INFO]: Done waiting for pending navigations. Status: ok
+[69.786][INFO]: RESPONSE SwitchToFrame
+[69.798][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Abbrechen"
+}
+[69.798][INFO]: Waiting for pending navigations...
+[69.800][INFO]: Done waiting for pending navigations. Status: ok
+[69.824][INFO]: Waiting for pending navigations...
+[69.825][INFO]: Done waiting for pending navigations. Status: ok
+[69.825][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-9"
+}
+[69.829][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-9"
+}
+[69.829][INFO]: Waiting for pending navigations...
+[69.830][INFO]: Done waiting for pending navigations. Status: ok
+[69.832][INFO]: Waiting for pending navigations...
+[69.834][INFO]: Done waiting for pending navigations. Status: ok
+[69.834][INFO]: RESPONSE GetElementTagName "a"
+[69.856][INFO]: COMMAND MouseMove {
+   "element": "0.24758854180665146-9"
+}
+[69.856][INFO]: Waiting for pending navigations...
+[69.859][INFO]: Done waiting for pending navigations. Status: ok
+[69.875][INFO]: Waiting for pending navigations...
+[69.878][INFO]: Done waiting for pending navigations. Status: ok
+[69.878][INFO]: RESPONSE MouseMove
+[69.882][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-9",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-9"
+   } ],
+   "script": "arguments[0].style.outline ='5px solid red'"
+}
+[69.882][INFO]: Waiting for pending navigations...
+[69.884][INFO]: Done waiting for pending navigations. Status: ok
+[69.887][INFO]: Waiting for pending navigations...
+[69.890][INFO]: Done waiting for pending navigations. Status: ok
+[69.890][INFO]: RESPONSE ExecuteScript null
+[69.894][INFO]: COMMAND GetUrl {
+
+}
+[69.894][INFO]: Waiting for pending navigations...
+[69.895][INFO]: Done waiting for pending navigations. Status: ok
+[69.897][INFO]: Waiting for pending navigations...
+[69.898][INFO]: Done waiting for pending navigations. Status: ok
+[69.898][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/auswahl/vertragbeendet/kuendigungsdatum"
+[69.972][INFO]: COMMAND GetWindows {
+
+}
+[69.974][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[69.977][INFO]: COMMAND Screenshot {
+
+}
+[69.977][INFO]: Waiting for pending navigations...
+[69.978][INFO]: Done waiting for pending navigations. Status: ok
+[70.126][INFO]: Waiting for pending navigations...
+[70.126][INFO]: Done waiting for pending navigations. Status: ok
+[70.126][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMaCAIAAABRQx3GAAAgAElEQVR4nOzde3xc1X33+9/ae0YaXS35KhmIBQYsWgKimCKnBYs0BUEgFk3TyJQW0fYU08CDCG0x6fM6MW1azOtpimmSBzvn1SD3dU4tmpLIcQAZCJYfKJYJTmScgGwwlklsXSxZI41Gc9t7r/PHz..."
+[91.627][INFO]: COMMAND GetWindows {
+
+}
+[91.628][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[91.631][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[91.631][INFO]: Waiting for pending navigations...
+[91.634][INFO]: Done waiting for pending navigations. Status: ok
+[91.636][INFO]: Waiting for pending navigations...
+[91.637][INFO]: Done waiting for pending navigations. Status: ok
+[91.637][INFO]: RESPONSE ExecuteScript null
+[94.283][INFO]: COMMAND GetWindows {
+
+}
+[94.284][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[94.287][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[94.287][INFO]: Waiting for pending navigations...
+[94.288][INFO]: Done waiting for pending navigations. Status: ok
+[94.289][INFO]: Waiting for pending navigations...
+[94.290][INFO]: Done waiting for pending navigations. Status: ok
+[94.290][INFO]: RESPONSE ExecuteScript null
+[96.509][INFO]: COMMAND GetWindows {
+
+}
+[96.511][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[96.516][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[96.516][INFO]: Waiting for pending navigations...
+[96.518][INFO]: Done waiting for pending navigations. Status: ok
+[96.521][INFO]: Waiting for pending navigations...
+[96.522][INFO]: Done waiting for pending navigations. Status: ok
+[96.522][INFO]: RESPONSE ExecuteScript null
+[96.525][INFO]: COMMAND GetWindows {
+
+}
+[96.527][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[96.531][INFO]: COMMAND GetWindows {
+
+}
+[96.532][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[96.536][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[96.537][INFO]: Waiting for pending navigations...
+[96.538][INFO]: Done waiting for pending navigations. Status: ok
+[96.538][INFO]: Waiting for pending navigations...
+[96.539][INFO]: Done waiting for pending navigations. Status: ok
+[96.539][INFO]: RESPONSE SwitchToFrame
+[96.543][INFO]: COMMAND SetTimeout {
+   "ms": 0,
+   "type": "implicit"
+}
+[96.543][INFO]: RESPONSE SetTimeout
+[96.550][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class=\"tg-body tg-display\"]/div[@class=\"ng-scope\"]/form[@name=\"myPortingDate\"]/div[@class=\"center\"]/button[@type=\"button\" and normalize-space() = \"Weiter\"]"
+}
+[96.550][INFO]: Waiting for pending navigations...
+[96.553][INFO]: Done waiting for pending navigations. Status: ok
+[96.590][INFO]: Waiting for pending navigations...
+[96.593][INFO]: Done waiting for pending navigations. Status: ok
+[96.593][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-10"
+}
+[96.599][INFO]: COMMAND GetWindows {
+
+}
+[96.603][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[96.613][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[96.622][INFO]: RESPONSE MaximizeWindow
+[96.635][INFO]: COMMAND MouseMove {
+   "element": "0.24758854180665146-10"
+}
+[96.635][INFO]: Waiting for pending navigations...
+[96.636][INFO]: Done waiting for pending navigations. Status: ok
+[96.649][INFO]: Waiting for pending navigations...
+[96.656][INFO]: Done waiting for pending navigations. Status: ok
+[96.656][INFO]: RESPONSE MouseMove
+[96.671][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-10",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-10"
+   } ],
+   "script": "try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement.style.border = currentBorder;}catch(err){}try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.s..."
+}
+[96.671][INFO]: Waiting for pending navigations...
+[96.675][INFO]: Done waiting for pending navigations. Status: ok
+[96.684][INFO]: Waiting for pending navigations...
+[96.685][INFO]: Done waiting for pending navigations. Status: ok
+[96.685][INFO]: RESPONSE ExecuteScript null
+[103.268][INFO]: COMMAND GetWindows {
+
+}
+[103.270][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[103.273][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[103.273][INFO]: Waiting for pending navigations...
+[103.274][INFO]: Done waiting for pending navigations. Status: ok
+[103.276][INFO]: Waiting for pending navigations...
+[103.278][INFO]: Done waiting for pending navigations. Status: ok
+[103.278][INFO]: RESPONSE ExecuteScript null
+[103.283][INFO]: COMMAND GetWindows {
+
+}
+[103.284][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[103.287][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[103.287][INFO]: Waiting for pending navigations...
+[103.288][INFO]: Done waiting for pending navigations. Status: ok
+[103.289][INFO]: Waiting for pending navigations...
+[103.290][INFO]: Done waiting for pending navigations. Status: ok
+[103.290][INFO]: RESPONSE ExecuteScript null
+[111.775][INFO]: COMMAND GetWindows {
+
+}
+[111.777][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[111.784][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[111.785][INFO]: Waiting for pending navigations...
+[111.787][INFO]: Done waiting for pending navigations. Status: ok
+[111.792][INFO]: Waiting for pending navigations...
+[111.794][INFO]: Done waiting for pending navigations. Status: ok
+[111.794][INFO]: RESPONSE ExecuteScript null
+[111.801][INFO]: COMMAND GetWindows {
+
+}
+[111.803][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[111.810][INFO]: COMMAND GetWindows {
+
+}
+[111.812][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[111.819][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[111.819][INFO]: Waiting for pending navigations...
+[111.822][INFO]: Done waiting for pending navigations. Status: ok
+[111.822][INFO]: Waiting for pending navigations...
+[111.824][INFO]: Done waiting for pending navigations. Status: ok
+[111.824][INFO]: RESPONSE SwitchToFrame
+[111.828][INFO]: COMMAND SetTimeout {
+   "ms": 0,
+   "type": "implicit"
+}
+[111.828][INFO]: RESPONSE SetTimeout
+[111.832][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class=\"tg-body tg-display\"]/div[@class=\"ng-scope\"]/form[@name=\"myPortingDate\"]/div[@class=\"center\"]/button[@type=\"button\" and normalize-space() = \"Weiter\"]"
+}
+[111.832][INFO]: Waiting for pending navigations...
+[111.834][INFO]: Done waiting for pending navigations. Status: ok
+[111.841][INFO]: Waiting for pending navigations...
+[111.842][INFO]: Done waiting for pending navigations. Status: ok
+[111.842][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-10"
+}
+[111.846][INFO]: COMMAND GetWindows {
+
+}
+[111.848][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[111.852][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[111.856][INFO]: RESPONSE MaximizeWindow
+[111.859][INFO]: COMMAND MouseMove {
+   "element": "0.24758854180665146-10"
+}
+[111.859][INFO]: Waiting for pending navigations...
+[111.860][INFO]: Done waiting for pending navigations. Status: ok
+[111.866][INFO]: Waiting for pending navigations...
+[111.867][INFO]: Done waiting for pending navigations. Status: ok
+[111.868][INFO]: RESPONSE MouseMove
+[111.870][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-10",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-10"
+   } ],
+   "script": "try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement.style.border = currentBorder;}catch(err){}try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.s..."
+}
+[111.870][INFO]: Waiting for pending navigations...
+[111.871][INFO]: Done waiting for pending navigations. Status: ok
+[111.873][INFO]: Waiting for pending navigations...
+[111.874][INFO]: Done waiting for pending navigations. Status: ok
+[111.874][INFO]: RESPONSE ExecuteScript null
+[126.210][INFO]: COMMAND GetWindows {
+
+}
+[126.212][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[126.216][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[126.216][INFO]: Waiting for pending navigations...
+[126.218][INFO]: Done waiting for pending navigations. Status: ok
+[126.225][INFO]: Waiting for pending navigations...
+[126.228][INFO]: Done waiting for pending navigations. Status: ok
+[126.228][INFO]: RESPONSE ExecuteScript null
+[126.232][INFO]: COMMAND GetWindows {
+
+}
+[126.233][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[126.237][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[126.237][INFO]: Waiting for pending navigations...
+[126.238][INFO]: Done waiting for pending navigations. Status: ok
+[126.239][INFO]: Waiting for pending navigations...
+[126.239][INFO]: Done waiting for pending navigations. Status: ok
+[126.240][INFO]: RESPONSE ExecuteScript null
+[133.862][INFO]: COMMAND GetWindows {
+
+}
+[133.866][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[133.872][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[133.872][INFO]: Waiting for pending navigations...
+[133.874][INFO]: Done waiting for pending navigations. Status: ok
+[133.877][INFO]: Waiting for pending navigations...
+[133.878][INFO]: Done waiting for pending navigations. Status: ok
+[133.878][INFO]: RESPONSE ExecuteScript null
+[133.883][INFO]: COMMAND GetWindows {
+
+}
+[133.884][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[133.892][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[133.892][INFO]: Waiting for pending navigations...
+[133.893][INFO]: Done waiting for pending navigations. Status: ok
+[133.894][INFO]: Waiting for pending navigations...
+[133.896][INFO]: Done waiting for pending navigations. Status: ok
+[133.896][INFO]: RESPONSE ExecuteScript null
+[135.856][INFO]: COMMAND GetWindows {
+
+}
+[135.857][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[135.860][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[135.860][INFO]: RESPONSE SetTimeout
+[135.863][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[135.863][INFO]: RESPONSE SetTimeout
+[135.866][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[135.867][INFO]: RESPONSE SetTimeout
+[135.873][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[135.877][INFO]: RESPONSE MaximizeWindow
+[135.882][INFO]: COMMAND GetWindows {
+
+}
+[135.885][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[135.889][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[135.889][INFO]: Waiting for pending navigations...
+[135.890][INFO]: Done waiting for pending navigations. Status: ok
+[135.890][INFO]: Waiting for pending navigations...
+[135.890][INFO]: Done waiting for pending navigations. Status: ok
+[135.890][INFO]: RESPONSE SwitchToFrame
+[135.894][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Laufzeit-Vertrag"
+}
+[135.894][INFO]: Waiting for pending navigations...
+[135.895][INFO]: Done waiting for pending navigations. Status: ok
+[135.907][INFO]: Waiting for pending navigations...
+[135.908][INFO]: Done waiting for pending navigations. Status: ok
+[135.908][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-11"
+}
+[135.911][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24758854180665146-11"
+}
+[135.911][INFO]: Waiting for pending navigations...
+[135.912][INFO]: Done waiting for pending navigations. Status: ok
+[135.921][INFO]: Waiting for pending navigations...
+[135.923][INFO]: Done waiting for pending navigations. Status: ok
+[135.923][INFO]: RESPONSE IsElementDisplayed true
+[135.926][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-11",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-11"
+   } ],
+   "script": "window.pageChangedFlag = false; function isclickfired() {window.pageChangedFlag = true;} if (arguments[0].addEventListener) {arguments[0].addEventListener(\"click\", isclickfired, false);}else {argum..."
+}
+[135.926][INFO]: Waiting for pending navigations...
+[135.927][INFO]: Done waiting for pending navigations. Status: ok
+[135.929][INFO]: Waiting for pending navigations...
+[135.930][INFO]: Done waiting for pending navigations. Status: ok
+[135.930][INFO]: RESPONSE ExecuteScript null
+[135.932][INFO]: COMMAND ClickElement {
+   "id": "0.24758854180665146-11"
+}
+[135.932][INFO]: Waiting for pending navigations...
+[135.933][INFO]: Done waiting for pending navigations. Status: ok
+[135.963][INFO]: Waiting for pending navigations...
+[135.995][INFO]: Done waiting for pending navigations. Status: ok
+[135.995][INFO]: RESPONSE ClickElement
+[136.004][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return (window.pageChangedFlag == null || window.pageChangedFlag == true)"
+}
+[136.004][INFO]: Waiting for pending navigations...
+[136.033][INFO]: Done waiting for pending navigations. Status: ok
+[136.038][INFO]: Waiting for pending navigations...
+[136.039][INFO]: Done waiting for pending navigations. Status: ok
+[136.040][INFO]: RESPONSE ExecuteScript true
+[136.043][INFO]: COMMAND GetWindows {
+
+}
+[136.044][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[136.047][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[136.047][INFO]: Waiting for pending navigations...
+[136.048][INFO]: Done waiting for pending navigations. Status: ok
+[136.048][INFO]: Waiting for pending navigations...
+[136.050][INFO]: Done waiting for pending navigations. Status: ok
+[136.050][INFO]: RESPONSE SwitchToFrame
+[136.264][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[136.265][INFO]: Waiting for pending navigations...
+[136.267][INFO]: Done waiting for pending navigations. Status: ok
+[136.271][INFO]: Waiting for pending navigations...
+[136.274][INFO]: Done waiting for pending navigations. Status: ok
+[136.274][INFO]: RESPONSE ExecuteScript true
+[136.483][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[136.483][INFO]: Waiting for pending navigations...
+[136.485][INFO]: Done waiting for pending navigations. Status: ok
+[136.490][INFO]: Waiting for pending navigations...
+[136.492][INFO]: Done waiting for pending navigations. Status: ok
+[136.492][INFO]: RESPONSE ExecuteScript true
+[136.499][INFO]: COMMAND GetUrl {
+
+}
+[136.499][INFO]: Waiting for pending navigations...
+[136.502][INFO]: Done waiting for pending navigations. Status: ok
+[136.506][INFO]: Waiting for pending navigations...
+[136.509][INFO]: Done waiting for pending navigations. Status: ok
+[136.509][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/auswahl/vertragbeendet"
+[136.516][INFO]: COMMAND GetWindows {
+
+}
+[136.518][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[136.523][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[136.523][INFO]: RESPONSE SetTimeout
+[136.527][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[136.527][INFO]: RESPONSE SetTimeout
+[136.532][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[136.532][INFO]: RESPONSE SetTimeout
+[136.537][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[136.542][INFO]: RESPONSE MaximizeWindow
+[136.548][INFO]: COMMAND GetWindows {
+
+}
+[136.548][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[136.551][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[136.551][INFO]: Waiting for pending navigations...
+[136.553][INFO]: Done waiting for pending navigations. Status: ok
+[136.553][INFO]: Waiting for pending navigations...
+[136.554][INFO]: Done waiting for pending navigations. Status: ok
+[136.554][INFO]: RESPONSE SwitchToFrame
+[136.564][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Ja, ich habe schon gekündigt."
+}
+[136.564][INFO]: Waiting for pending navigations...
+[136.565][INFO]: Done waiting for pending navigations. Status: ok
+[136.576][INFO]: Waiting for pending navigations...
+[136.577][INFO]: Done waiting for pending navigations. Status: ok
+[136.577][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-12"
+}
+[136.579][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24758854180665146-12"
+}
+[136.580][INFO]: Waiting for pending navigations...
+[136.581][INFO]: Done waiting for pending navigations. Status: ok
+[136.590][INFO]: Waiting for pending navigations...
+[136.592][INFO]: Done waiting for pending navigations. Status: ok
+[136.592][INFO]: RESPONSE IsElementDisplayed true
+[136.594][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-12",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-12"
+   } ],
+   "script": "window.pageChangedFlag = false; function isclickfired() {window.pageChangedFlag = true;} if (arguments[0].addEventListener) {arguments[0].addEventListener(\"click\", isclickfired, false);}else {argum..."
+}
+[136.594][INFO]: Waiting for pending navigations...
+[136.596][INFO]: Done waiting for pending navigations. Status: ok
+[136.598][INFO]: Waiting for pending navigations...
+[136.599][INFO]: Done waiting for pending navigations. Status: ok
+[136.599][INFO]: RESPONSE ExecuteScript null
+[136.602][INFO]: COMMAND ClickElement {
+   "id": "0.24758854180665146-12"
+}
+[136.602][INFO]: Waiting for pending navigations...
+[136.603][INFO]: Done waiting for pending navigations. Status: ok
+[136.636][INFO]: Waiting for pending navigations...
+[136.735][INFO]: Done waiting for pending navigations. Status: ok
+[136.735][INFO]: RESPONSE ClickElement
+[136.750][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return (window.pageChangedFlag == null || window.pageChangedFlag == true)"
+}
+[136.750][INFO]: Waiting for pending navigations...
+[136.757][INFO]: Done waiting for pending navigations. Status: ok
+[136.764][INFO]: Waiting for pending navigations...
+[136.771][INFO]: Done waiting for pending navigations. Status: ok
+[136.771][INFO]: RESPONSE ExecuteScript true
+[136.779][INFO]: COMMAND GetWindows {
+
+}
+[136.780][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[136.787][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[136.787][INFO]: Waiting for pending navigations...
+[136.788][INFO]: Done waiting for pending navigations. Status: ok
+[136.788][INFO]: Waiting for pending navigations...
+[136.789][INFO]: Done waiting for pending navigations. Status: ok
+[136.789][INFO]: RESPONSE SwitchToFrame
+[136.997][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[136.998][INFO]: Waiting for pending navigations...
+[137.000][INFO]: Done waiting for pending navigations. Status: ok
+[137.004][INFO]: Waiting for pending navigations...
+[137.007][INFO]: Done waiting for pending navigations. Status: ok
+[137.007][INFO]: RESPONSE ExecuteScript true
+[137.220][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[137.220][INFO]: Waiting for pending navigations...
+[137.223][INFO]: Done waiting for pending navigations. Status: ok
+[137.226][INFO]: Waiting for pending navigations...
+[137.230][INFO]: Done waiting for pending navigations. Status: ok
+[137.230][INFO]: RESPONSE ExecuteScript true
+[137.237][INFO]: COMMAND GetUrl {
+
+}
+[137.237][INFO]: Waiting for pending navigations...
+[137.239][INFO]: Done waiting for pending navigations. Status: ok
+[137.244][INFO]: Waiting for pending navigations...
+[137.246][INFO]: Done waiting for pending navigations. Status: ok
+[137.246][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/auswahl/vertragbeendet/kuendigungsdatum"
+[137.256][INFO]: COMMAND GetWindows {
+
+}
+[137.259][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[137.263][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[137.263][INFO]: RESPONSE SetTimeout
+[137.267][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[137.267][INFO]: RESPONSE SetTimeout
+[137.271][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[137.271][INFO]: RESPONSE SetTimeout
+[137.275][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[137.279][INFO]: RESPONSE MaximizeWindow
+[137.288][INFO]: COMMAND GetWindows {
+
+}
+[137.289][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[137.293][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[137.293][INFO]: Waiting for pending navigations...
+[137.294][INFO]: Done waiting for pending navigations. Status: ok
+[137.294][INFO]: Waiting for pending navigations...
+[137.295][INFO]: Done waiting for pending navigations. Status: ok
+[137.295][INFO]: RESPONSE SwitchToFrame
+[137.299][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "portingCancelationdate"
+}
+[137.299][INFO]: Waiting for pending navigations...
+[137.302][INFO]: Done waiting for pending navigations. Status: ok
+[137.306][INFO]: Waiting for pending navigations...
+[137.308][INFO]: Done waiting for pending navigations. Status: ok
+[137.308][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-13"
+}
+[137.311][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-13"
+}
+[137.311][INFO]: Waiting for pending navigations...
+[137.312][INFO]: Done waiting for pending navigations. Status: ok
+[137.314][INFO]: Waiting for pending navigations...
+[137.315][INFO]: Done waiting for pending navigations. Status: ok
+[137.315][INFO]: RESPONSE GetElementTagName "input"
+[137.318][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-13",
+   "value": [ "a" ]
+}
+[137.318][INFO]: Waiting for pending navigations...
+[137.319][INFO]: Done waiting for pending navigations. Status: ok
+[137.352][INFO]: Waiting for pending navigations...
+[137.355][INFO]: Done waiting for pending navigations. Status: ok
+[137.355][INFO]: RESPONSE TypeElement
+[137.358][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-13",
+   "value": [ "" ]
+}
+[137.358][INFO]: Waiting for pending navigations...
+[137.359][INFO]: Done waiting for pending navigations. Status: ok
+[137.375][INFO]: Waiting for pending navigations...
+[137.376][INFO]: Done waiting for pending navigations. Status: ok
+[137.376][INFO]: RESPONSE TypeElement
+[137.379][INFO]: COMMAND ClearElement {
+   "id": "0.24758854180665146-13"
+}
+[137.379][INFO]: Waiting for pending navigations...
+[137.380][INFO]: Done waiting for pending navigations. Status: ok
+[137.395][INFO]: Waiting for pending navigations...
+[137.396][INFO]: Done waiting for pending navigations. Status: ok
+[137.396][INFO]: RESPONSE ClearElement
+[137.399][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-13",
+   "value": [ "31.12.2016" ]
+}
+[137.399][INFO]: Waiting for pending navigations...
+[137.400][INFO]: Done waiting for pending navigations. Status: ok
+[137.438][INFO]: Waiting for pending navigations...
+[137.439][INFO]: Done waiting for pending navigations. Status: ok
+[137.440][INFO]: RESPONSE TypeElement
+[137.442][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-13"
+}
+[137.442][INFO]: Waiting for pending navigations...
+[137.443][INFO]: Done waiting for pending navigations. Status: ok
+[137.444][INFO]: Waiting for pending navigations...
+[137.445][INFO]: Done waiting for pending navigations. Status: ok
+[137.445][INFO]: RESPONSE GetElementTagName "input"
+[137.448][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-13",
+   "name": "type"
+}
+[137.448][INFO]: Waiting for pending navigations...
+[137.450][INFO]: Done waiting for pending navigations. Status: ok
+[137.453][INFO]: Waiting for pending navigations...
+[137.454][INFO]: Done waiting for pending navigations. Status: ok
+[137.454][INFO]: RESPONSE GetElementAttribute "text"
+[137.457][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-13",
+   "name": "value"
+}
+[137.457][INFO]: Waiting for pending navigations...
+[137.457][INFO]: Done waiting for pending navigations. Status: ok
+[137.463][INFO]: Waiting for pending navigations...
+[137.464][INFO]: Done waiting for pending navigations. Status: ok
+[137.464][INFO]: RESPONSE GetElementAttribute "31.12.2016"
+[137.678][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[137.678][INFO]: Waiting for pending navigations...
+[137.681][INFO]: Done waiting for pending navigations. Status: ok
+[137.685][INFO]: Waiting for pending navigations...
+[137.688][INFO]: Done waiting for pending navigations. Status: ok
+[137.688][INFO]: RESPONSE ExecuteScript true
+[137.694][INFO]: COMMAND GetUrl {
+
+}
+[137.695][INFO]: Waiting for pending navigations...
+[137.697][INFO]: Done waiting for pending navigations. Status: ok
+[137.705][INFO]: Waiting for pending navigations...
+[137.708][INFO]: Done waiting for pending navigations. Status: ok
+[137.708][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/auswahl/vertragbeendet/kuendigungsdatum"
+[137.719][INFO]: COMMAND GetWindows {
+
+}
+[137.721][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[137.728][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[137.728][INFO]: RESPONSE SetTimeout
+[137.734][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[137.734][INFO]: RESPONSE SetTimeout
+[137.738][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[137.738][INFO]: RESPONSE SetTimeout
+[137.740][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[137.744][INFO]: RESPONSE MaximizeWindow
+[137.749][INFO]: COMMAND GetWindows {
+
+}
+[137.750][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[137.756][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[137.756][INFO]: Waiting for pending navigations...
+[137.757][INFO]: Done waiting for pending navigations. Status: ok
+[137.757][INFO]: Waiting for pending navigations...
+[137.758][INFO]: Done waiting for pending navigations. Status: ok
+[137.758][INFO]: RESPONSE SwitchToFrame
+[137.763][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Abbrechen"
+}
+[137.763][INFO]: Waiting for pending navigations...
+[137.764][INFO]: Done waiting for pending navigations. Status: ok
+[137.780][INFO]: Waiting for pending navigations...
+[137.781][INFO]: Done waiting for pending navigations. Status: ok
+[137.781][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-14"
+}
+[137.784][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-14"
+}
+[137.784][INFO]: Waiting for pending navigations...
+[137.786][INFO]: Done waiting for pending navigations. Status: ok
+[137.788][INFO]: Waiting for pending navigations...
+[137.789][INFO]: Done waiting for pending navigations. Status: ok
+[137.789][INFO]: RESPONSE GetElementTagName "a"
+[137.812][INFO]: COMMAND MouseMove {
+   "element": "0.24758854180665146-14"
+}
+[137.812][INFO]: Waiting for pending navigations...
+[137.815][INFO]: Done waiting for pending navigations. Status: ok
+[137.831][INFO]: Waiting for pending navigations...
+[137.834][INFO]: Done waiting for pending navigations. Status: ok
+[137.834][INFO]: RESPONSE MouseMove
+[137.839][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-14",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-14"
+   } ],
+   "script": "arguments[0].style.outline ='5px solid red'"
+}
+[137.839][INFO]: Waiting for pending navigations...
+[137.840][INFO]: Done waiting for pending navigations. Status: ok
+[137.843][INFO]: Waiting for pending navigations...
+[137.845][INFO]: Done waiting for pending navigations. Status: ok
+[137.845][INFO]: RESPONSE ExecuteScript null
+[137.847][INFO]: COMMAND GetUrl {
+
+}
+[137.847][INFO]: Waiting for pending navigations...
+[137.849][INFO]: Done waiting for pending navigations. Status: ok
+[137.852][INFO]: Waiting for pending navigations...
+[137.854][INFO]: Done waiting for pending navigations. Status: ok
+[137.854][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/auswahl/vertragbeendet/kuendigungsdatum"
+[137.931][INFO]: COMMAND GetWindows {
+
+}
+[137.932][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[137.937][INFO]: COMMAND Screenshot {
+
+}
+[137.937][INFO]: Waiting for pending navigations...
+[137.938][INFO]: Done waiting for pending navigations. Status: ok
+[138.089][INFO]: Waiting for pending navigations...
+[138.090][INFO]: Done waiting for pending navigations. Status: ok
+[138.090][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMaCAIAAABRQx3GAAAgAElEQVR4nOzde3xc1X33+9/ae0YaXS35KhmIBQYsWgKimCKnBYs0BUEgFk3TyJQW0fYU08CDCG0x6fM6MW1azOtpimmSBzvn1SD3dU4tmpLIcQAZCJYfKJYJTmScgGwwlklsXSxZI41Gc9t7r/PHz..."
+[156.827][INFO]: COMMAND GetWindows {
+
+}
+[156.829][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[156.832][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[156.832][INFO]: RESPONSE SetTimeout
+[156.835][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[156.835][INFO]: RESPONSE SetTimeout
+[156.838][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[156.838][INFO]: RESPONSE SetTimeout
+[156.841][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[156.845][INFO]: RESPONSE MaximizeWindow
+[156.850][INFO]: COMMAND GetWindows {
+
+}
+[156.851][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[156.854][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[156.854][INFO]: Waiting for pending navigations...
+[156.855][INFO]: Done waiting for pending navigations. Status: ok
+[156.855][INFO]: Waiting for pending navigations...
+[156.855][INFO]: Done waiting for pending navigations. Status: ok
+[156.855][INFO]: RESPONSE SwitchToFrame
+[156.858][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class=\"tg-body tg-display\"]/div[@class=\"ng-scope\"]/form[@name=\"myPortingDate\"]/div[@class=\"center\"]/button[@type=\"button\" and normalize-space() = \"Weiter\"]"
+}
+[156.858][INFO]: Waiting for pending navigations...
+[156.859][INFO]: Done waiting for pending navigations. Status: ok
+[156.864][INFO]: Waiting for pending navigations...
+[156.865][INFO]: Done waiting for pending navigations. Status: ok
+[156.865][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-15"
+}
+[156.867][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24758854180665146-15"
+}
+[156.867][INFO]: Waiting for pending navigations...
+[156.868][INFO]: Done waiting for pending navigations. Status: ok
+[156.879][INFO]: Waiting for pending navigations...
+[156.880][INFO]: Done waiting for pending navigations. Status: ok
+[156.880][INFO]: RESPONSE IsElementDisplayed true
+[156.883][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-15",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-15"
+   } ],
+   "script": "window.pageChangedFlag = false; function isclickfired() {window.pageChangedFlag = true;} if (arguments[0].addEventListener) {arguments[0].addEventListener(\"click\", isclickfired, false);}else {argum..."
+}
+[156.883][INFO]: Waiting for pending navigations...
+[156.884][INFO]: Done waiting for pending navigations. Status: ok
+[156.886][INFO]: Waiting for pending navigations...
+[156.887][INFO]: Done waiting for pending navigations. Status: ok
+[156.887][INFO]: RESPONSE ExecuteScript null
+[156.890][INFO]: COMMAND ClickElement {
+   "id": "0.24758854180665146-15"
+}
+[156.890][INFO]: Waiting for pending navigations...
+[156.891][INFO]: Done waiting for pending navigations. Status: ok
+[156.918][INFO]: Waiting for pending navigations...
+[156.947][INFO]: Done waiting for pending navigations. Status: ok
+[156.947][INFO]: RESPONSE ClickElement
+[156.951][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return (window.pageChangedFlag == null || window.pageChangedFlag == true)"
+}
+[156.951][INFO]: Waiting for pending navigations...
+[156.965][INFO]: Done waiting for pending navigations. Status: ok
+[156.969][INFO]: Waiting for pending navigations...
+[156.972][INFO]: Done waiting for pending navigations. Status: ok
+[156.972][INFO]: RESPONSE ExecuteScript true
+[156.980][INFO]: COMMAND GetWindows {
+
+}
+[156.984][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[156.990][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[156.990][INFO]: Waiting for pending navigations...
+[156.996][INFO]: Done waiting for pending navigations. Status: ok
+[156.996][INFO]: Waiting for pending navigations...
+[156.997][INFO]: Done waiting for pending navigations. Status: ok
+[156.997][INFO]: RESPONSE SwitchToFrame
+[157.200][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[157.200][INFO]: Waiting for pending navigations...
+[157.201][INFO]: Done waiting for pending navigations. Status: ok
+[157.202][INFO]: Waiting for pending navigations...
+[157.203][INFO]: Done waiting for pending navigations. Status: ok
+[157.203][INFO]: RESPONSE ExecuteScript true
+[157.421][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[157.421][INFO]: Waiting for pending navigations...
+[157.424][INFO]: Done waiting for pending navigations. Status: ok
+[157.428][INFO]: Waiting for pending navigations...
+[157.430][INFO]: Done waiting for pending navigations. Status: ok
+[157.430][INFO]: RESPONSE ExecuteScript true
+[157.437][INFO]: COMMAND GetUrl {
+
+}
+[157.437][INFO]: Waiting for pending navigations...
+[157.440][INFO]: Done waiting for pending navigations. Status: ok
+[157.444][INFO]: Waiting for pending navigations...
+[157.446][INFO]: Done waiting for pending navigations. Status: ok
+[157.446][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/auswahl/vertragbeendet/kuendigungsdatum"
+[174.560][INFO]: COMMAND GetWindows {
+
+}
+[174.562][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[174.569][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[174.569][INFO]: Waiting for pending navigations...
+[174.572][INFO]: Done waiting for pending navigations. Status: ok
+[174.576][INFO]: Waiting for pending navigations...
+[174.579][INFO]: Done waiting for pending navigations. Status: ok
+[174.579][INFO]: RESPONSE ExecuteScript null
+[174.586][INFO]: COMMAND GetWindows {
+
+}
+[174.587][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[174.591][INFO]: COMMAND GetWindows {
+
+}
+[174.593][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[174.597][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[174.597][INFO]: Waiting for pending navigations...
+[174.598][INFO]: Done waiting for pending navigations. Status: ok
+[174.598][INFO]: Waiting for pending navigations...
+[174.600][INFO]: Done waiting for pending navigations. Status: ok
+[174.600][INFO]: RESPONSE SwitchToFrame
+[174.604][INFO]: COMMAND SetTimeout {
+   "ms": 0,
+   "type": "implicit"
+}
+[174.604][INFO]: RESPONSE SetTimeout
+[174.608][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class=\"tg-body tg-display\"]/div[@class=\"ng-scope\"]/form[@name=\"myPortingDate\"]/div[@class=\"center\"]/button[@type=\"button\" and normalize-space() = \"Weiter\"]"
+}
+[174.608][INFO]: Waiting for pending navigations...
+[174.610][INFO]: Done waiting for pending navigations. Status: ok
+[174.618][INFO]: Waiting for pending navigations...
+[174.619][INFO]: Done waiting for pending navigations. Status: ok
+[174.619][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="tg-body tg-display"]/div[@class="ng-scope"]/form[@name="myPortingDate"]/div[@class="center"]/button[@type="button" and normalize-space() = "Weiter"]"}
+  (Session info: chrome=56.0.2924.87)
+[182.341][INFO]: COMMAND GetWindows {
+
+}
+[182.343][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[182.350][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[182.350][INFO]: Waiting for pending navigations...
+[182.353][INFO]: Done waiting for pending navigations. Status: ok
+[182.357][INFO]: Waiting for pending navigations...
+[182.360][INFO]: Done waiting for pending navigations. Status: ok
+[182.360][INFO]: RESPONSE ExecuteScript null
+[182.367][INFO]: COMMAND GetWindows {
+
+}
+[182.369][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[182.376][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[182.376][INFO]: Waiting for pending navigations...
+[182.379][INFO]: Done waiting for pending navigations. Status: ok
+[182.383][INFO]: Waiting for pending navigations...
+[182.385][INFO]: Done waiting for pending navigations. Status: ok
+[182.385][INFO]: RESPONSE ExecuteScript null
+[182.389][INFO]: COMMAND GetWindows {
+
+}
+[182.390][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[182.394][INFO]: COMMAND GetWindows {
+
+}
+[182.395][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[182.398][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[182.399][INFO]: Waiting for pending navigations...
+[182.400][INFO]: Done waiting for pending navigations. Status: ok
+[182.400][INFO]: Waiting for pending navigations...
+[182.401][INFO]: Done waiting for pending navigations. Status: ok
+[182.401][INFO]: RESPONSE SwitchToFrame
+[182.405][INFO]: COMMAND SetTimeout {
+   "ms": 0,
+   "type": "implicit"
+}
+[182.405][INFO]: RESPONSE SetTimeout
+[182.409][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class=\"tg-body tg-display\"]/div[@class=\"ng-scope\"]/form[@name=\"myPortingDate\"]/div[@class=\"center\"]/button[@type=\"button\" and normalize-space() = \"Weiter\"]"
+}
+[182.409][INFO]: Waiting for pending navigations...
+[182.410][INFO]: Done waiting for pending navigations. Status: ok
+[182.418][INFO]: Waiting for pending navigations...
+[182.419][INFO]: Done waiting for pending navigations. Status: ok
+[182.419][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="tg-body tg-display"]/div[@class="ng-scope"]/form[@name="myPortingDate"]/div[@class="center"]/button[@type="button" and normalize-space() = "Weiter"]"}
+  (Session info: chrome=56.0.2924.87)
+[313.164][INFO]: COMMAND GetWindows {
+
+}
+[313.166][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[313.174][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[313.356][INFO]: Waiting for pending navigations...
+[313.359][INFO]: Done waiting for pending navigations. Status: ok
+[313.363][INFO]: Waiting for pending navigations...
+[313.366][INFO]: Done waiting for pending navigations. Status: ok
+[313.366][INFO]: RESPONSE ExecuteScript null
+[313.373][INFO]: COMMAND GetWindows {
+
+}
+[313.376][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[313.382][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[313.383][INFO]: Waiting for pending navigations...
+[313.385][INFO]: Done waiting for pending navigations. Status: ok
+[313.388][INFO]: Waiting for pending navigations...
+[313.389][INFO]: Done waiting for pending navigations. Status: ok
+[313.390][INFO]: RESPONSE ExecuteScript null
+[313.393][INFO]: COMMAND GetWindows {
+
+}
+[313.395][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[313.398][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[313.398][INFO]: Waiting for pending navigations...
+[313.400][INFO]: Done waiting for pending navigations. Status: ok
+[313.402][INFO]: Waiting for pending navigations...
+[313.403][INFO]: Done waiting for pending navigations. Status: ok
+[313.403][INFO]: RESPONSE ExecuteScript null
+[313.407][INFO]: COMMAND GetWindows {
+
+}
+[313.408][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[313.412][INFO]: COMMAND GetWindows {
+
+}
+[313.413][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[313.417][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[313.417][INFO]: Waiting for pending navigations...
+[313.418][INFO]: Done waiting for pending navigations. Status: ok
+[313.418][INFO]: Waiting for pending navigations...
+[313.419][INFO]: Done waiting for pending navigations. Status: ok
+[313.419][INFO]: RESPONSE SwitchToFrame
+[313.422][INFO]: COMMAND SetTimeout {
+   "ms": 0,
+   "type": "implicit"
+}
+[313.422][INFO]: RESPONSE SetTimeout
+[313.425][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Jetzt Rufnummern- Mitnahme starten"
+}
+[313.425][INFO]: Waiting for pending navigations...
+[313.426][INFO]: Done waiting for pending navigations. Status: ok
+[313.459][INFO]: Waiting for pending navigations...
+[313.460][INFO]: Done waiting for pending navigations. Status: ok
+[313.460][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Jetzt Rufnummern- Mitnahme starten"}
+  (Session info: chrome=56.0.2924.87)
+[322.147][INFO]: COMMAND GetWindows {
+
+}
+[322.148][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[322.153][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[322.153][INFO]: Waiting for pending navigations...
+[322.155][INFO]: Done waiting for pending navigations. Status: ok
+[322.157][INFO]: Waiting for pending navigations...
+[322.158][INFO]: Done waiting for pending navigations. Status: ok
+[322.158][INFO]: RESPONSE ExecuteScript null
+[322.164][INFO]: COMMAND GetWindows {
+
+}
+[322.165][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[322.168][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[322.168][INFO]: Waiting for pending navigations...
+[322.170][INFO]: Done waiting for pending navigations. Status: ok
+[322.173][INFO]: Waiting for pending navigations...
+[322.174][INFO]: Done waiting for pending navigations. Status: ok
+[322.174][INFO]: RESPONSE ExecuteScript null
+[329.383][INFO]: COMMAND GetWindows {
+
+}
+[329.386][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[329.397][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[329.397][INFO]: RESPONSE SetTimeout
+[329.404][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[329.404][INFO]: RESPONSE SetTimeout
+[329.413][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[329.413][INFO]: RESPONSE SetTimeout
+[329.417][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[329.422][INFO]: RESPONSE MaximizeWindow
+[329.430][INFO]: COMMAND GetWindows {
+
+}
+[329.432][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[329.435][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[329.435][INFO]: Waiting for pending navigations...
+[329.437][INFO]: Done waiting for pending navigations. Status: ok
+[329.437][INFO]: Waiting for pending navigations...
+[329.438][INFO]: Done waiting for pending navigations. Status: ok
+[329.438][INFO]: RESPONSE SwitchToFrame
+[329.443][INFO]: COMMAND Navigate {
+   "url": "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/"
+}
+[329.443][INFO]: Waiting for pending navigations...
+[329.444][INFO]: Done waiting for pending navigations. Status: ok
+[329.471][INFO]: Waiting for pending navigations...
+[329.519][INFO]: Done waiting for pending navigations. Status: ok
+[329.519][INFO]: RESPONSE Navigate
+[329.522][INFO]: COMMAND GetWindows {
+
+}
+[329.524][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[329.528][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[329.528][INFO]: Waiting for pending navigations...
+[329.529][INFO]: Done waiting for pending navigations. Status: ok
+[329.529][INFO]: Waiting for pending navigations...
+[329.530][INFO]: Done waiting for pending navigations. Status: ok
+[329.530][INFO]: RESPONSE SwitchToFrame
+[329.733][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[329.733][INFO]: Waiting for pending navigations...
+[329.735][INFO]: Done waiting for pending navigations. Status: ok
+[329.737][INFO]: Waiting for pending navigations...
+[329.738][INFO]: Done waiting for pending navigations. Status: ok
+[329.739][INFO]: RESPONSE ExecuteScript true
+[329.933][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[329.933][INFO]: Waiting for pending navigations...
+[329.934][INFO]: Done waiting for pending navigations. Status: ok
+[329.936][INFO]: Waiting for pending navigations...
+[329.936][INFO]: Done waiting for pending navigations. Status: ok
+[329.936][INFO]: RESPONSE ExecuteScript true
+[329.939][INFO]: COMMAND GetTitle {
+
+}
+[329.939][INFO]: Waiting for pending navigations...
+[329.940][INFO]: Done waiting for pending navigations. Status: ok
+[329.942][INFO]: Waiting for pending navigations...
+[329.945][INFO]: Done waiting for pending navigations. Status: ok
+[329.945][INFO]: RESPONSE GetTitle "Hilfe | Rufnummer online mitnehmen - Rufnummern-Mitnahme"
+[329.947][INFO]: COMMAND GetTitle {
+
+}
+[329.948][INFO]: Waiting for pending navigations...
+[329.948][INFO]: Done waiting for pending navigations. Status: ok
+[329.950][INFO]: Waiting for pending navigations...
+[329.950][INFO]: Done waiting for pending navigations. Status: ok
+[329.951][INFO]: RESPONSE GetTitle "Hilfe | Rufnummer online mitnehmen - Rufnummern-Mitnahme"
+[329.953][INFO]: COMMAND GetUrl {
+
+}
+[329.953][INFO]: Waiting for pending navigations...
+[329.954][INFO]: Done waiting for pending navigations. Status: ok
+[329.955][INFO]: Waiting for pending navigations...
+[329.956][INFO]: Done waiting for pending navigations. Status: ok
+[329.956][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/rufnummern-mitnahme-eingeloggt"
+[329.960][INFO]: COMMAND GetWindows {
+
+}
+[329.961][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[329.963][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[329.963][INFO]: RESPONSE SetTimeout
+[329.966][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[329.966][INFO]: RESPONSE SetTimeout
+[329.968][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[329.968][INFO]: RESPONSE SetTimeout
+[329.971][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[329.976][INFO]: RESPONSE MaximizeWindow
+[329.981][INFO]: COMMAND GetWindows {
+
+}
+[329.983][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[329.986][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[329.986][INFO]: Waiting for pending navigations...
+[329.987][INFO]: Done waiting for pending navigations. Status: ok
+[329.987][INFO]: Waiting for pending navigations...
+[329.989][INFO]: Done waiting for pending navigations. Status: ok
+[329.989][INFO]: RESPONSE SwitchToFrame
+[329.994][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Vodafone-Rufnummer und Kundenkennwort"
+}
+[329.994][INFO]: Waiting for pending navigations...
+[329.996][INFO]: Done waiting for pending navigations. Status: ok
+[332.088][INFO]: Waiting for pending navigations...
+[332.090][INFO]: Done waiting for pending navigations. Status: ok
+[332.090][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Vodafone-Rufnummer und Kundenkennwort"}
+  (Session info: chrome=56.0.2924.87)
+[332.123][INFO]: COMMAND GetUrl {
+
+}
+[332.123][INFO]: Waiting for pending navigations...
+[332.126][INFO]: Done waiting for pending navigations. Status: ok
+[332.131][INFO]: Waiting for pending navigations...
+[332.133][INFO]: Done waiting for pending navigations. Status: ok
+[332.133][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/rufnummern-mitnahme-eingeloggt"
+[332.230][INFO]: COMMAND GetWindows {
+
+}
+[332.231][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[332.234][INFO]: COMMAND Screenshot {
+
+}
+[332.234][INFO]: Waiting for pending navigations...
+[332.235][INFO]: Done waiting for pending navigations. Status: ok
+[332.391][INFO]: Waiting for pending navigations...
+[332.392][INFO]: Done waiting for pending navigations. Status: ok
+[332.392][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMaCAIAAABRQx3GAAAgAElEQVR4nOzdfXxU9Z3//c/3zGRmcku4T9CWKApx15u4pGuga4ndLmArJWq7JXZ3Dbt7VdxCG0v3qth9XMLj0Qp9/GpLq/0pXo8tYR/XCm6LBVEL1pbw8ybYhjaIrYAiSVtIggm5mdzMzTnne/1xZ..."
+[353.191][INFO]: COMMAND GetWindows {
+
+}
+[353.192][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[353.195][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[353.195][INFO]: RESPONSE SetTimeout
+[353.198][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[353.198][INFO]: RESPONSE SetTimeout
+[353.204][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[353.204][INFO]: RESPONSE SetTimeout
+[353.206][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[353.210][INFO]: RESPONSE MaximizeWindow
+[353.218][INFO]: COMMAND GetWindows {
+
+}
+[353.219][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[353.222][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[353.222][INFO]: Waiting for pending navigations...
+[353.224][INFO]: Done waiting for pending navigations. Status: ok
+[353.224][INFO]: Waiting for pending navigations...
+[353.225][INFO]: Done waiting for pending navigations. Status: ok
+[353.225][INFO]: RESPONSE SwitchToFrame
+[353.228][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Vodafone-Rufnummer und Kundenkennwort"
+}
+[353.228][INFO]: Waiting for pending navigations...
+[353.230][INFO]: Done waiting for pending navigations. Status: ok
+[353.237][INFO]: Waiting for pending navigations...
+[353.238][INFO]: Done waiting for pending navigations. Status: ok
+[353.238][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-16"
+}
+[353.241][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24758854180665146-16"
+}
+[353.241][INFO]: Waiting for pending navigations...
+[353.242][INFO]: Done waiting for pending navigations. Status: ok
+[353.252][INFO]: Waiting for pending navigations...
+[353.253][INFO]: Done waiting for pending navigations. Status: ok
+[353.253][INFO]: RESPONSE IsElementDisplayed true
+[353.256][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-16",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-16"
+   } ],
+   "script": "window.pageChangedFlag = false; function isclickfired() {window.pageChangedFlag = true;} if (arguments[0].addEventListener) {arguments[0].addEventListener(\"click\", isclickfired, false);}else {argum..."
+}
+[353.256][INFO]: Waiting for pending navigations...
+[353.257][INFO]: Done waiting for pending navigations. Status: ok
+[353.260][INFO]: Waiting for pending navigations...
+[353.261][INFO]: Done waiting for pending navigations. Status: ok
+[353.261][INFO]: RESPONSE ExecuteScript null
+[353.264][INFO]: COMMAND ClickElement {
+   "id": "0.24758854180665146-16"
+}
+[353.264][INFO]: Waiting for pending navigations...
+[353.265][INFO]: Done waiting for pending navigations. Status: ok
+[353.294][INFO]: Waiting for pending navigations...
+[353.335][INFO]: Done waiting for pending navigations. Status: ok
+[353.336][INFO]: RESPONSE ClickElement
+[353.340][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return (window.pageChangedFlag == null || window.pageChangedFlag == true)"
+}
+[353.340][INFO]: Waiting for pending navigations...
+[353.344][INFO]: Done waiting for pending navigations. Status: ok
+[353.374][INFO]: Waiting for pending navigations...
+[353.378][INFO]: Done waiting for pending navigations. Status: ok
+[353.378][INFO]: RESPONSE ExecuteScript true
+[353.387][INFO]: COMMAND GetWindows {
+
+}
+[353.390][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[353.394][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[353.394][INFO]: Waiting for pending navigations...
+[353.395][INFO]: Done waiting for pending navigations. Status: ok
+[353.395][INFO]: Waiting for pending navigations...
+[353.396][INFO]: Done waiting for pending navigations. Status: ok
+[353.396][INFO]: RESPONSE SwitchToFrame
+[353.604][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[353.605][INFO]: Waiting for pending navigations...
+[353.607][INFO]: Done waiting for pending navigations. Status: ok
+[353.612][INFO]: Waiting for pending navigations...
+[353.614][INFO]: Done waiting for pending navigations. Status: ok
+[353.614][INFO]: RESPONSE ExecuteScript true
+[353.823][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[353.823][INFO]: Waiting for pending navigations...
+[353.826][INFO]: Done waiting for pending navigations. Status: ok
+[353.830][INFO]: Waiting for pending navigations...
+[353.832][INFO]: Done waiting for pending navigations. Status: ok
+[353.832][INFO]: RESPONSE ExecuteScript true
+[353.839][INFO]: COMMAND GetUrl {
+
+}
+[353.839][INFO]: Waiting for pending navigations...
+[353.841][INFO]: Done waiting for pending navigations. Status: ok
+[353.846][INFO]: Waiting for pending navigations...
+[353.848][INFO]: Done waiting for pending navigations. Status: ok
+[353.848][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[353.854][INFO]: COMMAND GetWindows {
+
+}
+[353.855][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[353.859][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[353.859][INFO]: RESPONSE SetTimeout
+[353.862][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[353.862][INFO]: RESPONSE SetTimeout
+[353.867][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[353.867][INFO]: RESPONSE SetTimeout
+[353.871][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[353.876][INFO]: RESPONSE MaximizeWindow
+[353.885][INFO]: COMMAND GetWindows {
+
+}
+[353.886][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[353.889][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[353.889][INFO]: Waiting for pending navigations...
+[353.890][INFO]: Done waiting for pending navigations. Status: ok
+[353.890][INFO]: Waiting for pending navigations...
+[353.891][INFO]: Done waiting for pending navigations. Status: ok
+[353.891][INFO]: RESPONSE SwitchToFrame
+[353.894][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "number"
+}
+[353.894][INFO]: Waiting for pending navigations...
+[353.895][INFO]: Done waiting for pending navigations. Status: ok
+[353.907][INFO]: Waiting for pending navigations...
+[353.908][INFO]: Done waiting for pending navigations. Status: ok
+[353.908][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-17"
+}
+[353.911][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-17"
+}
+[353.911][INFO]: Waiting for pending navigations...
+[353.912][INFO]: Done waiting for pending navigations. Status: ok
+[353.915][INFO]: Waiting for pending navigations...
+[353.916][INFO]: Done waiting for pending navigations. Status: ok
+[353.916][INFO]: RESPONSE GetElementTagName "input"
+[353.918][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-17",
+   "value": [ "a" ]
+}
+[353.918][INFO]: Waiting for pending navigations...
+[353.919][INFO]: Done waiting for pending navigations. Status: ok
+[353.954][INFO]: Waiting for pending navigations...
+[353.955][INFO]: Done waiting for pending navigations. Status: ok
+[353.956][INFO]: RESPONSE TypeElement
+[353.962][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-17",
+   "value": [ "" ]
+}
+[353.962][INFO]: Waiting for pending navigations...
+[353.963][INFO]: Done waiting for pending navigations. Status: ok
+[353.977][INFO]: Waiting for pending navigations...
+[353.977][INFO]: Done waiting for pending navigations. Status: ok
+[353.978][INFO]: RESPONSE TypeElement
+[353.980][INFO]: COMMAND ClearElement {
+   "id": "0.24758854180665146-17"
+}
+[353.980][INFO]: Waiting for pending navigations...
+[353.981][INFO]: Done waiting for pending navigations. Status: ok
+[353.995][INFO]: Waiting for pending navigations...
+[353.995][INFO]: Done waiting for pending navigations. Status: ok
+[353.996][INFO]: RESPONSE ClearElement
+[353.998][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-17",
+   "value": [ "015201588346" ]
+}
+[353.998][INFO]: Waiting for pending navigations...
+[353.999][INFO]: Done waiting for pending navigations. Status: ok
+[354.038][INFO]: Waiting for pending navigations...
+[354.065][INFO]: Done waiting for pending navigations. Status: ok
+[354.065][INFO]: RESPONSE TypeElement
+[354.070][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-17"
+}
+[354.070][INFO]: Waiting for pending navigations...
+[354.072][INFO]: Done waiting for pending navigations. Status: ok
+[354.074][INFO]: Waiting for pending navigations...
+[354.075][INFO]: Done waiting for pending navigations. Status: ok
+[354.075][INFO]: RESPONSE GetElementTagName "input"
+[354.077][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-17",
+   "name": "type"
+}
+[354.077][INFO]: Waiting for pending navigations...
+[354.078][INFO]: Done waiting for pending navigations. Status: ok
+[354.081][INFO]: Waiting for pending navigations...
+[354.082][INFO]: Done waiting for pending navigations. Status: ok
+[354.082][INFO]: RESPONSE GetElementAttribute "tel"
+[354.085][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-17",
+   "name": "value"
+}
+[354.085][INFO]: Waiting for pending navigations...
+[354.085][INFO]: Done waiting for pending navigations. Status: ok
+[354.091][INFO]: Waiting for pending navigations...
+[354.092][INFO]: Done waiting for pending navigations. Status: ok
+[354.092][INFO]: RESPONSE GetElementAttribute "015201588346"
+[354.298][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[354.298][INFO]: Waiting for pending navigations...
+[354.300][INFO]: Done waiting for pending navigations. Status: ok
+[354.305][INFO]: Waiting for pending navigations...
+[354.307][INFO]: Done waiting for pending navigations. Status: ok
+[354.307][INFO]: RESPONSE ExecuteScript true
+[354.314][INFO]: COMMAND GetUrl {
+
+}
+[354.315][INFO]: Waiting for pending navigations...
+[354.317][INFO]: Done waiting for pending navigations. Status: ok
+[354.321][INFO]: Waiting for pending navigations...
+[354.324][INFO]: Done waiting for pending navigations. Status: ok
+[354.324][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[354.335][INFO]: COMMAND GetWindows {
+
+}
+[354.338][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[354.343][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[354.344][INFO]: RESPONSE SetTimeout
+[354.349][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[354.349][INFO]: RESPONSE SetTimeout
+[354.353][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[354.353][INFO]: RESPONSE SetTimeout
+[354.358][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[354.471][INFO]: RESPONSE MaximizeWindow
+[354.485][INFO]: COMMAND GetWindows {
+
+}
+[354.488][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[354.495][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[354.495][INFO]: Waiting for pending navigations...
+[354.497][INFO]: Done waiting for pending navigations. Status: ok
+[354.497][INFO]: Waiting for pending navigations...
+[354.500][INFO]: Done waiting for pending navigations. Status: ok
+[354.500][INFO]: RESPONSE SwitchToFrame
+[354.508][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "password"
+}
+[354.508][INFO]: Waiting for pending navigations...
+[354.511][INFO]: Done waiting for pending navigations. Status: ok
+[354.530][INFO]: Waiting for pending navigations...
+[354.531][INFO]: Done waiting for pending navigations. Status: ok
+[354.531][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-18"
+}
+[354.535][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-18"
+}
+[354.535][INFO]: Waiting for pending navigations...
+[354.536][INFO]: Done waiting for pending navigations. Status: ok
+[354.539][INFO]: Waiting for pending navigations...
+[354.541][INFO]: Done waiting for pending navigations. Status: ok
+[354.541][INFO]: RESPONSE GetElementTagName "input"
+[354.544][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-18",
+   "value": [ "a" ]
+}
+[354.544][INFO]: Waiting for pending navigations...
+[354.546][INFO]: Done waiting for pending navigations. Status: ok
+[354.579][INFO]: Waiting for pending navigations...
+[354.581][INFO]: Done waiting for pending navigations. Status: ok
+[354.581][INFO]: RESPONSE TypeElement
+[354.585][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-18",
+   "value": [ "" ]
+}
+[354.585][INFO]: Waiting for pending navigations...
+[354.587][INFO]: Done waiting for pending navigations. Status: ok
+[354.603][INFO]: Waiting for pending navigations...
+[354.604][INFO]: Done waiting for pending navigations. Status: ok
+[354.604][INFO]: RESPONSE TypeElement
+[354.608][INFO]: COMMAND ClearElement {
+   "id": "0.24758854180665146-18"
+}
+[354.608][INFO]: Waiting for pending navigations...
+[354.609][INFO]: Done waiting for pending navigations. Status: ok
+[354.624][INFO]: Waiting for pending navigations...
+[354.625][INFO]: Done waiting for pending navigations. Status: ok
+[354.625][INFO]: RESPONSE ClearElement
+[354.628][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-18",
+   "value": [ "DIGITAL" ]
+}
+[354.628][INFO]: Waiting for pending navigations...
+[354.630][INFO]: Done waiting for pending navigations. Status: ok
+[354.667][INFO]: Waiting for pending navigations...
+[354.673][INFO]: Done waiting for pending navigations. Status: ok
+[354.673][INFO]: RESPONSE TypeElement
+[354.678][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-18"
+}
+[354.679][INFO]: Waiting for pending navigations...
+[354.683][INFO]: Done waiting for pending navigations. Status: ok
+[354.685][INFO]: Waiting for pending navigations...
+[354.686][INFO]: Done waiting for pending navigations. Status: ok
+[354.686][INFO]: RESPONSE GetElementTagName "input"
+[354.688][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-18",
+   "name": "type"
+}
+[354.689][INFO]: Waiting for pending navigations...
+[354.689][INFO]: Done waiting for pending navigations. Status: ok
+[354.692][INFO]: Waiting for pending navigations...
+[354.693][INFO]: Done waiting for pending navigations. Status: ok
+[354.693][INFO]: RESPONSE GetElementAttribute "password"
+[354.696][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-18",
+   "name": "value"
+}
+[354.696][INFO]: Waiting for pending navigations...
+[354.697][INFO]: Done waiting for pending navigations. Status: ok
+[354.703][INFO]: Waiting for pending navigations...
+[354.704][INFO]: Done waiting for pending navigations. Status: ok
+[354.704][INFO]: RESPONSE GetElementAttribute "DIGITAL"
+[354.925][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[354.925][INFO]: Waiting for pending navigations...
+[354.928][INFO]: Done waiting for pending navigations. Status: ok
+[354.932][INFO]: Waiting for pending navigations...
+[354.935][INFO]: Done waiting for pending navigations. Status: ok
+[354.935][INFO]: RESPONSE ExecuteScript true
+[354.942][INFO]: COMMAND GetUrl {
+
+}
+[354.942][INFO]: Waiting for pending navigations...
+[354.945][INFO]: Done waiting for pending navigations. Status: ok
+[354.949][INFO]: Waiting for pending navigations...
+[354.951][INFO]: Done waiting for pending navigations. Status: ok
+[354.951][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[354.961][INFO]: COMMAND GetWindows {
+
+}
+[354.963][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[354.971][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[354.971][INFO]: RESPONSE SetTimeout
+[354.975][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[354.975][INFO]: RESPONSE SetTimeout
+[354.979][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[354.979][INFO]: RESPONSE SetTimeout
+[354.985][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[354.991][INFO]: RESPONSE MaximizeWindow
+[354.999][INFO]: COMMAND GetWindows {
+
+}
+[355.002][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[355.007][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[355.007][INFO]: Waiting for pending navigations...
+[355.008][INFO]: Done waiting for pending navigations. Status: ok
+[355.009][INFO]: Waiting for pending navigations...
+[355.010][INFO]: Done waiting for pending navigations. Status: ok
+[355.010][INFO]: RESPONSE SwitchToFrame
+[355.016][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Anmelden"
+}
+[355.016][INFO]: Waiting for pending navigations...
+[355.018][INFO]: Done waiting for pending navigations. Status: ok
+[355.056][INFO]: Waiting for pending navigations...
+[355.057][INFO]: Done waiting for pending navigations. Status: ok
+[355.057][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-19"
+}
+[355.062][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24758854180665146-19"
+}
+[355.062][INFO]: Waiting for pending navigations...
+[355.063][INFO]: Done waiting for pending navigations. Status: ok
+[355.073][INFO]: Waiting for pending navigations...
+[355.074][INFO]: Done waiting for pending navigations. Status: ok
+[355.074][INFO]: RESPONSE IsElementDisplayed true
+[355.077][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-19",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-19"
+   } ],
+   "script": "window.pageChangedFlag = false; function isclickfired() {window.pageChangedFlag = true;} if (arguments[0].addEventListener) {arguments[0].addEventListener(\"click\", isclickfired, false);}else {argum..."
+}
+[355.077][INFO]: Waiting for pending navigations...
+[355.078][INFO]: Done waiting for pending navigations. Status: ok
+[355.080][INFO]: Waiting for pending navigations...
+[355.081][INFO]: Done waiting for pending navigations. Status: ok
+[355.081][INFO]: RESPONSE ExecuteScript null
+[355.084][INFO]: COMMAND ClickElement {
+   "id": "0.24758854180665146-19"
+}
+[355.084][INFO]: Waiting for pending navigations...
+[355.085][INFO]: Done waiting for pending navigations. Status: ok
+[355.114][INFO]: Waiting for pending navigations...
+[355.150][INFO]: Done waiting for pending navigations. Status: ok
+[355.150][INFO]: RESPONSE ClickElement
+[355.159][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return (window.pageChangedFlag == null || window.pageChangedFlag == true)"
+}
+[355.159][INFO]: Waiting for pending navigations...
+[355.165][INFO]: Done waiting for pending navigations. Status: ok
+[355.168][INFO]: Waiting for pending navigations...
+[355.170][INFO]: Done waiting for pending navigations. Status: ok
+[355.170][INFO]: RESPONSE ExecuteScript true
+[355.175][INFO]: COMMAND GetWindows {
+
+}
+[355.176][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[355.180][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[355.180][INFO]: Waiting for pending navigations...
+[355.189][INFO]: Done waiting for pending navigations. Status: ok
+[355.189][INFO]: Waiting for pending navigations...
+[355.195][INFO]: Done waiting for pending navigations. Status: ok
+[355.195][INFO]: RESPONSE SwitchToFrame
+[355.401][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[355.401][INFO]: Waiting for pending navigations...
+[355.404][INFO]: Done waiting for pending navigations. Status: ok
+[355.408][INFO]: Waiting for pending navigations...
+[355.411][INFO]: Done waiting for pending navigations. Status: ok
+[355.411][INFO]: RESPONSE ExecuteScript true
+[355.618][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[355.619][INFO]: Waiting for pending navigations...
+[355.621][INFO]: Done waiting for pending navigations. Status: ok
+[355.625][INFO]: Waiting for pending navigations...
+[355.628][INFO]: Done waiting for pending navigations. Status: ok
+[355.628][INFO]: RESPONSE ExecuteScript true
+[355.634][INFO]: COMMAND GetUrl {
+
+}
+[355.635][INFO]: Waiting for pending navigations...
+[355.637][INFO]: Done waiting for pending navigations. Status: ok
+[355.641][INFO]: Waiting for pending navigations...
+[355.644][INFO]: Done waiting for pending navigations. Status: ok
+[355.644][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[355.657][INFO]: COMMAND GetWindows {
+
+}
+[355.658][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[355.662][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[355.662][INFO]: RESPONSE SetTimeout
+[355.667][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[355.668][INFO]: RESPONSE SetTimeout
+[355.671][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[355.671][INFO]: RESPONSE SetTimeout
+[355.675][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[355.679][INFO]: RESPONSE MaximizeWindow
+[355.707][INFO]: COMMAND GetUrl {
+
+}
+[355.708][INFO]: Waiting for pending navigations...
+[355.710][INFO]: Done waiting for pending navigations. Status: ok
+[355.715][INFO]: Waiting for pending navigations...
+[355.718][INFO]: Done waiting for pending navigations. Status: ok
+[355.718][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[355.778][INFO]: COMMAND GetWindows {
+
+}
+[355.779][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[355.784][INFO]: COMMAND Screenshot {
+
+}
+[355.784][INFO]: Waiting for pending navigations...
+[355.785][INFO]: Done waiting for pending navigations. Status: ok
+[355.967][INFO]: Waiting for pending navigations...
+[355.969][INFO]: Done waiting for pending navigations. Status: ok
+[355.969][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMaCAIAAABRQx3GAAAgAElEQVR4nOzdXXBb95nn+ee84IUkKEEiQ1MyFCEhLVMOFdNtWaY9VEqJ1bbiyBmmrE6rpzzbqhpXJ7tJTeWiL+aufdEXu1upmp2pdFVXlyvl7XZvu7PyrNJ2FDkjx5yWypbddBseMQotkzZkwRJFE..."
+[414.636][INFO]: COMMAND GetWindows {
+
+}
+[414.637][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[414.640][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[414.640][INFO]: RESPONSE SetTimeout
+[414.642][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[414.642][INFO]: RESPONSE SetTimeout
+[414.645][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[414.645][INFO]: RESPONSE SetTimeout
+[414.650][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[414.653][INFO]: RESPONSE MaximizeWindow
+[414.659][INFO]: COMMAND GetWindows {
+
+}
+[414.661][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[414.664][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[414.664][INFO]: Waiting for pending navigations...
+[414.665][INFO]: Done waiting for pending navigations. Status: ok
+[414.665][INFO]: Waiting for pending navigations...
+[414.666][INFO]: Done waiting for pending navigations. Status: ok
+[414.666][INFO]: RESPONSE SwitchToFrame
+[414.669][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Vodafone-Rufnummer und Kundenkennwort"
+}
+[414.669][INFO]: Waiting for pending navigations...
+[414.670][INFO]: Done waiting for pending navigations. Status: ok
+[414.688][INFO]: Waiting for pending navigations...
+[414.689][INFO]: Done waiting for pending navigations. Status: ok
+[414.689][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-20"
+}
+[414.692][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24758854180665146-20"
+}
+[414.692][INFO]: Waiting for pending navigations...
+[414.692][INFO]: Done waiting for pending navigations. Status: ok
+[414.702][INFO]: Waiting for pending navigations...
+[414.703][INFO]: Done waiting for pending navigations. Status: ok
+[414.703][INFO]: RESPONSE IsElementDisplayed true
+[414.705][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-20",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-20"
+   } ],
+   "script": "window.pageChangedFlag = false; function isclickfired() {window.pageChangedFlag = true;} if (arguments[0].addEventListener) {arguments[0].addEventListener(\"click\", isclickfired, false);}else {argum..."
+}
+[414.706][INFO]: Waiting for pending navigations...
+[414.706][INFO]: Done waiting for pending navigations. Status: ok
+[414.709][INFO]: Waiting for pending navigations...
+[414.709][INFO]: Done waiting for pending navigations. Status: ok
+[414.710][INFO]: RESPONSE ExecuteScript null
+[414.712][INFO]: COMMAND ClickElement {
+   "id": "0.24758854180665146-20"
+}
+[414.712][INFO]: Waiting for pending navigations...
+[414.713][INFO]: Done waiting for pending navigations. Status: ok
+[414.742][INFO]: Waiting for pending navigations...
+[414.801][INFO]: Done waiting for pending navigations. Status: ok
+[414.802][INFO]: RESPONSE ClickElement
+[414.806][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return (window.pageChangedFlag == null || window.pageChangedFlag == true)"
+}
+[414.806][INFO]: Waiting for pending navigations...
+[414.837][INFO]: Done waiting for pending navigations. Status: ok
+[414.841][INFO]: Waiting for pending navigations...
+[414.845][INFO]: Done waiting for pending navigations. Status: ok
+[414.845][INFO]: RESPONSE ExecuteScript true
+[414.853][INFO]: COMMAND GetWindows {
+
+}
+[414.854][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[414.856][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[414.856][INFO]: Waiting for pending navigations...
+[414.857][INFO]: Done waiting for pending navigations. Status: ok
+[414.857][INFO]: Waiting for pending navigations...
+[414.858][INFO]: Done waiting for pending navigations. Status: ok
+[414.858][INFO]: RESPONSE SwitchToFrame
+[415.066][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[415.066][INFO]: Waiting for pending navigations...
+[415.069][INFO]: Done waiting for pending navigations. Status: ok
+[415.075][INFO]: Waiting for pending navigations...
+[415.078][INFO]: Done waiting for pending navigations. Status: ok
+[415.078][INFO]: RESPONSE ExecuteScript true
+[415.284][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[415.359][INFO]: Waiting for pending navigations...
+[415.369][INFO]: Done waiting for pending navigations. Status: ok
+[415.375][INFO]: Waiting for pending navigations...
+[415.378][INFO]: Done waiting for pending navigations. Status: ok
+[415.378][INFO]: RESPONSE ExecuteScript true
+[415.384][INFO]: COMMAND GetUrl {
+
+}
+[415.384][INFO]: Waiting for pending navigations...
+[415.387][INFO]: Done waiting for pending navigations. Status: ok
+[415.393][INFO]: Waiting for pending navigations...
+[415.396][INFO]: Done waiting for pending navigations. Status: ok
+[415.396][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[415.407][INFO]: COMMAND GetWindows {
+
+}
+[415.411][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[415.421][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[415.421][INFO]: RESPONSE SetTimeout
+[415.424][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[415.424][INFO]: RESPONSE SetTimeout
+[415.428][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[415.428][INFO]: RESPONSE SetTimeout
+[415.432][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[415.437][INFO]: RESPONSE MaximizeWindow
+[415.444][INFO]: COMMAND GetWindows {
+
+}
+[415.445][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[415.449][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[415.449][INFO]: Waiting for pending navigations...
+[415.450][INFO]: Done waiting for pending navigations. Status: ok
+[415.451][INFO]: Waiting for pending navigations...
+[415.452][INFO]: Done waiting for pending navigations. Status: ok
+[415.453][INFO]: RESPONSE SwitchToFrame
+[415.456][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "number"
+}
+[415.456][INFO]: Waiting for pending navigations...
+[415.458][INFO]: Done waiting for pending navigations. Status: ok
+[415.469][INFO]: Waiting for pending navigations...
+[415.471][INFO]: Done waiting for pending navigations. Status: ok
+[415.471][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-21"
+}
+[415.473][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-21"
+}
+[415.473][INFO]: Waiting for pending navigations...
+[415.475][INFO]: Done waiting for pending navigations. Status: ok
+[415.477][INFO]: Waiting for pending navigations...
+[415.478][INFO]: Done waiting for pending navigations. Status: ok
+[415.478][INFO]: RESPONSE GetElementTagName "input"
+[415.481][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-21",
+   "value": [ "a" ]
+}
+[415.481][INFO]: Waiting for pending navigations...
+[415.482][INFO]: Done waiting for pending navigations. Status: ok
+[415.516][INFO]: Waiting for pending navigations...
+[415.517][INFO]: Done waiting for pending navigations. Status: ok
+[415.517][INFO]: RESPONSE TypeElement
+[415.520][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-21",
+   "value": [ "" ]
+}
+[415.520][INFO]: Waiting for pending navigations...
+[415.521][INFO]: Done waiting for pending navigations. Status: ok
+[415.536][INFO]: Waiting for pending navigations...
+[415.537][INFO]: Done waiting for pending navigations. Status: ok
+[415.537][INFO]: RESPONSE TypeElement
+[415.539][INFO]: COMMAND ClearElement {
+   "id": "0.24758854180665146-21"
+}
+[415.539][INFO]: Waiting for pending navigations...
+[415.540][INFO]: Done waiting for pending navigations. Status: ok
+[415.554][INFO]: Waiting for pending navigations...
+[415.556][INFO]: Done waiting for pending navigations. Status: ok
+[415.556][INFO]: RESPONSE ClearElement
+[415.559][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-21",
+   "value": [ "015201588346" ]
+}
+[415.559][INFO]: Waiting for pending navigations...
+[415.560][INFO]: Done waiting for pending navigations. Status: ok
+[415.596][INFO]: Waiting for pending navigations...
+[415.618][INFO]: Done waiting for pending navigations. Status: ok
+[415.618][INFO]: RESPONSE TypeElement
+[415.622][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-21"
+}
+[415.622][INFO]: Waiting for pending navigations...
+[415.633][INFO]: Done waiting for pending navigations. Status: ok
+[415.635][INFO]: Waiting for pending navigations...
+[415.635][INFO]: Done waiting for pending navigations. Status: ok
+[415.636][INFO]: RESPONSE GetElementTagName "input"
+[415.638][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-21",
+   "name": "type"
+}
+[415.638][INFO]: Waiting for pending navigations...
+[415.639][INFO]: Done waiting for pending navigations. Status: ok
+[415.641][INFO]: Waiting for pending navigations...
+[415.642][INFO]: Done waiting for pending navigations. Status: ok
+[415.642][INFO]: RESPONSE GetElementAttribute "tel"
+[415.644][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-21",
+   "name": "value"
+}
+[415.644][INFO]: Waiting for pending navigations...
+[415.645][INFO]: Done waiting for pending navigations. Status: ok
+[415.651][INFO]: Waiting for pending navigations...
+[415.652][INFO]: Done waiting for pending navigations. Status: ok
+[415.652][INFO]: RESPONSE GetElementAttribute "015201588346"
+[415.860][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[415.860][INFO]: Waiting for pending navigations...
+[415.863][INFO]: Done waiting for pending navigations. Status: ok
+[415.867][INFO]: Waiting for pending navigations...
+[415.870][INFO]: Done waiting for pending navigations. Status: ok
+[415.870][INFO]: RESPONSE ExecuteScript true
+[415.876][INFO]: COMMAND GetUrl {
+
+}
+[415.876][INFO]: Waiting for pending navigations...
+[415.879][INFO]: Done waiting for pending navigations. Status: ok
+[415.883][INFO]: Waiting for pending navigations...
+[415.885][INFO]: Done waiting for pending navigations. Status: ok
+[415.886][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[415.893][INFO]: COMMAND GetWindows {
+
+}
+[415.894][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[415.900][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[415.900][INFO]: RESPONSE SetTimeout
+[415.904][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[415.904][INFO]: RESPONSE SetTimeout
+[415.909][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[415.909][INFO]: RESPONSE SetTimeout
+[415.914][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[415.919][INFO]: RESPONSE MaximizeWindow
+[415.924][INFO]: COMMAND GetWindows {
+
+}
+[415.925][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[415.928][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[415.928][INFO]: Waiting for pending navigations...
+[415.929][INFO]: Done waiting for pending navigations. Status: ok
+[415.929][INFO]: Waiting for pending navigations...
+[415.930][INFO]: Done waiting for pending navigations. Status: ok
+[415.931][INFO]: RESPONSE SwitchToFrame
+[415.934][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "password"
+}
+[415.934][INFO]: Waiting for pending navigations...
+[415.936][INFO]: Done waiting for pending navigations. Status: ok
+[415.948][INFO]: Waiting for pending navigations...
+[415.949][INFO]: Done waiting for pending navigations. Status: ok
+[415.949][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-22"
+}
+[415.952][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-22"
+}
+[415.952][INFO]: Waiting for pending navigations...
+[415.953][INFO]: Done waiting for pending navigations. Status: ok
+[415.956][INFO]: Waiting for pending navigations...
+[415.957][INFO]: Done waiting for pending navigations. Status: ok
+[415.957][INFO]: RESPONSE GetElementTagName "input"
+[415.960][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-22",
+   "value": [ "a" ]
+}
+[415.960][INFO]: Waiting for pending navigations...
+[415.961][INFO]: Done waiting for pending navigations. Status: ok
+[415.994][INFO]: Waiting for pending navigations...
+[415.997][INFO]: Done waiting for pending navigations. Status: ok
+[415.997][INFO]: RESPONSE TypeElement
+[416.001][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-22",
+   "value": [ "" ]
+}
+[416.001][INFO]: Waiting for pending navigations...
+[416.003][INFO]: Done waiting for pending navigations. Status: ok
+[416.018][INFO]: Waiting for pending navigations...
+[416.019][INFO]: Done waiting for pending navigations. Status: ok
+[416.019][INFO]: RESPONSE TypeElement
+[416.022][INFO]: COMMAND ClearElement {
+   "id": "0.24758854180665146-22"
+}
+[416.022][INFO]: Waiting for pending navigations...
+[416.023][INFO]: Done waiting for pending navigations. Status: ok
+[416.038][INFO]: Waiting for pending navigations...
+[416.039][INFO]: Done waiting for pending navigations. Status: ok
+[416.039][INFO]: RESPONSE ClearElement
+[416.042][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-22",
+   "value": [ "DIGITAL" ]
+}
+[416.042][INFO]: Waiting for pending navigations...
+[416.043][INFO]: Done waiting for pending navigations. Status: ok
+[416.073][INFO]: Waiting for pending navigations...
+[416.088][INFO]: Done waiting for pending navigations. Status: ok
+[416.089][INFO]: RESPONSE TypeElement
+[416.092][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-22"
+}
+[416.092][INFO]: Waiting for pending navigations...
+[416.093][INFO]: Done waiting for pending navigations. Status: ok
+[416.094][INFO]: Waiting for pending navigations...
+[416.095][INFO]: Done waiting for pending navigations. Status: ok
+[416.095][INFO]: RESPONSE GetElementTagName "input"
+[416.099][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-22",
+   "name": "type"
+}
+[416.099][INFO]: Waiting for pending navigations...
+[416.100][INFO]: Done waiting for pending navigations. Status: ok
+[416.103][INFO]: Waiting for pending navigations...
+[416.104][INFO]: Done waiting for pending navigations. Status: ok
+[416.104][INFO]: RESPONSE GetElementAttribute "password"
+[416.107][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-22",
+   "name": "value"
+}
+[416.107][INFO]: Waiting for pending navigations...
+[416.107][INFO]: Done waiting for pending navigations. Status: ok
+[416.113][INFO]: Waiting for pending navigations...
+[416.114][INFO]: Done waiting for pending navigations. Status: ok
+[416.114][INFO]: RESPONSE GetElementAttribute "DIGITAL"
+[416.324][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[416.324][INFO]: Waiting for pending navigations...
+[416.327][INFO]: Done waiting for pending navigations. Status: ok
+[416.331][INFO]: Waiting for pending navigations...
+[416.333][INFO]: Done waiting for pending navigations. Status: ok
+[416.333][INFO]: RESPONSE ExecuteScript true
+[416.340][INFO]: COMMAND GetUrl {
+
+}
+[416.340][INFO]: Waiting for pending navigations...
+[416.343][INFO]: Done waiting for pending navigations. Status: ok
+[416.347][INFO]: Waiting for pending navigations...
+[416.349][INFO]: Done waiting for pending navigations. Status: ok
+[416.349][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[416.360][INFO]: COMMAND GetWindows {
+
+}
+[416.362][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[416.370][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[416.370][INFO]: RESPONSE SetTimeout
+[416.378][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[416.378][INFO]: RESPONSE SetTimeout
+[416.384][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[416.384][INFO]: RESPONSE SetTimeout
+[416.389][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[416.395][INFO]: RESPONSE MaximizeWindow
+[416.401][INFO]: COMMAND GetWindows {
+
+}
+[416.402][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[416.405][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[416.405][INFO]: Waiting for pending navigations...
+[416.407][INFO]: Done waiting for pending navigations. Status: ok
+[416.407][INFO]: Waiting for pending navigations...
+[416.407][INFO]: Done waiting for pending navigations. Status: ok
+[416.407][INFO]: RESPONSE SwitchToFrame
+[416.410][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Anmelden"
+}
+[416.410][INFO]: Waiting for pending navigations...
+[416.411][INFO]: Done waiting for pending navigations. Status: ok
+[416.432][INFO]: Waiting for pending navigations...
+[416.433][INFO]: Done waiting for pending navigations. Status: ok
+[416.433][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-23"
+}
+[416.436][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24758854180665146-23"
+}
+[416.436][INFO]: Waiting for pending navigations...
+[416.437][INFO]: Done waiting for pending navigations. Status: ok
+[416.447][INFO]: Waiting for pending navigations...
+[416.449][INFO]: Done waiting for pending navigations. Status: ok
+[416.449][INFO]: RESPONSE IsElementDisplayed true
+[416.452][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-23",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-23"
+   } ],
+   "script": "window.pageChangedFlag = false; function isclickfired() {window.pageChangedFlag = true;} if (arguments[0].addEventListener) {arguments[0].addEventListener(\"click\", isclickfired, false);}else {argum..."
+}
+[416.452][INFO]: Waiting for pending navigations...
+[416.453][INFO]: Done waiting for pending navigations. Status: ok
+[416.455][INFO]: Waiting for pending navigations...
+[416.456][INFO]: Done waiting for pending navigations. Status: ok
+[416.456][INFO]: RESPONSE ExecuteScript null
+[416.458][INFO]: COMMAND ClickElement {
+   "id": "0.24758854180665146-23"
+}
+[416.458][INFO]: Waiting for pending navigations...
+[416.459][INFO]: Done waiting for pending navigations. Status: ok
+[416.489][INFO]: Waiting for pending navigations...
+[416.510][INFO]: Done waiting for pending navigations. Status: ok
+[416.510][INFO]: RESPONSE ClickElement
+[416.514][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return (window.pageChangedFlag == null || window.pageChangedFlag == true)"
+}
+[416.514][INFO]: Waiting for pending navigations...
+[416.517][INFO]: Done waiting for pending navigations. Status: ok
+[416.529][INFO]: Waiting for pending navigations...
+[416.531][INFO]: Done waiting for pending navigations. Status: ok
+[416.531][INFO]: RESPONSE ExecuteScript true
+[416.536][INFO]: COMMAND GetWindows {
+
+}
+[416.538][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[416.540][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[416.540][INFO]: Waiting for pending navigations...
+[416.541][INFO]: Done waiting for pending navigations. Status: ok
+[416.541][INFO]: Waiting for pending navigations...
+[416.543][INFO]: Done waiting for pending navigations. Status: ok
+[416.543][INFO]: RESPONSE SwitchToFrame
+[416.749][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[416.749][INFO]: Waiting for pending navigations...
+[416.752][INFO]: Done waiting for pending navigations. Status: ok
+[416.756][INFO]: Waiting for pending navigations...
+[416.758][INFO]: Done waiting for pending navigations. Status: ok
+[416.759][INFO]: RESPONSE ExecuteScript true
+[416.967][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[416.967][INFO]: Waiting for pending navigations...
+[416.969][INFO]: Done waiting for pending navigations. Status: ok
+[416.974][INFO]: Waiting for pending navigations...
+[416.977][INFO]: Done waiting for pending navigations. Status: ok
+[416.977][INFO]: RESPONSE ExecuteScript true
+[416.983][INFO]: COMMAND GetUrl {
+
+}
+[416.983][INFO]: Waiting for pending navigations...
+[416.986][INFO]: Done waiting for pending navigations. Status: ok
+[416.990][INFO]: Waiting for pending navigations...
+[416.992][INFO]: Done waiting for pending navigations. Status: ok
+[416.993][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[417.000][INFO]: COMMAND GetWindows {
+
+}
+[417.001][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[417.005][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[417.005][INFO]: RESPONSE SetTimeout
+[417.008][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[417.008][INFO]: RESPONSE SetTimeout
+[417.012][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[417.013][INFO]: RESPONSE SetTimeout
+[417.017][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[417.021][INFO]: RESPONSE MaximizeWindow
+[417.056][INFO]: COMMAND GetUrl {
+
+}
+[417.056][INFO]: Waiting for pending navigations...
+[417.059][INFO]: Done waiting for pending navigations. Status: ok
+[417.063][INFO]: Waiting for pending navigations...
+[417.066][INFO]: Done waiting for pending navigations. Status: ok
+[417.067][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[417.122][INFO]: COMMAND GetWindows {
+
+}
+[417.123][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[417.125][INFO]: COMMAND Screenshot {
+
+}
+[417.125][INFO]: Waiting for pending navigations...
+[417.126][INFO]: Done waiting for pending navigations. Status: ok
+[417.281][INFO]: Waiting for pending navigations...
+[417.282][INFO]: Done waiting for pending navigations. Status: ok
+[417.282][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMaCAIAAABRQx3GAAAgAElEQVR4nOzdXXBb95nn+ee84IUkKEEiQ1MyFCEhLVMOFdNtWaY9VEqJ1bbiyBmmrE6rpzzbqhpXJ7tJTeWiL+aufdEXu1upmp2pdFVXlyvl7XZvu7PyrNJ2FDkjx5yWypbddBseMQotkzZkwRJFE..."
+[428.470][INFO]: COMMAND GetWindows {
+
+}
+[428.473][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[428.480][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[428.480][INFO]: Waiting for pending navigations...
+[428.483][INFO]: Done waiting for pending navigations. Status: ok
+[428.488][INFO]: Waiting for pending navigations...
+[428.490][INFO]: Done waiting for pending navigations. Status: ok
+[428.491][INFO]: RESPONSE ExecuteScript null
+[428.494][INFO]: COMMAND GetWindows {
+
+}
+[428.496][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[428.499][INFO]: COMMAND GetWindows {
+
+}
+[428.500][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[428.504][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[428.504][INFO]: Waiting for pending navigations...
+[428.506][INFO]: Done waiting for pending navigations. Status: ok
+[428.506][INFO]: Waiting for pending navigations...
+[428.507][INFO]: Done waiting for pending navigations. Status: ok
+[428.507][INFO]: RESPONSE SwitchToFrame
+[428.511][INFO]: COMMAND SetTimeout {
+   "ms": 0,
+   "type": "implicit"
+}
+[428.511][INFO]: RESPONSE SetTimeout
+[428.514][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Jetzt Rufnummern- Mitnahme starten"
+}
+[428.515][INFO]: Waiting for pending navigations...
+[428.516][INFO]: Done waiting for pending navigations. Status: ok
+[428.566][INFO]: Waiting for pending navigations...
+[428.573][INFO]: Done waiting for pending navigations. Status: ok
+[428.573][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Jetzt Rufnummern- Mitnahme starten"}
+  (Session info: chrome=56.0.2924.87)
+[436.946][INFO]: COMMAND GetWindows {
+
+}
+[436.949][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[436.952][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[436.952][INFO]: Waiting for pending navigations...
+[436.954][INFO]: Done waiting for pending navigations. Status: ok
+[436.955][INFO]: Waiting for pending navigations...
+[436.956][INFO]: Done waiting for pending navigations. Status: ok
+[436.956][INFO]: RESPONSE ExecuteScript null
+[436.959][INFO]: COMMAND GetWindows {
+
+}
+[436.960][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[436.962][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "try{\tclearInterval(myVar2);\telement2.style.outline = currentOutline2;\telement2.style.border = currentBorder2;}catch(err){}try{\tclearInterval(myVar);\telement.style.outline = currentOutline;\telement...."
+}
+[436.962][INFO]: Waiting for pending navigations...
+[436.963][INFO]: Done waiting for pending navigations. Status: ok
+[436.965][INFO]: Waiting for pending navigations...
+[436.966][INFO]: Done waiting for pending navigations. Status: ok
+[436.966][INFO]: RESPONSE ExecuteScript null
+[443.786][INFO]: COMMAND GetWindows {
+
+}
+[443.791][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[443.795][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[443.795][INFO]: RESPONSE SetTimeout
+[443.797][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[443.798][INFO]: RESPONSE SetTimeout
+[443.800][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[443.800][INFO]: RESPONSE SetTimeout
+[443.803][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[443.806][INFO]: RESPONSE MaximizeWindow
+[443.811][INFO]: COMMAND GetWindows {
+
+}
+[443.812][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[443.815][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[443.815][INFO]: Waiting for pending navigations...
+[443.816][INFO]: Done waiting for pending navigations. Status: ok
+[443.816][INFO]: Waiting for pending navigations...
+[443.817][INFO]: Done waiting for pending navigations. Status: ok
+[443.817][INFO]: RESPONSE SwitchToFrame
+[443.821][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "number"
+}
+[443.821][INFO]: Waiting for pending navigations...
+[443.822][INFO]: Done waiting for pending navigations. Status: ok
+[443.825][INFO]: Waiting for pending navigations...
+[443.826][INFO]: Done waiting for pending navigations. Status: ok
+[443.826][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-24"
+}
+[443.829][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-24"
+}
+[443.829][INFO]: Waiting for pending navigations...
+[443.830][INFO]: Done waiting for pending navigations. Status: ok
+[443.832][INFO]: Waiting for pending navigations...
+[443.833][INFO]: Done waiting for pending navigations. Status: ok
+[443.833][INFO]: RESPONSE GetElementTagName "input"
+[443.838][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-24",
+   "value": [ "a" ]
+}
+[443.838][INFO]: Waiting for pending navigations...
+[443.839][INFO]: Done waiting for pending navigations. Status: ok
+[443.870][INFO]: Waiting for pending navigations...
+[443.873][INFO]: Done waiting for pending navigations. Status: ok
+[443.873][INFO]: RESPONSE TypeElement
+[443.877][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-24",
+   "value": [ "" ]
+}
+[443.877][INFO]: Waiting for pending navigations...
+[443.878][INFO]: Done waiting for pending navigations. Status: ok
+[443.892][INFO]: Waiting for pending navigations...
+[443.894][INFO]: Done waiting for pending navigations. Status: ok
+[443.894][INFO]: RESPONSE TypeElement
+[443.897][INFO]: COMMAND ClearElement {
+   "id": "0.24758854180665146-24"
+}
+[443.897][INFO]: Waiting for pending navigations...
+[443.898][INFO]: Done waiting for pending navigations. Status: ok
+[443.911][INFO]: Waiting for pending navigations...
+[443.913][INFO]: Done waiting for pending navigations. Status: ok
+[443.913][INFO]: RESPONSE ClearElement
+[443.916][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-24",
+   "value": [ "015201588346" ]
+}
+[443.916][INFO]: Waiting for pending navigations...
+[443.917][INFO]: Done waiting for pending navigations. Status: ok
+[443.956][INFO]: Waiting for pending navigations...
+[443.979][INFO]: Done waiting for pending navigations. Status: ok
+[443.979][INFO]: RESPONSE TypeElement
+[443.981][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-24"
+}
+[443.981][INFO]: Waiting for pending navigations...
+[443.982][INFO]: Done waiting for pending navigations. Status: ok
+[443.983][INFO]: Waiting for pending navigations...
+[443.984][INFO]: Done waiting for pending navigations. Status: ok
+[443.984][INFO]: RESPONSE GetElementTagName "input"
+[443.987][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-24",
+   "name": "type"
+}
+[443.987][INFO]: Waiting for pending navigations...
+[443.989][INFO]: Done waiting for pending navigations. Status: ok
+[443.992][INFO]: Waiting for pending navigations...
+[443.993][INFO]: Done waiting for pending navigations. Status: ok
+[443.993][INFO]: RESPONSE GetElementAttribute "tel"
+[443.996][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-24",
+   "name": "value"
+}
+[443.996][INFO]: Waiting for pending navigations...
+[443.997][INFO]: Done waiting for pending navigations. Status: ok
+[444.002][INFO]: Waiting for pending navigations...
+[444.004][INFO]: Done waiting for pending navigations. Status: ok
+[444.004][INFO]: RESPONSE GetElementAttribute "015201588346"
+[444.216][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[444.216][INFO]: Waiting for pending navigations...
+[444.219][INFO]: Done waiting for pending navigations. Status: ok
+[444.223][INFO]: Waiting for pending navigations...
+[444.226][INFO]: Done waiting for pending navigations. Status: ok
+[444.226][INFO]: RESPONSE ExecuteScript true
+[444.233][INFO]: COMMAND GetUrl {
+
+}
+[444.233][INFO]: Waiting for pending navigations...
+[444.235][INFO]: Done waiting for pending navigations. Status: ok
+[444.240][INFO]: Waiting for pending navigations...
+[444.242][INFO]: Done waiting for pending navigations. Status: ok
+[444.242][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[447.711][INFO]: COMMAND GetWindows {
+
+}
+[447.712][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[447.715][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[447.715][INFO]: RESPONSE SetTimeout
+[447.717][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[447.717][INFO]: RESPONSE SetTimeout
+[447.723][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[447.723][INFO]: RESPONSE SetTimeout
+[447.726][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[447.729][INFO]: RESPONSE MaximizeWindow
+[447.734][INFO]: COMMAND GetWindows {
+
+}
+[447.737][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[447.741][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[447.741][INFO]: Waiting for pending navigations...
+[447.742][INFO]: Done waiting for pending navigations. Status: ok
+[447.742][INFO]: Waiting for pending navigations...
+[447.743][INFO]: Done waiting for pending navigations. Status: ok
+[447.743][INFO]: RESPONSE SwitchToFrame
+[447.746][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "password"
+}
+[447.746][INFO]: Waiting for pending navigations...
+[447.747][INFO]: Done waiting for pending navigations. Status: ok
+[447.751][INFO]: Waiting for pending navigations...
+[447.751][INFO]: Done waiting for pending navigations. Status: ok
+[447.751][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-25"
+}
+[447.754][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-25"
+}
+[447.754][INFO]: Waiting for pending navigations...
+[447.754][INFO]: Done waiting for pending navigations. Status: ok
+[447.757][INFO]: Waiting for pending navigations...
+[447.758][INFO]: Done waiting for pending navigations. Status: ok
+[447.758][INFO]: RESPONSE GetElementTagName "input"
+[447.760][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-25",
+   "value": [ "a" ]
+}
+[447.760][INFO]: Waiting for pending navigations...
+[447.761][INFO]: Done waiting for pending navigations. Status: ok
+[447.791][INFO]: Waiting for pending navigations...
+[447.793][INFO]: Done waiting for pending navigations. Status: ok
+[447.793][INFO]: RESPONSE TypeElement
+[447.796][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-25",
+   "value": [ "" ]
+}
+[447.796][INFO]: Waiting for pending navigations...
+[447.797][INFO]: Done waiting for pending navigations. Status: ok
+[447.811][INFO]: Waiting for pending navigations...
+[447.814][INFO]: Done waiting for pending navigations. Status: ok
+[447.814][INFO]: RESPONSE TypeElement
+[447.817][INFO]: COMMAND ClearElement {
+   "id": "0.24758854180665146-25"
+}
+[447.817][INFO]: Waiting for pending navigations...
+[447.818][INFO]: Done waiting for pending navigations. Status: ok
+[447.833][INFO]: Waiting for pending navigations...
+[447.834][INFO]: Done waiting for pending navigations. Status: ok
+[447.834][INFO]: RESPONSE ClearElement
+[447.837][INFO]: COMMAND TypeElement {
+   "id": "0.24758854180665146-25",
+   "value": [ "DIGITAL" ]
+}
+[447.837][INFO]: Waiting for pending navigations...
+[447.837][INFO]: Done waiting for pending navigations. Status: ok
+[447.870][INFO]: Waiting for pending navigations...
+[447.886][INFO]: Done waiting for pending navigations. Status: ok
+[447.886][INFO]: RESPONSE TypeElement
+[447.890][INFO]: COMMAND GetElementTagName {
+   "id": "0.24758854180665146-25"
+}
+[447.890][INFO]: Waiting for pending navigations...
+[447.890][INFO]: Done waiting for pending navigations. Status: ok
+[447.892][INFO]: Waiting for pending navigations...
+[447.893][INFO]: Done waiting for pending navigations. Status: ok
+[447.893][INFO]: RESPONSE GetElementTagName "input"
+[447.895][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-25",
+   "name": "type"
+}
+[447.895][INFO]: Waiting for pending navigations...
+[447.896][INFO]: Done waiting for pending navigations. Status: ok
+[447.898][INFO]: Waiting for pending navigations...
+[447.899][INFO]: Done waiting for pending navigations. Status: ok
+[447.899][INFO]: RESPONSE GetElementAttribute "password"
+[447.902][INFO]: COMMAND GetElementAttribute {
+   "id": "0.24758854180665146-25",
+   "name": "value"
+}
+[447.902][INFO]: Waiting for pending navigations...
+[447.904][INFO]: Done waiting for pending navigations. Status: ok
+[447.910][INFO]: Waiting for pending navigations...
+[447.911][INFO]: Done waiting for pending navigations. Status: ok
+[447.911][INFO]: RESPONSE GetElementAttribute "DIGITAL"
+[448.130][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[448.130][INFO]: Waiting for pending navigations...
+[448.133][INFO]: Done waiting for pending navigations. Status: ok
+[448.137][INFO]: Waiting for pending navigations...
+[448.140][INFO]: Done waiting for pending navigations. Status: ok
+[448.140][INFO]: RESPONSE ExecuteScript true
+[448.146][INFO]: COMMAND GetUrl {
+
+}
+[448.147][INFO]: Waiting for pending navigations...
+[448.149][INFO]: Done waiting for pending navigations. Status: ok
+[448.154][INFO]: Waiting for pending navigations...
+[448.156][INFO]: Done waiting for pending navigations. Status: ok
+[448.156][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"
+[451.955][INFO]: COMMAND GetWindows {
+
+}
+[451.957][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[451.960][INFO]: COMMAND SetTimeout {
+   "ms": 120000,
+   "type": "page load"
+}
+[451.960][INFO]: RESPONSE SetTimeout
+[451.963][INFO]: COMMAND SetTimeout {
+   "ms": 2000,
+   "type": "implicit"
+}
+[451.963][INFO]: RESPONSE SetTimeout
+[451.966][INFO]: COMMAND SetTimeout {
+   "ms": 500,
+   "type": "script"
+}
+[451.966][INFO]: RESPONSE SetTimeout
+[451.972][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[451.975][INFO]: RESPONSE MaximizeWindow
+[451.981][INFO]: COMMAND GetWindows {
+
+}
+[451.982][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[451.987][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[451.987][INFO]: Waiting for pending navigations...
+[451.988][INFO]: Done waiting for pending navigations. Status: ok
+[451.988][INFO]: Waiting for pending navigations...
+[451.989][INFO]: Done waiting for pending navigations. Status: ok
+[451.989][INFO]: RESPONSE SwitchToFrame
+[451.992][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Anmelden"
+}
+[451.992][INFO]: Waiting for pending navigations...
+[451.993][INFO]: Done waiting for pending navigations. Status: ok
+[452.004][INFO]: Waiting for pending navigations...
+[452.005][INFO]: Done waiting for pending navigations. Status: ok
+[452.005][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.24758854180665146-26"
+}
+[452.007][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24758854180665146-26"
+}
+[452.007][INFO]: Waiting for pending navigations...
+[452.008][INFO]: Done waiting for pending navigations. Status: ok
+[452.018][INFO]: Waiting for pending navigations...
+[452.019][INFO]: Done waiting for pending navigations. Status: ok
+[452.019][INFO]: RESPONSE IsElementDisplayed true
+[452.022][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.24758854180665146-26",
+      "element-6066-11e4-a52e-4f735466cecf": "0.24758854180665146-26"
+   } ],
+   "script": "window.pageChangedFlag = false; function isclickfired() {window.pageChangedFlag = true;} if (arguments[0].addEventListener) {arguments[0].addEventListener(\"click\", isclickfired, false);}else {argum..."
+}
+[452.022][INFO]: Waiting for pending navigations...
+[452.023][INFO]: Done waiting for pending navigations. Status: ok
+[452.026][INFO]: Waiting for pending navigations...
+[452.026][INFO]: Done waiting for pending navigations. Status: ok
+[452.026][INFO]: RESPONSE ExecuteScript null
+[452.029][INFO]: COMMAND ClickElement {
+   "id": "0.24758854180665146-26"
+}
+[452.029][INFO]: Waiting for pending navigations...
+[452.030][INFO]: Done waiting for pending navigations. Status: ok
+[452.060][INFO]: Waiting for pending navigations...
+[452.079][INFO]: Done waiting for pending navigations. Status: ok
+[452.079][INFO]: RESPONSE ClickElement
+[452.082][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return (window.pageChangedFlag == null || window.pageChangedFlag == true)"
+}
+[452.082][INFO]: Waiting for pending navigations...
+[452.084][INFO]: Done waiting for pending navigations. Status: ok
+[452.087][INFO]: Waiting for pending navigations...
+[452.089][INFO]: Done waiting for pending navigations. Status: ok
+[452.089][INFO]: RESPONSE ExecuteScript true
+[452.104][INFO]: COMMAND GetWindows {
+
+}
+[452.107][INFO]: RESPONSE GetWindows [ "CDwindow-e3339035-1a92-43ec-93fc-4bd17bc7e522" ]
+[452.112][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[452.112][INFO]: Waiting for pending navigations...
+[452.113][INFO]: Done waiting for pending navigations. Status: ok
+[452.113][INFO]: Waiting for pending navigations...
+[452.114][INFO]: Done waiting for pending navigations. Status: ok
+[452.115][INFO]: RESPONSE SwitchToFrame
+[452.324][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var loading=(document.readyState == 'complete'); var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return (loading && ajax)"
+}
+[452.324][INFO]: Waiting for pending navigations...
+[452.328][INFO]: Done waiting for pending navigations. Status: ok
+[452.332][INFO]: Waiting for pending navigations...
+[452.335][INFO]: Done waiting for pending navigations. Status: ok
+[452.335][INFO]: RESPONSE ExecuteScript true
+[452.540][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var ajax; try{ajax = (jQuery.active==0);}catch(e){ajax= true} return ajax;"
+}
+[452.540][INFO]: Waiting for pending navigations...
+[452.545][INFO]: Done waiting for pending navigations. Status: ok
+[452.548][INFO]: Waiting for pending navigations...
+[452.550][INFO]: Done waiting for pending navigations. Status: ok
+[452.550][INFO]: RESPONSE ExecuteScript true
+[452.555][INFO]: COMMAND GetUrl {
+
+}
+[452.555][INFO]: Waiting for pending navigations...
+[452.560][INFO]: Done waiting for pending navigations. Status: ok
+[452.562][INFO]: Waiting for pending navigations...
+[452.563][INFO]: Done waiting for pending navigations. Status: ok
+[452.563][INFO]: RESPONSE GetUrl "https://www.vodafone.de/playground/mnp-10/mnp-main.html#/shopLogin"

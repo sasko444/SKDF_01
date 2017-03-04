@@ -1,0 +1,5 @@
+(04:29:28.167) - Info: UIMap file C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/UIMap.xls loaded with 1 sheets in 0 mSec
+(04:29:28.182) - Info: Testscript (TC001) loaded with 7 step
+(04:29:28.182) - Info: Testscript (Start001) loaded with 1 step
+(04:29:28.182) - Info: Testscript file (C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/Scripts/Script1.xls) loaded with 2 script in 15 mSec
+(04:29:31.003) - Info: Application Closed

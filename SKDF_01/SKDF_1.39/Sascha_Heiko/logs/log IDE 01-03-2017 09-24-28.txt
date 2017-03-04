@@ -1,0 +1,11 @@
+(09:24:28.917) - Info: UIMap file C:/Selenium/SKDF_1.39/Sascha_Heiko/UIMap.xls loaded with 1 sheets in 0 mSec
+(09:24:28.932) - Info: Testscript (TC001) loaded with 7 step
+(09:24:28.932) - Info: Testscript (Start001) loaded with 1 step
+(09:24:28.932) - Info: Testscript file (C:/Selenium/SKDF_1.39/Sascha_Heiko/Scripts/Script1.xls) loaded with 2 script in 15 mSec
+(09:25:38.196) - Info: Testdata file C:/Selenium/SKDF_1.39/Sascha_Heiko/Testdata.xls loaded with 1 in 0 mSec
+(09:25:43.906) - Info: Testdata file C:/Selenium/SKDF_1.39/Sascha_Heiko/Testdata.xls loaded with 1 in 0 mSec
+(09:26:04.576) - Info: Project C:/Selenium/SKDF_1.39/Sascha_Heiko/Sascha_Heiko.prj updated.
+(09:26:04.607) - Info: Testscript (#Test) loaded with 1 step
+(09:26:04.607) - Info: Testscript file (C:/Selenium/SKDF_1.39/Sascha_Heiko/0224_1.xls) loaded with 1 script in 15 mSec
+(09:26:09.350) - Info: Testscript (#Test) loaded with 1 step
+(09:26:09.350) - Info: Testscript file (C:/Selenium/SKDF_1.39/Sascha_Heiko/0224_1.xls) loaded with 1 script in 110 mSec

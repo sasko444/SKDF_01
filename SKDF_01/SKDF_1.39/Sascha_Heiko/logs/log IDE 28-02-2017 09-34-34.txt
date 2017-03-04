@@ -1,0 +1,32 @@
+(09:34:34.638) - Info: UIMap file C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/0224_1.xls loaded with 1 sheets in 0 mSec
+(09:34:34.653) - Info: Testscript (TC001) loaded with 7 step
+(09:34:34.653) - Info: Testscript (Start001) loaded with 1 step
+(09:34:34.653) - Info: Testscript file (C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/Scripts/Script1.xls) loaded with 2 script in 15 mSec
+(09:35:06.044) - Info: Firefox config loaded.
+Firefox
+Cabability: platform=ANY
+Cabability: acceptSslCerts=true
+Cabability: javascriptEnabled=true
+Cabability: elementScrollBehavior=1
+Cabability: browserName=firefox
+Cabability: rotatable=false
+Cabability: unexpectedAlertBehaviour=ignore
+Cabability: locationContextEnabled=true
+Cabability: version=
+Cabability: databaseEnabled=true
+Cabability: browserConnectionEnabled=true
+Cabability: nativeEvents=false
+Cabability: webStorageEnabled=true
+Cabability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+Cabability: webdriver.remote.quietExceptions=false
+Cabability: applicationCacheEnabled=true
+Profile Preferences: webdriver_assume_untrusted_issuer=true
+Profile Preferences: webdriver_accept_untrusted_certs=true
+Profile Preferences: webdriver_enable_native_events=true
+Config: auto_select_window=false
+Config: auto_maxmize=false
+Config: timeout_page=120000
+Config: timeout_find=2000
+Config: timeout_jscript=500
+Config: timeout_ajax=20000
+(09:35:29.062) - Info: Application Closed

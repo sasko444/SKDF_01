@@ -1,0 +1,22 @@
+#Wed Mar 01 09:42:50 CET 2017
+timeout_ajax=20000
+timeout_find=2000
+autoSelectBrWindow=false
+Testdata=Testdata.xls
+web=false
+Results=Results
+Testscript=/Scripts/Script1.xls
+timeout_script=500
+Testsuite=Testsuite.xls
+Targets=Targets
+UIMap=UIMap.xls
+executionDelay=0
+Testscripts=Scripts
+Test_Tag=AutoTest01
+Testdata_Id=TD001
+imageCompare=false
+timeout_page=120000
+NodeIP=Local
+desktop=false
+browser=false
+Testsuite_Id=TS001

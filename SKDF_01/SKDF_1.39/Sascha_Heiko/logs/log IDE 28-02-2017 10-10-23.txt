@@ -1,0 +1,47 @@
+(10:10:23.160) - Info: UIMap file C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/0224_1.xls loaded with 1 sheets in 0 mSec
+(10:10:23.175) - Info: Testscript (TC001) loaded with 7 step
+(10:10:23.175) - Info: Testscript (Start001) loaded with 1 step
+(10:10:23.175) - Info: Testscript file (C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/Scripts/Script1.xls) loaded with 2 script in 15 mSec
+(10:10:33.923) - Info: Chrome config loaded.
+Chrome
+Cabability: platform=ANY
+Cabability: acceptSslCerts=true
+Cabability: javascriptEnabled=true
+Cabability: elementScrollBehavior=1
+Cabability: browserName=chrome
+Cabability: rotatable=false
+Cabability: unexpectedAlertBehaviour=ignore
+Cabability: locationContextEnabled=true
+Cabability: chromeOptions=org.openqa.selenium.chrome.ChromeOptions@54a78c0d
+Cabability: version=
+Cabability: databaseEnabled=true
+Cabability: browserConnectionEnabled=true
+Cabability: nativeEvents=false
+Cabability: webStorageEnabled=true
+Cabability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+Cabability: webdriver.remote.quietExceptions=false
+Cabability: applicationCacheEnabled=true
+Config: auto_select_window=false
+Config: auto_maxmize=false
+Config: timeout_page=120000
+Config: timeout_find=2000
+Config: timeout_jscript=500
+Config: timeout_ajax=20000
+Config: mobileEmulation=false
+Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 5168
+Only local connections are allowed.
+(10:10:36.911) - Info: Browser opened
+(10:18:55.772) - Info: Config loaded.
+(10:18:55.772) - Info: Config updated.
+(10:18:55.787) - Info: Project (C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko) loaded.
+(10:18:56.723) - Info: Quit webdriver
+(10:18:56.723) - Info: Desktop - Desktop - false added to targets
+(10:18:56.723) - Info: Web - Any - true added to targets
+(10:18:56.739) - Info: Config updated.
+(10:19:00.046) - Info: Config updated.
+(10:19:00.062) - Info: Project C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/Sascha_Heiko.prj updated.
+(10:19:00.077) - Info: UIMap file C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/0224_1.xls loaded with 1 sheets in 0 mSec
+(10:19:00.093) - Info: Testscript (TC001) loaded with 7 step
+(10:19:00.093) - Info: Testscript (Start001) loaded with 1 step
+(10:19:00.093) - Info: Testscript file (C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/Scripts/Script1.xls) loaded with 2 script in 0 mSec
+(10:19:02.854) - Info: Program is restarting

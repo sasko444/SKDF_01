@@ -1,0 +1,3 @@
+(12:49:27.194) - Info: No Project Loaded
+(12:49:53.041) - Error: saving varibales file: /Var_null.dat (Permission denied)
+(12:49:53.043) - Info: Application Closed

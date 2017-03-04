@@ -1,0 +1,33 @@
+(11:19:36.137) - Info: UIMap file C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/0224_1.xls loaded with 1 sheets in 6 mSec
+(11:19:36.153) - Info: Testscript (TC001) loaded with 7 step
+(11:19:36.155) - Info: Testscript (Start001) loaded with 1 step
+(11:19:36.156) - Info: Testscript file (C:/Projekte/Testautomation/temp/vvl_consumer_ols/Sascha_Heiko/Scripts/Script1.xls) loaded with 2 script in 7 mSec
+(11:19:44.993) - Info: Chrome config loaded.
+Chrome
+Cabability: applicationCacheEnabled=true
+Cabability: rotatable=false
+Cabability: webdriver.remote.quietExceptions=false
+Cabability: databaseEnabled=true
+Cabability: version=
+Cabability: platform=ANY
+Cabability: browserConnectionEnabled=true
+Cabability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+Cabability: nativeEvents=false
+Cabability: elementScrollBehavior=1
+Cabability: acceptSslCerts=true
+Cabability: locationContextEnabled=true
+Cabability: webStorageEnabled=true
+Cabability: browserName=chrome
+Cabability: javascriptEnabled=true
+Cabability: chromeOptions=org.openqa.selenium.chrome.ChromeOptions@54a78c0d
+Cabability: unexpectedAlertBehaviour=ignore
+Config: auto_select_window=false
+Config: auto_maxmize=false
+Config: timeout_page=120000
+Config: timeout_find=2000
+Config: timeout_jscript=500
+Config: timeout_ajax=20000
+Config: mobileEmulation=false
+Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 29581
+Only local connections are allowed.
+(11:19:47.856) - Info: Browser opened
